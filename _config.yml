@@ -7,7 +7,7 @@ description: > # Meta description of Homepage
   research and academic resources, and representing the voice of undergraduates
   in the UVA physics department.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://spsatuva.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://spsatuva.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
 social:
