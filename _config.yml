@@ -23,7 +23,7 @@ navigation: # Navigation links
   - name: 'Events'
     link: '/events'
   - name: 'Resources'
-    link: '/resources'
+    link: '/#'
     sublinks:
       - name: 'Research'
         link: '/research'
@@ -32,7 +32,7 @@ navigation: # Navigation links
       - name: 'Grad School'
         link: '/grad-school'
   - name: 'PHYS 1910'
-    link: '/phys1910'
+    link: '/#'
     sublinks:
       - name: 'About'
         link: '/phys1910/about'
