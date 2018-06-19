@@ -1,0 +1,54 @@
+<div class="slideshow-container">
+    {% for image in page.slider %}
+    <figure class="slide slide__fade">
+        <img id="i{{ forloop.index }}" class="slide__image lazyload" data-src="{{ site.url }}{{ site.baseurl }}/assets/img/slider/{{ image.img }}">
+        <!-- <figcaption class="slide__text">{{ image.caption }}</figcaption> -->
+    </figure>
+    {% endfor %}
+    <a class="slide__prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slide__next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlidesTime();
+    var timer;
+    var TIMEOUT = 6000;
+
+    function plusSlides(n) {
+        clearTimeout(timer);
+        showSlides(slideIndex += n);
+        timer = setTimeout(function () { showSlidesTime(); }, TIMEOUT);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        var dots = document.getElementsByClassName("slide__dot");
+        if (n > slides.length) {slideIndex = 1;} 
+        if (n < 1) {slideIndex = slides.length;}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" slide__active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        if (dots.className) {
+            dots[slideIndex-1].className += " slide__active";
+        }
+    }
+
+    function showSlidesTime() {
+        slideIndex++;
+        var slides = document.getElementsByClassName("slide");
+        if (slideIndex > slides.length) {slideIndex = 1;} 
+        if (slideIndex < 1) {slideIndex = slides.length;}
+        showSlides(slideIndex);
+        timer = setTimeout(function () { showSlidesTime(); }, TIMEOUT);
+    }
+</script>
