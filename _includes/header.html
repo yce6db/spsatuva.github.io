@@ -11,10 +11,10 @@
           {% for item in site.navigation %}
             {% if item.sublinks %}
             <div class="header__dropdown">
-              <button class="header__dropdown__button"><a class="header__link" href="{{ item.link | relative_url }}">{{ item.name }}</a></button>
+              <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">{{ item.name }}</a>
               <div class="header__dropdown__content">
                 {% for subitem in item.sublinks %}
-                  <a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a>
+                  <a class="header__link" href="{{ subitem.link | relative_url }}" itemprop="url">{{ subitem.name }}</a>
                 {% endfor %}
               </div>
             </div>
