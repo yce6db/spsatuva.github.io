@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-title: Sleek # your site title
-author: GitHub User # You :P
+title: Society of Physics Students at UVA # your site title
+author: Society of Physics Students at UVA # You :P
 description: > # Meta description of Homepage
   We are a social community of physics majors at the University of Virginia. We
   have three focuses: social inclusion within our chapter, providing access to 
@@ -13,9 +13,8 @@ url: "https://spsatuva.github.io/" # the base hostname & protocol for your site,
 social:
   name: Society of Physics Students at UVA
   links:
-    - https://www.facebook.com/ben.balter
-    - https://plus.google.com/+BenBalter
-    - https://github.com/benbalter
+    - https://www.facebook.com/SPSatUVA
+    - https://github.com/spsatuva
 
 # THEME SETTINGS
 navigation: # Navigation links
