@@ -18,12 +18,37 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'Events', link: '/events'}
-  - {name: 'Resources', link: '/resources'}
-  - {name: 'PHYS 1910', link: '/phys1910'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  - name: 'Home'
+    link: '/'
+  - name: 'Events'
+    link: '/events'
+  - name: 'Resources'
+    link: '/resources'
+    sublinks:
+      - name: 'Research'
+        link: '/research'
+      - name: 'Courses'
+        link: '/courses'
+      - name: 'Grad School'
+        link: '/grad-school'
+  - name: 'PHYS 1910'
+    link: '/phys1910'
+    sublinks:
+      - name: 'About'
+        link: '/phys1910/about'
+      - name: 'Lectures'
+        link: '/phys1910/lectures'
+  - name: 'About'
+    link: '/about'
+  - name: 'Contact'
+    link: '/contact'
+
+  # - {name: 'Home', link: '/'}
+  # - {name: 'Events', link: '/events'}
+  # - {name: 'Resources', link: '/resources', sublinks: [{name: 'Research', link: '/research'}, {name: 'Courses', link: '/courses'}, {name: 'Grad School', link: '/grad'}]}
+  # - {name: 'PHYS 1910', link: '/phys1910'}
+  # - {name: 'About', link: '/about'}
+  # - {name: 'Contact', link: '/contact'}
 
 tagline: >
   Modern Jekyll theme focused on speed performance &amp; SEO best practices
@@ -47,7 +72,7 @@ service_worker: true
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+#theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 remote_theme: janczizikow/sleek
 exclude:
   - README.md
