@@ -32,9 +32,10 @@ hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/
 
 email: spsatuva@gmail.com # email for form submission
 
-twitter_username: spsatuva # replace with your_twitter_username or comment to remove link from footer
+# twitter_username: spsatuva # replace with your_twitter_username or comment to remove link from footer
 github_username:  spsatuva # replace with your_github_username or comment to remove link from footer
 instagram_username: spsatuva # replace with your_instagram_username or comment to remove link from footer
+facebook_username: SPSatUVA # replace with your_facebook_username or comment to remove link from footer
 
 disqus:
   shortname: spsatuva-github-io # to enable comments replace with your_disqus_shortname
