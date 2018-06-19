@@ -20,6 +20,9 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
+  - {name: 'Events', link: '/events'}
+  - {name: 'Resources', link: '/resources'}
+  - {name: 'PHYS 1910', link: '/phys1910'}
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
 
