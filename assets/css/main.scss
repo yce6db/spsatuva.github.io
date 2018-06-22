@@ -10,6 +10,21 @@
 //   // border-bottom: 0;
 // }
 
+.big___rule {
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+h1 {
+  a {
+    border-bottom: 0px;
+    color: $text-color;
+  }
+  a:hover {
+    border-bottom: 0px;
+  }
+}
+
 /* Dropdown Content (Hidden by Default) */
 .header__item {
   .header__links-wrapper {
