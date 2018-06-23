@@ -11,12 +11,20 @@
           {% for item in site.navigation %}
             {% if item.sublinks %}
             <div class="header__item">
+              {% if item.link == 'none' %}
+              <a class="header__link" style="cursor:pointer" itemprop="url">
+              {% else %}
               <a class="header__link" href="{{ site.baseurl}}{{ item.link }}" itemprop="url">
+              {% endif %}
                 <span itemprop="name">{{ item.name }}</span>
               </a>          
               <div class="container header__links-wrapper">
                 {% for subitem in item.sublinks %}
+                {% if subitem.link == 'none' %}
+                <a class="header__link" style="cursor:pointer" itemprop="url">
+                {% else %}
                 <a class="header__link" href="{{ site.baseurl }}{{ subitem.link }}" itemprop="url">
+                {% endif %}
                   <span itemprop="name">{{ subitem.name }}</span>
                 </a>
                 {% endfor %}
