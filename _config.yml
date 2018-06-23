@@ -38,6 +38,8 @@ navigation: # Navigation links
         link: '/phys1910/about'
       - name: 'Lectures'
         link: '/phys1910/lectures'
+  - name: 'Outreach'
+    link: '/outreach'
   - name: 'About'
     link: '/about'
   - name: 'Contact'
