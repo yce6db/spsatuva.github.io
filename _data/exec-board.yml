@@ -5,7 +5,10 @@ members:
     email: pz8bx@virginia.edu
     img: Pedrom_Zadeh.png
     description:
-      - I am pedrom
+      - Pedrom, a 4th year physics major, is the current president of our Society of Physics chapter. 
+        He served as the Outreach Manager during the 2016 - 2017 academic year, during which
+        he helped to pioneer an outreach program with Clark Elementary School in Charlottesville, Virginia.
+      - Outside of his classes, Pedrom enjoys playing both real and virtual soccer (FIFA).
   - name: Kristen Schumacher
     email: kes3fp@virginia.edu
     img: Kristen_Schumacher.jpg
@@ -51,8 +54,13 @@ members:
     homepage: http://stevenstetzler.com
     img: Steven_Stetzler.jpg
     description:
-      - Hello
-      - Hi
+      - Steven, a graduated physics and computer science major, was the president of our
+        chapter during the 2016 - 2017 academic year and the treasurer during the 2015 - 2016 
+        academic year.
+      - Steven is currently attending the University of Washington to pursue an Astronomy PhD. You can
+        keep up to date with him by visiting his [personal website](http://stevenstetzler.com).
+      - Outside of school, Steven enjoys listening to music, watching movies with friends, playing tennis,
+        and tackling new technical challenges (like building websites).
   - name: Andrew Coffee
     email: ac7gd@virginia.edu
     img: Andrew_Coffee.jpg
@@ -69,11 +77,6 @@ members:
     homepage: http://mathwalker.com
     img: Matt_Walker.jpg
     description:
-      - I am a current 4th year student and have been part of SPS since last year. 
-        I designed and managed the website for SPS, and I occasionally write emails. 
-        My research interests are in condensed matter theory, and I really enjoy studying 
-        group theory and topology in my free time. Outside of academia I enjoy cycling, 
-        running, and swimming. I also sometimes like to play drums in my basement. 
       - I am a current 4th year student and have been part of SPS since last year. 
         I designed and managed the website for SPS, and I occasionally write emails. 
         My research interests are in condensed matter theory, and I really enjoy studying 
