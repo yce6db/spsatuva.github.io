@@ -16,6 +16,10 @@
     float: left;
     display: block;
     padding-left: 10px;
+    p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
 }
 
 .image_list_image {
@@ -28,11 +32,15 @@
     width: 66.667%;
     float: left;
     display: block;
-    padding-top: 10px;
+    // padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
     // font-family: adobe-garamond-pro;
+    // p {
+    //     margin-top: 10px;
+    //     margin-bottom: 0px;
+    // }
 }
 
 
@@ -41,14 +49,10 @@
     float: left;
     display: block;
     padding-left: 10px;
-    p {
-        margin-top: 10px;
-        margin-bottom: 0px;
-    }
 }
 
 .image_list_hr_container {
-    padding-top: 20px;
+    // padding-top: 20px;
     padding-bottom: 20px;
 }
 
