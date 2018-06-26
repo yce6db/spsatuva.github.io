@@ -12,28 +12,14 @@ ___
 
 # Executive Board
 
-<!-- {{ site.data.exec-board.members }} -->
-<!-- <div>
-{% for year in site.data.exec-board.exec-boards %}
-    {% for person in year.board %}
-        {% for member in site.data.exec-board.members %}
-            <p>
-                {{ person.name }} 
-                {{ member.name }}
-            </p>
-        {% endfor %}
-    {% endfor %}
-{% endfor %}
-</div> -->
-
 <div class="exec_board" id="exec_board">
     {% for year in site.data.exec-board.exec-boards %}
-    <div class="image_list_year" data-toggle="collapse" data-target="#{{ year.year }}" {% if year.year == site.data.exec-board.current-year %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="{{ year.year }}">
+    <div class="exec_board_year" data-toggle="collapse" data-target="#{{ year.year }}" {% if year.year == site.data.exec-board.current-year %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="{{ year.year }}">
         <h1>
             {{ year.year }}
         </h1>
     </div>
-    <div class="image_list_container collapse {% if year.year == site.data.exec-board.current-year %} show {% endif %}" id="{{ year.year }}" aria-labelledby="{{ year.year }}" data-parent="#exec_board">
+    <div class="exec_board_container collapse {% if year.year == site.data.exec-board.current-year %} show {% endif %}" id="{{ year.year }}" aria-labelledby="{{ year.year }}" data-parent="#exec_board">
         {% for person in year.board %}
             {% assign image = false %}
             {% assign email = false %}
@@ -47,9 +33,9 @@ ___
                     {% assign description = member.description %}
                 {% endif %}
             {% endfor %}
-        <div class="image_list_item">
-            <div class="image_list_info_container">
-                <div class="image_list_info">
+        <div class="exec_board_item">
+            <div class="exec_board_info_container">
+                <div class="exec_board_info">
                     <h2>
                         {{ person.name }}
                     </h2>
@@ -58,8 +44,8 @@ ___
                     </h3>
                 </div>
                 {% if image %}
-                <div class="image_list_image">
-                    <img class="image_list_image lazyload" data-src="{{ site.baseurl}}/assets/img/exec/{{ image }}">
+                <div class="exec_board_image">
+                    <img class="exec_board_image lazyload" data-src="{{ site.baseurl}}/assets/img/exec/{{ image }}">
                 </div>
                 {% endif %}
                 {% if homepage or email %}
@@ -75,13 +61,13 @@ ___
                 {% endif %}
                 {% endif %}
             </div>
-            <div class="image_list_description">
+            <div class="exec_board_description">
                 {% for paragraph in description %}
                     {{ paragraph | markdownify }}
                 {% endfor %}
             </div>
         </div>
-        <div class="image_list_hr_container">
+        <div class="exec_board_hr_container">
             <hr>
         </div>
         {% endfor %}

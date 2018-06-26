@@ -1,17 +1,17 @@
-.image_list_year {
+.exec_board_year {
     text-align: left;
     width: 100%;
 }
 
-.image_list_item {
+.exec_board_item {
     width: 100%;
 }
 
-.image_list_item {
+.exec_board_item {
     display: inline-block;
 }
 
-.image_list_info_container {
+.exec_board_info_container {
     width: 33.333%;
     float: left;
     display: block;
@@ -22,13 +22,13 @@
     }
 }
 
-.image_list_image {
+.exec_board_image {
     width: 100%;
     object-fit: cover;
     // height: 150px;
 }
 
-.image_list_description {
+.exec_board_description {
     width: 66.667%;
     float: left;
     display: block;
@@ -44,35 +44,35 @@
 }
 
 
-.image_list_item_footer {
+.exec_board_item_footer {
     width: 100%;
     float: left;
     display: block;
     padding-left: 10px;
 }
 
-.image_list_hr_container {
+.exec_board_hr_container {
     // padding-top: 20px;
     padding-bottom: 20px;
 }
 
 @media (max-width: $sm) {
-    .image_list_description {
+    .exec_board_description {
         float: none;
         width: auto;
     }
 
-    .image_list_info_container {
+    .exec_board_info_container {
         float: none;
         width: auto;
     }
 
-    .image_list_item_footer {
+    .exec_board_item_footer {
         float: none;
         width: auto;
     }
 
-    .image_list_description {
+    .exec_board_description {
         padding-left: 10px;
         padding-right: 10px;
     }
