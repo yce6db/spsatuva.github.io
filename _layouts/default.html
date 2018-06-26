@@ -19,12 +19,36 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ site.title | escape }}</h1>
-        <p class="hero__meta">{{ site.tagline }}</p>
+    <div id="hero-carousel" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="7000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/slider/AAS.png">
+            <div class="hero__wrap">
+              <h1 class="hero__title">{{ site.title | escape }}</h1>
+              <p class="hero__meta">{{ site.tagline }}</p>
+            </div>
+          </div>        
+        </div>
+        <div class="carousel-item">
+          <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/slider/APS.png">
+            <div class="hero__wrap">
+              <h1 class="hero__title">{{ site.title | escape }}</h1>
+              <p class="hero__meta">{{ site.tagline }}</p>
+            </div>
+          </div>        
+        </div>
+        <div class="carousel-item">
+          <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/slider/Clark_2.png">
+            <div class="hero__wrap">
+              <h1 class="hero__title">{{ site.title | escape }}</h1>
+              <p class="hero__meta">{{ site.tagline }}</p>
+            </div>
+          </div>        
+        </div>
       </div>
     </div>
+      
+
 
     <main class="site__content">
       <section class="blog">
