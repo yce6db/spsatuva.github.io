@@ -12,6 +12,20 @@ ___
 
 # Executive Board
 
+<!-- {{ site.data.exec-board.members }} -->
+<!-- <div>
+{% for year in site.data.exec-board.exec-boards %}
+    {% for person in year.board %}
+        {% for member in site.data.exec-board.members %}
+            <p>
+                {{ person.name }} 
+                {{ member.name }}
+            </p>
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+</div> -->
+
 <div class="exec_board" id="exec_board">
     {% for year in site.data.exec-board.exec-boards %}
     <div class="image_list_year" data-toggle="collapse" data-target="#{{ year.year }}" {% if year.year == site.data.exec-board.current-year %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="{{ year.year }}">
@@ -21,6 +35,18 @@ ___
     </div>
     <div class="image_list_container collapse {% if year.year == site.data.exec-board.current-year %} show {% endif %}" id="{{ year.year }}" aria-labelledby="{{ year.year }}" data-parent="#exec_board">
         {% for person in year.board %}
+            {% assign image = false %}
+            {% assign email = false %}
+            {% assign homepage = false %}
+            {% assign description = false %}
+            {% for member in site.data.exec-board.members %}
+                {% if member.name == person.name %}
+                    {% assign image = member.img %}                        
+                    {% assign email = member.email %}
+                    {% assign homepage = member.homepage %}
+                    {% assign description = member.description %}
+                {% endif %}
+            {% endfor %}
         <div class="image_list_item">
             <div class="image_list_info_container">
                 <div class="image_list_info">
@@ -31,33 +57,29 @@ ___
                         {{ person.role }}
                     </h3>
                 </div>
-                {% if person.img %}
+                {% if image %}
                 <div class="image_list_image">
-                    <img class="image_list_image lazyload" data-src="{{ site.baseurl}}/assets/img/exec/{{ person.img }}">
+                    <img class="image_list_image lazyload" data-src="{{ site.baseurl}}/assets/img/exec/{{ image }}">
                 </div>
+                {% endif %}
+                {% if homepage or email %}
+                {% if homepage %}
+                <p>
+                    <strong>Homepage</strong>: <a href="{{ homepage }}"> {{ homepage }} </a>
+                </p>
+                {% endif %}
+                {% if email %}
+                <p>
+                    <strong>Email</strong>: <a href="mailto:{{ email }}"> {{ email }} </a>
+                </p>
+                {% endif %}
                 {% endif %}
             </div>
             <div class="image_list_description">
-                {% for paragraph in person.description %}
+                {% for paragraph in description %}
                     {{ paragraph | markdownify }}
                 {% endfor %}
             </div>
-            {% if person.site or person.email %}
-            <div class="image_list_item_footer_container">
-                <div class="image_list_item_footer">
-                    {% if person.site %}
-                    <p>
-                         <strong>Homepage</strong>: <a href="{{ person.site }}"> {{ person.site }} </a>
-                    </p>
-                    {% endif %}
-                    {% if person.email %}
-                    <p>
-                        <strong>Email</strong>: <a href="mailto:{{ person.email }}"> {{ person.email }} </a>
-                    </p>
-                    {% endif %}
-                </div>
-            </div>
-            {% endif %}
         </div>
         <div class="image_list_hr_container">
             <hr>

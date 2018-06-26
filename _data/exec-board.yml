@@ -1,114 +1,152 @@
 current-year: 2018-2019
+
+members:
+  - name: Pedrom Zadeh
+    email: pz8bx@virginia.edu
+    img: Pedrom_Zadeh.png
+    description:
+      - I am pedrom
+  - name: Kristen Schumacher
+    email: kes3fp@virginia.edu
+    img: Kristen_Schumacher.jpg
+    description:
+      - Hello I am Kristen
+  - name: Margaret Doyle
+    email: mdd2sy@virginia.edu
+    img: Margaret_Doyle.jpg
+    description:
+      - I like bugs
+  - name: Morgan Waddy
+    email: mdw4ux@virginia.edu
+    img: Morgan_Waddy.jpg
+    description:
+      - I like slime
+  - name: Cole Miles
+    email: cm3uc@virginia.edu
+    img: Cole_Miles.jpg
+    description:
+      - I made this site
+  - name: Jillian Ticatch
+    email: jtt5ya@virginia.edu
+    img: Jillian_Ticatch.jpg
+    description:
+      - Hi! My name is Jillian and I am on the Outreach Committee. 
+        I’m from Houston, I love to sail, and my favorite song is Africa by Toto.
+  - name: Shelby Laychak
+    email: ssl6np@virginia.edu
+    img: Shelby_Laychak.jpg
+    description:
+      - I like astronomy
+  - name: Raymundo Mora
+    email: rm3xw@virginia.edu
+    description:
+      - I like outreach
+  - name: Levi Schult
+    email: lss8ak@virginia.edu
+    img: Levi_Schult.jpg
+    description:
+      - MY MAN!!!
+  - name: Steven Stetzler
+    email: steven.stetzler@gmail.com
+    homepage: http://stevenstetzler.com
+    img: Steven_Stetzler.jpg
+    description:
+      - Hello
+      - Hi
+  - name: Andrew Coffee
+    email: ac7gd@virginia.edu
+    img: Andrew_Coffee.jpg
+    description:
+      - Hello
+      - Hi
+  - name: Victoria Kovalchuk
+    email: vvk3da@virginia.edu
+    img: Victoria_Kovalchuk.jpg
+    description:
+      - I like Lord of the Rings
+  - name: Matthew Walker
+    email: mrw3te@virginia.edu
+    homepage: http://mathwalker.com
+    img: Matt_Walker.jpg
+    description:
+      - I am a current 4th year student and have been part of SPS since last year. 
+        I designed and managed the website for SPS, and I occasionally write emails. 
+        My research interests are in condensed matter theory, and I really enjoy studying 
+        group theory and topology in my free time. Outside of academia I enjoy cycling, 
+        running, and swimming. I also sometimes like to play drums in my basement. 
+      - I am a current 4th year student and have been part of SPS since last year. 
+        I designed and managed the website for SPS, and I occasionally write emails. 
+        My research interests are in condensed matter theory, and I really enjoy studying 
+        group theory and topology in my free time. Outside of academia I enjoy cycling, 
+        running, and swimming. I also sometimes like to play drums in my basement.
+  - name: Brian Seymour
+    email: bcs8dn@virginia.edu
+    img: Brian_Seymour.jpg
+    description:
+      - I swim with trunks and no googles. Total BK randy
+  - name: Jesse Han
+    email: jh4vn@virginia.edu
+    img: Jesse_Han.jpg
+    description:
+      - I love coffee
+  - name: Michael Worcester
+    email: mw9va@virginia.edu
+    img: Michael_Worcester.jpg
+    description:
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+  - name: Gage DeZoort
+    email: jgd5ur@virginia.edu
+    img: Gage_DeZoort.jpg
+  - name: Tanner Rase
+    email: tnr3ym@virginia.edu
+
 exec-boards:
   - year: 2018-2019
     board: 
     - name: Pedrom Zadeh
       role: President
-      description:
-        - I am pedrom
-      img: Pedrom_Zadeh.png
-      site: here.gov
-      email: there.email
     - name: Kristen Schumacher
       role: Vice President
-      description:
-        - Hello I am Kristen
-      img: Kristen_Schumacher.jpg
     - name: Margaret Doyle
       role: Treasurer
-      description:
-        - I like bugs
-      img: Margaret_Doyle.jpg
     - name: Morgan Waddy
       role: Secretary
-      description:
-        - I like slime
-      img: Morgan_Waddy.jpg
     - name: Cole Miles
       role: Web Master
-      description:
-        - I made this site
-      img: Cole_Miles.jpg
     - name: Jillian Ticatch
       role: Outreach Manager
-      description:
-        - I am a flapper
-      img: Jillian_Ticatch.jpg
     - name: Shelby Laychak
       role: Outreach Volunteer
-      description:
-        - I like astronomy
-      img: Shelby_Laychak.jpg
     - name: Raymundo Mora
       role: Outreach Volunteer
-      description:
-        - I like outreach
     - name: Levi Schult
       role: Outreach Volunteer
-      description:
-        - MY MAN!!!
-      img: Levi_Schult.jpg
   - year: 2017-2018
     board:
     - name: Steven Stetzler
       role: President
-      description:
-        - Hello
-        - Hi
-      site: http://stevenstetzler.com
-      email: steven.stetzler@gmail.com
-      img: Steven_Stetzler.jpg
     - name: Andrew Coffee
       role: Vice President
-      description:
-        - Hello
-        - Hi
     - name: Victoria Kovalchuk
       role: Treasurer
-      description:
-        - I like Lord of the Rings
-      img: Victoria_Kovalchuk.jpg
     - name: Matthew Walker
       role: Secretary / Webmaster
-      description:
-        - I am a current 4th year student and have been part of SPS since last year. 
-          I designed and managed the website for SPS, and I occasionally write emails. 
-          My research interests are in condensed matter theory, and I really enjoy studying 
-          group theory and topology in my free time. Outside of academia I enjoy cycling, 
-          running, and swimming. I also sometimes like to play drums in my basement.
-      img: Matt_Walker_2.jpg
-      site: http://mathwalker.com
     - name: Pedrom Zadeh
       role: Outreach Chair
-      description:
-        - L
-      img: Pedrom_Zadeh.png
     - name: Brian Seymour
       role: Outreach Subchair
-      description:
-        - I swim with trunks and no googles. Total BK randy
-      img: Brian_Seymour.jpg
     - name: Jesse Han
       role: Outreach Subchair
-      description:
-        - I love coffee
-      img: Jesse_Han.jpg
     - name: Jillian Ticatch
       role: Outreach Subchair
-      img: Jillian_Ticatch.jpg
-      description:
-        - Hi! My name is Jillian and I am on the Outreach Committee. I’m from Houston, I love to sail, and my favorite song is Africa by Toto.
     - name: Michael Worcester
       role: 4th Year Class Rep
-      description:
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-        - Nah nah nah nah nah nah, nah nah nah, hey Jude
-      img: Michael_Worcester.jpg
   - year: 2016-2017
     board:
       - name: Gage DeZoort
