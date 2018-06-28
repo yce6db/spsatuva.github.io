@@ -1,0 +1,34 @@
+project-list:
+  - name: Brad Cox
+    short-name: CMS-cal
+    title: CMS Electromagnetic calorimeter upgrade
+    url: https://docs.google.com/document/d/e/2PACX-1vS7nB3TB0U2u-eG3PedsuxNuyjq4bdYvDP_ySYRXHPVOD5Hv1UwwEDSAA5ZPdNWyoUy3pDMJdzwzbb5/pub
+  - name: Donal Day
+    short-name: polarized-targets-lab
+    title: Improve the efficiency and performance of the Solid Polarized target Lab
+    url: https://docs.google.com/document/d/e/2PACX-1vTG-pra8h7wng2fx071oCzjBkHlFK-ZL7VQXXaXRwfaZc3jIMgnKOthY61Q5IDqduqKOjYfO6SEHa5-/pub
+  - name: Craig Dukes
+    short-name: Mu2e-CRV
+    title: Fabrication of a High Efficiency Cosmic Ray Veto for the Mu2e Experiment
+    url: https://docs.google.com/document/d/e/2PACX-1vTBeX4ZDjJ5Ce_EZAFcgrZOj5G6qlfJk5ldginjG3-AtaKInZkoHJjiZiVXFWgVMwjK28EPD2pSmZ4n/pub
+  - name: Craig Group
+    short-name: Mu2e-CRV-2
+    title: Fabrication of the Cosmic Ray Veto Detector
+    url: https://docs.google.com/document/d/e/2PACX-1vTxOBwq_m-W-x-ZqsaSCfELtimQzydxcdmjvY81UhybN-juzL8na5MQILrfpnMfBlCmSvzoaCjssyW-/pub
+  - name: Joe Poon
+    short-name: thermo-spin
+    title: Thermoelectrics and Spintronics
+    url: https://docs.google.com/document/d/e/2PACX-1vRLj04jJ04BU-z98SpB3aG7eAFmIpuNkR5qcPstIkKgSIh5RHgsUyHEkqa4VVl85iDDXy7ldK9-j-sL/pub
+  - name: Cass Sackett
+    short-name: sackett-lab
+    title: Various ongoing projects
+    url: https://docs.google.com/document/d/e/2PACX-1vQi7-lfRdSbS1FCZPQZlH1ND_RYFX4VPLjvnCJXmIA4Rx7ziUECR9FxfHeKV6yN9j_K6mdJB-UplsDO/pub
+  - name: Jeffry Teo
+    short-name: topological-phases
+    title: Topological phases in electronic matter
+    url: https://docs.google.com/document/d/e/2PACX-1vRx-yOMZANG3VjRW9UP4qh7HH-fqNfjcwo9XeHUDKd2XBFEzU_njYSl152EULnWVYBFZTraKfN7lZbe/pub
+  - name: Marija Vucelja
+    short-name: escape-really-fast
+    title: Escape faster than the Kramer's escape problem
+    url: https://docs.google.com/document/d/e/2PACX-1vTyZ2IsomD51eaa98RieMh-XzPXODhKmMzxunYWazM_m9r3WNZUtLLajKMoEwGVEdeIq8Cwf-2YVVP7/pub
+  
