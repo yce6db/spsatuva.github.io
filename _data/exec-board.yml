@@ -181,7 +181,7 @@ members:
         He is known for having kept SPS from bankruptcy during those times.
       - Outside of school, Andrew enjoys eating bagels and playing video games.
   - name: Bridget Andersen
-    img: Bridget_Andersen.jpg
+    img: Bridget_Andersen
     email: bridget.andersen@mail.mcgill.ca
     description:
       - Bridget Andersen, a graduated astrophysics and computer science major, was the Vice President of our Sigma 
@@ -192,7 +192,7 @@ members:
       - Outside of school, Bridget enjoys volunteering at astronomy related events, reading books, playing guitar, and
         traveling.
   - name: Robin Leichtnam
-    img: Robin_Leichtnam.jpg
+    img: Robin_Leichtnam
     email: rl4aw@virginia.edu 
     description:
       - Robin Leichtnam, a current 4th year astrophysics major, is the Vice President of our Sigma Pi Sigma chapter. He

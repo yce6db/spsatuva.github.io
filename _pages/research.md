@@ -58,6 +58,16 @@ Here you will find a list of professors who have specific research projects to a
 </div>
 ___
 
+# Research funding
+
+Generally, professors will have funding to pay undergraduates to work with them. However, grant money is often spread thin, so sometimes you have to hunt for your own funding to pay for yourself for either the semester or the summer. Below are links to several possible sources of funding for yourself while conducting research, which you should bring to your professor to discuss applying for.
+- [Mitchell Summer Scholarship](http://www.phys.virginia.edu/Announcements/Mitchell/): This award is the most applicable to you. It is a $5,000 award to pay for you to undergo a summer research project with a professor in the physics department. If you are interested in this, approach a professor and let them know you would like to work with them and would like to apply for the Mitchell Scholarship with their assistance. The award is available to all rising 3rd and 4th years who are DECLARED physics majors (it is one of the benefits of declaring your major).
+- [Medical Physics Scholarship](http://www.phys.virginia.edu/Announcements/MedicalPhysics/): This $5,000 award provides funding for you to work with a professor on a medical physics project. It is similar to the Mitchell, except that research topics are restricted to Medical Physics.
+- [UVA Research Grants](https://undergraduateresearch.virginia.edu/our-opportunities/grants): A short-list of grants awarded to support research projects at UVA
+- [UVA Research Opportunities](https://undergraduateresearch.virginia.edu/our-opportunities/research-opportunities): A complete list of research opportunities and grants funded by UVA. Notable mentions are: College Council Scholars Award, Double Hoo Research Grant, Harrison Undergraduate Research Awards, Minerva Award, and Small Research and Travel Grants; however, there are many more opportunities available to you.
+
+___
+
 # REUs
 
 You can also perform physics research outside of UVA by pursuing admittance to a Reseach Experience for Undergraduates (REU). REUs are often funded by the National Science Foundation (NSF), however some institutions around the globe offer REU experiences without funding from the NSF. Getting an REU is an awesome way to gain meaningful research experience, and it's also is an incredible opportunity to travel somewhere new! There are REUs offered by universities across the nation and by institutions across the globe!
@@ -78,14 +88,6 @@ Reflections from UVA students: [Google Drive Folder](https://drive.google.com/op
 
 ___
 
-# Getting research funding
-
-Generally, professors will have funding to pay undergraduates to work with them. However, grant money is often spread thin, so sometimes you have to hunt for your own funding to pay for yourself for either the semester or the summer. Below are links to several possible sources of funding for yourself while conducting research, which you should bring to your professor to discuss applying for.
-- [UVA Research Grants](https://undergraduateresearch.virginia.edu/our-opportunities/grants): A short-list of grants awarded to support research projects at UVA
-- [UVA Research Opportunities](https://undergraduateresearch.virginia.edu/our-opportunities/research-opportunities): A complete list of research opportunities and grants funded by UVA. Notable mentions are: College Council Scholars Award, Double Hoo Research Grant, Harrison Undergraduate Research Awards, Minerva Award, and Small Research and Travel Grants; however, there are many more opportunities available to you.
-
-___
-
 # Present and Publish
 
 So you've finished a research project, or you are still working on it but have some interesting findings. Now what do you do? You share your results with the rest of the physics community! Physicists share their results in one of two ways: either publishing a paper or presenting their results at a scientific meeting. In either case, you should discuss with your advisor pursuing either of these options as often as possible.
@@ -96,14 +98,16 @@ Presenting your research at a scientific meeting allows you to travel to another
 
 If you are an undergraduate, and especially if you are coming out of your first research experience, you will likely be presenting a *poster* on your research, which is an informational document that you present to others at a poster session at a conference. SPS has compiled a guide and information on poster making best practices here: **INSERT LINK**
 
-### Meeting you should attend
+### Meetings you should attend
 What follows are several of the major meetings that you should try to attend, based on your research area. Of course, all meetings are open 
 - [American Physical Society (APS) April Meeting](https://www.aps.org/meetings/april/): This meeting is generally for those interested in: high energy physics, nuclear physics, astrophysics, and gravitational physics.
 - [American Physical Society (APS) March Meeting](https://www.aps.org/meetings/march/): This meeting is generally for those interested in: atomic, molecular, and optical physics, condensed matter physics, plasma physics, and biophysics
-- [Southeast Section of the American Physical Society (SESAPS)](https://www.aps.org/units/sesaps/meetings/): This meeting is often hosted near Charlottesville and covers a wide range of topics.
+- [Southeast Section of the American Physical Society (SESAPS)](https://www.aps.org/units/sesaps/meetings/): This meeting is hosted in the South Eastern part of the United States, so it is likely to be close by. If it is hosted in 
+Charlottesville, you should definitely plan to both attend and volunteer at the conference. It is not restricted
+in the topics that it covers.
 - [American Astronomical Society (AAS)](https://aas.org/): This meeting is for all branches of astronomy. There are two meetings, a larger one in the Winter and a smaller one in the Summer. All branches of astronomy are welcome to present at AAS meetings.
 
-### Getting travel funding
+### Travel funding
 
 It can often cost a lot to travel to a conference. Luckily, there are funding options available to you as a student through both SPS and through UVA. Many conferences also offer a wide array of travel awards that you can apply for (look for them on the meeting website). Of course, you should discuss with your professor whether they have travel funding first, as they often do. Every year, our SPS chapter will make an attempt to travel to one of the major APS or AAS meetings, and we petition as a group for funding through the following sources:
 - [SPS Travel Awards](https://www.spsnational.org/awards/travel): These $200 individual awards are granted to national SPS members who are presenting at any conference. You are pretty much guaranteed to get one as long as you apply well in advance of the conference.

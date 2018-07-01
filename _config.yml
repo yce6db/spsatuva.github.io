@@ -45,13 +45,6 @@ navigation: # Navigation links
   - name: 'Contact'
     link: '/contact'
 
-  # - {name: 'Home', link: '/'}
-  # - {name: 'Events', link: '/events'}
-  # - {name: 'Resources', link: '/resources', sublinks: [{name: 'Research', link: '/research'}, {name: 'Courses', link: '/courses'}, {name: 'Grad School', link: '/grad'}]}
-  # - {name: 'PHYS 1910', link: '/phys1910'}
-  # - {name: 'About', link: '/about'}
-  # - {name: 'Contact', link: '/contact'}
-
 tagline: >
   A group of physics majors focused on community, public outreach, and academic excellence.
 
