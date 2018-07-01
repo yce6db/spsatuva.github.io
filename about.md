@@ -45,7 +45,7 @@ ___
                 </div>
                 {% if image %}
                 <div class="exec_board_image">
-                    <img class="exec_board_image lazyload" data-src="{{ site.baseurl}}/assets/img/exec/{{ image }}">
+                    <img class="exec_board_image lazyload blur" src="{{ site.baseurl }}/assets/img/exec/{{ image }}_placehold.jpg" data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_thumb@2x.jpg 2x">
                 </div>
                 {% endif %}
                 {% if homepage or email %}

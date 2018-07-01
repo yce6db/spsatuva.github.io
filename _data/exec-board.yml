@@ -3,7 +3,7 @@ current-year: 2018-2019
 members:
   - name: Pedrom Zadeh
     email: pz8bx@virginia.edu
-    img: Pedrom_Zadeh.png
+    img: Pedrom_Zadeh
     description:
       - Pedrom, a 4th year physics major, is the current president of our Society of Physics chapter. 
         He served as the Outreach Manager during the 2016 - 2017 academic year, during which
@@ -11,33 +11,33 @@ members:
       - Outside of his classes, Pedrom enjoys playing both real and virtual soccer (FIFA).
   - name: Kristen Schumacher
     email: kes3fp@virginia.edu
-    img: Kristen_Schumacher.jpg
+    img: Kristen_Schumacher
     description:
       - Hello I am Kristen
   - name: Margaret Doyle
     email: mdd2sy@virginia.edu
-    img: Margaret_Doyle.jpg
+    img: Margaret_Doyle
     description:
       - I like bugs
   - name: Morgan Waddy
     email: mdw4ux@virginia.edu
-    img: Morgan_Waddy.jpg
+    img: Morgan_Waddy
     description:
       - I like slime
   - name: Cole Miles
     email: cm3uc@virginia.edu
-    img: Cole_Miles.jpg
+    img: Cole_Miles
     description:
       - I made this site
   - name: Jillian Ticatch
     email: jtt5ya@virginia.edu
-    img: Jillian_Ticatch.jpg
+    img: Jillian_Ticatch
     description:
       - Hi! My name is Jillian and I am on the Outreach Committee. 
         I’m from Houston, I love to sail, and my favorite song is Africa by Toto.
   - name: Shelby Laychak
     email: ssl6np@virginia.edu
-    img: Shelby_Laychak.jpg
+    img: Shelby_Laychak
     description:
       - I like astronomy
   - name: Raymundo Mora
@@ -46,13 +46,13 @@ members:
       - I like outreach
   - name: Levi Schult
     email: lss8ak@virginia.edu
-    img: Levi_Schult.jpg
+    img: Levi_Schult
     description:
       - MY MAN!!!
   - name: Steven Stetzler
     email: steven.stetzler@gmail.com
     homepage: http://stevenstetzler.com
-    img: Steven_Stetzler.jpg
+    img: Steven_Stetzler
     description:
       - Steven, a graduated physics and computer science major, was the president of our
         chapter during the 2016 - 2017 academic year and the treasurer during the 2015 - 2016 
@@ -63,19 +63,19 @@ members:
         and tackling new technical challenges (like building websites).
   - name: Andrew Coffee
     email: ac7gd@virginia.edu
-    img: Andrew_Coffee.jpg
+    img: Andrew_Coffee
     description:
       - Hello
       - Hi
   - name: Victoria Kovalchuk
     email: vvk3da@virginia.edu
-    img: Victoria_Kovalchuk.jpg
+    img: Victoria_Kovalchuk
     description:
       - I like Lord of the Rings
   - name: Matthew Walker
     email: mrw3te@virginia.edu
     homepage: http://mathwalker.com
-    img: Matt_Walker_2.jpg
+    img: Matt_Walker_2
     description:
       - I am a current 4th year student and have been part of SPS since last year. 
         I designed and managed the website for SPS, and I occasionally write emails. 
@@ -84,17 +84,17 @@ members:
         running, and swimming. I also sometimes like to play drums in my basement.
   - name: Brian Seymour
     email: bcs8dn@virginia.edu
-    img: Brian_Seymour.jpg
+    img: Brian_Seymour
     description:
       - I swim with trunks and no googles. Total BK randy
   - name: Jesse Han
     email: jh4vn@virginia.edu
-    img: Jesse_Han.jpg
+    img: Jesse_Han
     description:
       - I love coffee
   - name: Michael Worcester
     email: mw9va@virginia.edu
-    img: Michael_Worcester.jpg
+    img: Michael_Worcester
     description:
       - Nah nah nah nah nah nah, nah nah nah, hey Jude
       - Nah nah nah nah nah nah, nah nah nah, hey Jude
@@ -105,11 +105,11 @@ members:
       - Nah nah nah nah nah nah, nah nah nah, hey Jude
   - name: Gage DeZoort
     email: jgd5ur@virginia.edu
-    img: Gage_DeZoort.jpg
+    img: Gage_DeZoort
   - name: Tanner Rase
     email: tnr3ym@virginia.edu
   - name: Andrew Hrusth
-    img: Andrew_Hrusth.png
+    img: Andrew_Hrusth
     email: ajh9vw@virginia.edu
     description:
       - Send nudes
@@ -159,12 +159,12 @@ exec-boards:
     board:
       - name: Gage DeZoort
         role: President
-        img: Gage_DeZoort.jpg
+        img: Gage_DeZoort
       - name: Tanner Rase
         role: Vice President
       - name: Steven Stetzler
         role: Treasurer
-        img: Steven_Stetzler.jpg
+        img: Steven_Stetzler
       - name: Andrew Coffee
         role: Secretary
   - year: 2015-2016
