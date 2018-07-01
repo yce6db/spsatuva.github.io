@@ -23,6 +23,10 @@
 
   {% endif %}
 
+  {% for image in include.prefetch_images.images %}
+    <link rel="prefetch" href="{{ site.url }}{{ site.baseurl }}assets/img/{{ include.folder }}{{ image.file }}.jpg">
+  {% endfor %}
+
   <style class="inlineCSS">
 
     {% include critical.css %}
