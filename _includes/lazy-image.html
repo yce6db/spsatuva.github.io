@@ -1,0 +1,19 @@
+
+<div class="{{ include.container-class }}">
+  {% if include.title %}
+  <h3 class="{{ include.title-class }}">{{ include.title}}</h3>
+  {% endif %}
+  {% if include.caption %} 
+  <p class="{{ include.caption-class }}"> {{ include.caption}} </p>
+  {% endif %}
+  <img 
+    data-sizes="auto" 
+    class="lazyload blur {{ include.image-class }}" 
+    src="{{ include.path | append: ".jpg" }}" 
+    data-srcset="{{ include.path | append: "_sm.jpg" }} 576w, {{ include.path | append: "_md.jpg" }} 768w, {{ include.path | append: "_lg.jpg" }} 992w" 
+    {% if include.caption %} 
+    alt="{{ include.caption }}" 
+    {% endif %}
+    />
+  <noscript><img class="{{ include.image-class }}" src="{{ include.path | append: ".jpg" }}"/></noscript>
+</div>

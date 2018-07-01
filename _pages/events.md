@@ -2,7 +2,16 @@
 layout: page
 title: Events
 permalink: /events
+container: false
 ---
 
-Here all the information about our events. Should include links to post, similar to front page right now.
-
+<section class="blog">
+<div class="container">
+    <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+        {% include card.html %}
+    {% endfor %}
+    <!-- {% include pagination.html %} -->
+    </div>
+</div>
+</section>
