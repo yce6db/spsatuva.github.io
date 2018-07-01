@@ -34,7 +34,7 @@ ___
                 {% endif %}
             {% endfor %}
         <div class="exec_board_item">
-            <div class="exec_board_info_container">
+            <div class="exec_board_info_container" style="width:40%;">
                 <div class="exec_board_info">
                     <h2>
                         {{ person.name }}
@@ -45,7 +45,8 @@ ___
                 </div>
                 {% if image %}
                 <div class="exec_board_image">
-                    <img class="exec_board_image lazyload blur" src="{{ site.baseurl }}/assets/img/exec/{{ image }}_placehold.jpg" data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_thumb@2x.jpg 2x">
+                    <img data-sizes="auto" class="exec_board_image lazyload blur" src="{{ site.baseurl }}/assets/img/exec/{{ image }}_placehold.jpg" data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_sm.jpg 576w, {{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_md.jpg 768w, {{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_lg.jpg 992w"/>
+                    <noscript><img class="exec_board_image" src="{{ site.baseurl }}/assets/img/exec/{{ image }}.jpg"/></noscript>
                 </div>
                 {% endif %}
                 {% if homepage or email %}
@@ -61,7 +62,7 @@ ___
                 {% endif %}
                 {% endif %}
             </div>
-            <div class="exec_board_description">
+            <div class="exec_board_description" style="width:60%;">
                 {% for paragraph in description %}
                     {{ paragraph | markdownify }}
                 {% endfor %}
