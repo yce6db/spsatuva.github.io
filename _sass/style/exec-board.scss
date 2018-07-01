@@ -12,7 +12,7 @@
 }
 
 .exec_board_info_container {
-    width: 33.333%;
+    width: 40%;
     float: left;
     display: block;
     padding-left: 10px;
@@ -25,22 +25,15 @@
 .exec_board_image {
     width: 100%;
     object-fit: cover;
-    // height: 150px;
 }
 
 .exec_board_description {
-    width: 66.667%;
+    width: 60%;
     float: left;
     display: block;
-    // padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
-    // font-family: adobe-garamond-pro;
-    // p {
-    //     margin-top: 10px;
-    //     margin-bottom: 0px;
-    // }
 }
 
 
@@ -52,7 +45,6 @@
 }
 
 .exec_board_hr_container {
-    // padding-top: 20px;
     padding-bottom: 20px;
 }
 

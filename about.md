@@ -34,7 +34,7 @@ ___
                 {% endif %}
             {% endfor %}
         <div class="exec_board_item">
-            <div class="exec_board_info_container" style="width:40%;">
+            <div class="exec_board_info_container">
                 <div class="exec_board_info">
                     <h2>
                         {{ person.name }}
@@ -62,7 +62,7 @@ ___
                 {% endif %}
                 {% endif %}
             </div>
-            <div class="exec_board_description" style="width:60%;">
+            <div class="exec_board_description">
                 {% for paragraph in description %}
                     {{ paragraph | markdownify }}
                 {% endfor %}
