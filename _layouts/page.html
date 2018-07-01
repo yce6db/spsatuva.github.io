@@ -26,6 +26,7 @@ layout: compress
     </div>
     <main class="site__content">
 
+      {% if page.container == true or page.container == nil %}
       <div class="container">
         <div class="page-content">
 
@@ -33,6 +34,9 @@ layout: compress
 
         </div>
       </div>
+      {% else %}
+      {{ content }}
+      {% endif %}
 
     </main>
 
