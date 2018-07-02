@@ -78,7 +78,7 @@ def main():
         default="_img")
     parser.add_argument("--clean", action='store_true', default=False,
         help="Include this to clean the output directory (assets/img) by default.")
-    parser.add_argument("--shallow", action='store_true', default=False,
+    parser.add_argument("--shallow", action='store_true', default=True,
         help="Include this to only write images that don't already exist.")
 
     args = parser.parse_args()
