@@ -99,7 +99,12 @@ def main():
         
         ans = input("Are you sure you want to do this? [yes / no]: ")
         if ans.lower() in ['yes', 'y']:
-            shutil.rmtree(out_dir)
+            # Delete only folders that exist in in_dir
+            in_dir_folder_names = [os.path.basename(f) for f in glob(os.path.join(in_dir, '*')) if os.path.isdir(f)]
+            out_dir_folders = [os.path.join(out_dir, f) for f in in_dir_folder_names]
+            for f in out_dir_folders:
+                warn("Removing folder: {}".format(f))
+                shutil.rmtree(f)
 
     # Check for spelling error
     if convert is None:
