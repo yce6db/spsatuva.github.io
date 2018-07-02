@@ -66,7 +66,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--convert", type=str, action='store',
         help="The format to convert all images to. Either JPEG or PNG.",
-        default=None)
+        default='JPEG')
     parser.add_argument("--quality", type=int, action='store',
         help="The quality to use with JPEG compression. Valid range is 1 - 100.",
         default=70)
@@ -151,7 +151,10 @@ def main():
 
             aspect_ratio = float(width) / float(height)
 
-            for width_name, resize_width in sorted(resize_widths.iteritems(), key=lambda (k, v) : (v, k)):
+            key_val_list = [(key, resize_widths[key]) for key in sorted(resize_widths, 
+                key=resize_widths.get)]
+            
+            for width_name, resize_width in key_val_list:
                 filename, ext = os.path.splitext(name)
 
                 if img.format == 'JPEG' or convert == 'JPEG':
