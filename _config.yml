@@ -82,7 +82,7 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ['_pages']
+include: ['_pages', 'docs']
 permalink: /:year/:month/:day/:title/
 
 compress_html:
