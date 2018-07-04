@@ -78,8 +78,8 @@ def main():
         default="_img")
     parser.add_argument("--clean", action='store_true', default=False,
         help="Include this to clean the output directory (assets/img) by default.")
-    parser.add_argument("--shallow", action='store_true', default=True,
-        help="Include this to only write images that don't already exist.")
+    parser.add_argument("--deep", action='store_true', default=False,
+        help="Include this to overwrite all images.")
 
     args = parser.parse_args()
 
@@ -89,7 +89,7 @@ def main():
     convert = args.convert
     quality = args.quality
     clean = args.clean
-    shallow = args.shallow
+    deep = args.deep
 
     if clean:
         if out_dir in ['.', './']:
@@ -169,7 +169,7 @@ def main():
                         width_name, ext)
 
                 # If we don't want to overwrite images, skip ones that already exist
-                if shallow and os.path.exists(save_name):
+                if not deep and os.path.exists(save_name):
                     update("Skipping existing file!")
                     continue
 
