@@ -1,9 +1,12 @@
 #
 # Usage: this script converts all of the images located in _img/<folder>
-#        to responsive sizes places them into assets/img/<folder>. The 
-#        default behavior will make no attempt to convert JPG images to PNG 
-#        or PNG images to JPG, however this behavior is implemented and can be 
-#        referenced by running this script with the --help or -h options.
+#        to responsive sizes and places them into assets/img/<folder>. Behavior
+#        beyond the default behavior can be referenced by running this script with
+#        the --help or -h options.
+#
+# Requirements: the pillow image manipulation package
+#               install by running in the command line:
+#               python -m pip install pillow
 #
 
 from __future__ import print_function
