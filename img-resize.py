@@ -22,7 +22,7 @@ import argparse
 
 is_win = 'win' in sys.platform
 
-class bcolors:
+class colors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
@@ -57,23 +57,23 @@ def make_dir(save_dir):
         os.makedirs(save_dir)
 
 def update(msg):
-    print(bcolors.OKBLUE + msg + bcolors.ENDC)
+    print(colors.OKBLUE + msg + colors.ENDC)
 
 def warn(msg):
     msg_lines = msg.split("\n")
-    print('    ' + bcolors.WARNING + "WARNING: " + msg_lines[0] + bcolors.ENDC)
+    print("    " + colors.WARNING + "WARNING: " + msg_lines[0] + colors.ENDC)
     for msg_line in msg_lines[1:]:
-        print('    ' + bcolors.WARNING + "         " + msg_line + bcolors.ENDC)
+        print("    " + colors.WARNING + "         " + msg_line + colors.ENDC)
 
 def error(msg):
     msg_lines = msg.split("\n")
-    print('\n' + bcolors.FAIL + "ERROR: " + msg_lines[0] + bcolors.ENDC)
+    print('\n' + colors.FAIL + "ERROR: " + msg_lines[0] + colors.ENDC)
     for msg_line in msg_lines[1:]:
-        print(bcolors.FAIL + "       " + msg_line + bcolors.ENDC)    
+        print(colors.FAIL + "       " + msg_line + colors.ENDC)    
     print()
 
 def save(img, fn, format, quality):
-    print('    ' + bcolors.OKGREEN + "Saving: " + fn + bcolors.ENDC)
+    print("    " + colors.OKGREEN + "Saving: " + fn + colors.ENDC)
     img.save(fn, format, optimize=True, quality=quality)
 
 def main():
@@ -128,12 +128,12 @@ def main():
     elif convert.lower() in ['png']:
         convert = 'PNG'
     elif convert is not None:
-        error("value passed to --convert not valid. Use {} --help for more info.".format(sys.argv[0]))
+        error("Value passed to --convert not valid. Use {} --help for more info.".format(sys.argv[0]))
         exit()
 
     # Range checking
     if quality > 100 or quality < 1:
-        error("value passed to --quality not valid. Use {} --help for more info.".format(sys.argv[0]))
+        error("Value passed to --quality not valid. Use {} --help for more info.".format(sys.argv[0]))
         exit()
     
     # Loop through all folders including the root folder
@@ -153,18 +153,20 @@ def main():
         pngs = glob(os.path.join(folder, "*.png"))
 
         image_names = jpgs + pngs
-        images = [Image.open(i) for i in jpgs] + [Image.open(i) for i in pngs]
+        images = [Image.open(i) for i in image_names]
 
         for name, img in zip(image_names, images):
             update("\nProcessing {}".format(name))
             if img.format not in ['JPEG', 'PNG']:
-                warn("image is required to be either JPEG or PNG format.\nSkipping...")
+                warn("Image is required to be either JPEG or PNG format.\nImage is detected to be of format: {}\nSkipping...".format(img.format))
+                continue
 
             width = img.width
             height = img.height
 
             aspect_ratio = float(width) / float(height)
 
+            # Sort by image size small to large
             key_val_list = [(key, resize_widths[key]) for key in sorted(resize_widths, 
                 key=resize_widths.get)]
             
@@ -184,7 +186,7 @@ def main():
 
                 # If we don't want to overwrite images, skip ones that already exist
                 if not deep and os.path.exists(save_name):
-                    update("Skipping existing file!")
+                    update("Skipping existing file...")
                     continue
 
                 # Compute necessary height given aspect ratio
@@ -192,7 +194,8 @@ def main():
 
                 # Check if we are upscaling, in which case a new image isn't necessary
                 if resize_width >= width:
-                    warn("upscaling detected! Format {} requires an image of width at least {}px\nsaving at normal resolution...".format(width_name, resize_width))
+                    warn("Upscaling detected! Format {} requires an image of width at least {}px\nSaving \
+                            at normal resolution...".format(width_name, resize_width))
                     resize_width = width
                     resize_height = height
 
