@@ -2,7 +2,7 @@
 layout: post
 title: "SPS holds elecetions"
 categories: [Social, Sigma Pi Sigma]
-featured-img:
+featured-img: 2018_elections
 ---
 
 In the words of the great Chaucer, “all good things must come to an end.” And so it is that time of the year where the responsibilities and duties of SPS exec changes hands, and a new generation of leaders and thinkers steps into their roles. Yesterday SPS held elections for the open positions of the exec board and the new officers of Sigma Pi Sigma. After all the votes had be cast, and the yay’s and nay’s counted, we announced who would be in charge of the future of SPS here at UVA. While I will not post the results here, you can find them over on the “Who We Are” tab once the new webmaster has updated the page.
@@ -14,12 +14,12 @@ Singing off for the last time,
 -Matt W. Class of 2018
 
 {%- capture img_path -%}
- {{ site.url }}{{ site.baseurl }}/assets/img/posts/2018_elections
+ {{ site.url }}{{ site.baseurl }}/assets/img/posts/vote4pedrom
  {%- endcapture -%}
 {% include lazy-image.html 
     path=img_path 
-    title="Pictures from the elections" 
-    caption="The elections was a sucess! We even got someone to run for webmaster." 
+    title="vote for pedrom" 
+    caption="vote for pedrom." 
     container-class="post-image" 
     title-class="post-image-title" 
     caption-class="post-caption-title"
