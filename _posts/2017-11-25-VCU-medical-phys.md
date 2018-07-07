@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Medical physics at VCU"
-categories: [Speaker,Presentation]
+categories: [Speaker]
 featured-img: 
 ---
 

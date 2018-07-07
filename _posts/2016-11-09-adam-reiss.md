@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SPS Welcomes Nobel Laureate Adam Riess to UVA"
-categories: [Speakers]
+categories: [Speaker]
 featured-img: Adam_Riess
 ---
 

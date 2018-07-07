@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPS holds elecetions"
+title: "SPS Holds Elections"
 categories: [Social, Sigma Pi Sigma]
 featured-img: 2018_elections
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPS SIGNS PLEDEGE TO BE MORE ACCESSIBLE TO LOW-INCLOME STUDENTS."
+title: "SPS Signs Pledge To Be More Accessible To Low-Income Students."
 categories: []
 featured-img: 
 ---

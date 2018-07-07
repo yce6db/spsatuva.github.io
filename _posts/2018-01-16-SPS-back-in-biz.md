@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "SPS back in biz"
-categories: [Speaker,Presentation]
+title: "SPS Back in Biz"
+categories: [Speaker]
 featured-img: 2018_01_16SPS
 ---
 

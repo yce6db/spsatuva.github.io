@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2016 Sigma Pi Sigma Research Symposium"
-categories: [Presentations, Sigma Pi Sigma]
+categories: [Student Presentation, Sigma Pi Sigma]
 featured-img: 
 ---
 

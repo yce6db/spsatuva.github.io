@@ -2,7 +2,7 @@
 layout: post
 title: "SPS Host Zone 4 Meeting at University of Virginia"
 featured-img: Zone_4_Meeting
-categories: [SPS National]
+categories: [National SPS]
 ---
 
 This year, U.Va. is hosting the Zone Meeting on April 15th 2017, here is a recap.

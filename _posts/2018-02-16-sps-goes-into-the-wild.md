@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPS ventures into the wild"
+title: "SPS Ventures Into The Wild"
 categories: [Social]
 featured-img: Hike_Good_3
 ---
@@ -32,7 +32,7 @@ Thanks to everyone who came out!
  {% include lazy-image.html 
     path=img_path2 
     title="" 
-    caption="The wild and elsusive physics student in its natrual habitat." 
+    caption="The wild and elusive physics student in its natural habitat." 
     container-class="post-image" 
     title-class="post-image-title" 
     caption-class="post-caption-title"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPS HOSTS HOXTON LECTURE SPEAKER, WILLIAM BIALEK"
+title: "SPS Hosts Hoxton Lecture Speaker, William Bialek"
 categories: [Speaker]
 featured-img: 2018_04_08_bilek
 ---
