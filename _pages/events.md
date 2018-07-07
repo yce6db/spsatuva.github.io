@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Events
-permalink: /events
+permalink: /events/
 container: false
 ---
 

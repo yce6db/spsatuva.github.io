@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Outreach
-permalink: /outreach
+permalink: /outreach/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Physics GRE 
-permalink: grad-school/gre
+permalink: /grad-school/gre/
 ---
 
 # GRE Study Sessions
