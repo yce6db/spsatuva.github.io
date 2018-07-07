@@ -76,6 +76,18 @@ def save(img, fn, format, quality):
     print("    " + colors.OKGREEN + "Saving: " + fn + colors.ENDC)
     img.save(fn, format, optimize=True, quality=quality)
 
+def find_images(folder):
+    # Find images in root folder
+    images = [i for i in glob(os.path.join(folder, "*.jpg")) + 
+        glob(os.path.join(folder, "*.png")) if os.path.isfile(i)]
+
+    # Recursively find images in sub-folders
+    folders = [f for f in glob(os.path.join(folder, "*")) if os.path.isdir(f)]
+    for folder in folders:
+        images = images + find_images(folder)
+    
+    return images
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--convert", type=str, action='store',
@@ -107,7 +119,9 @@ def main():
 
     if clean:
         if out_dir in ['.', './']:
-            warn("You are attempting to remove the current directory!!")
+            warn("You are attempting to remove everything in your current directory!!!!")
+        elif out_dir == in_dir:
+            warn("You are attempting to remove the input directory!!!")
         else:
             warn("You are attempting to remove the directory {}".format(out_dir))
         
@@ -136,85 +150,85 @@ def main():
         error("Value passed to --quality not valid. Use {} --help for more info.".format(sys.argv[0]))
         exit()
     
-    # Loop through all folders including the root folder
-    folders = [f for f in glob(os.path.join(in_dir, "*")) if os.path.isdir(f)] + [in_dir]
-    for folder in folders:
-        folder_name = os.path.basename(folder)
+    # Find all images in the input directory
+    image_names = find_images(in_dir)
+
+    images = [Image.open(i) for i in image_names]
+
+    for name, img in zip(image_names, images):
+        # print(name)
+        folder_name = os.path.dirname(name)
+        if folder_name != in_dir:
+            folder_name = folder_name.replace(in_dir + '/', '')
+        
         # Check if we are scanning the root directory, in which case we want
         # those files to go to the root of the our directory
         if folder_name == in_dir:
             save_dir = out_dir
         else:
             save_dir = os.path.join(out_dir, folder_name)
-        
+
         make_dir(save_dir)
 
-        jpgs = glob(os.path.join(folder, "*.jpg"))
-        pngs = glob(os.path.join(folder, "*.png"))
+        update("\nProcessing {}".format(name))
+        if img.format not in ['JPEG', 'PNG']:
+            warn("Image is required to be either JPEG or PNG format.\nImage is detected to be of format: {}\nSkipping...".format(img.format))
+            continue
 
-        image_names = jpgs + pngs
-        images = [Image.open(i) for i in image_names]
+        width = img.width
+        height = img.height
 
-        for name, img in zip(image_names, images):
-            update("\nProcessing {}".format(name))
-            if img.format not in ['JPEG', 'PNG']:
-                warn("Image is required to be either JPEG or PNG format.\nImage is detected to be of format: {}\nSkipping...".format(img.format))
+        aspect_ratio = float(width) / float(height)
+
+        # Sort by image size small to large
+        key_val_list = [(key, resize_widths[key]) for key in sorted(resize_widths, 
+            key=resize_widths.get)]
+        
+        for width_name, resize_width in key_val_list:
+            filename, ext = os.path.splitext(name)
+
+            if img.format == 'JPEG' or convert == 'JPEG':
+                ext = 'jpg'
+            elif img.format == 'PNG' or convert == 'PNG':
+                ext = 'png'
+
+            if width_name == 'self':
+                save_name = "{}.{}".format(os.path.join(save_dir, os.path.basename(filename)), ext)                
+            else:
+                save_name = "{}_{}.{}".format(os.path.join(save_dir, os.path.basename(filename)), 
+                    width_name, ext)
+
+            # If we don't want to overwrite images, skip ones that already exist
+            if not deep and os.path.exists(save_name):
+                update("Skipping existing file...")
                 continue
 
-            width = img.width
-            height = img.height
+            # Compute necessary height given aspect ratio
+            resize_height = int(resize_width / aspect_ratio)
 
-            aspect_ratio = float(width) / float(height)
+            # Check if we are upscaling, in which case a new image isn't necessary
+            if resize_width >= width:
+                warn("Upscaling detected! Format {} requires an image of width at least {}px\nSaving \
+                        at normal resolution...".format(width_name, resize_width))
+                resize_width = width
+                resize_height = height
 
-            # Sort by image size small to large
-            key_val_list = [(key, resize_widths[key]) for key in sorted(resize_widths, 
-                key=resize_widths.get)]
-            
-            for width_name, resize_width in key_val_list:
-                filename, ext = os.path.splitext(name)
+            if width_name == 'self':
+                resize_width = width
+                resize_height = height
 
-                if img.format == 'JPEG' or convert == 'JPEG':
-                    ext = 'jpg'
-                elif img.format == 'PNG' or convert == 'PNG':
-                    ext = 'png'
+            resized_img = img.resize((resize_width, resize_height))
 
-                if width_name == 'self':
-                    save_name = "{}.{}".format(os.path.join(save_dir, os.path.basename(filename)), ext)                
-                else:
-                    save_name = "{}_{}.{}".format(os.path.join(save_dir, os.path.basename(filename)), 
-                        width_name, ext)
+            # Check if we need to convert the image before saving
+            if convert is not None:
+                if convert == 'JPEG':
+                    resized_img = resized_img.convert('RGB')
+                elif convert == 'PNG':
+                    resized_img = resized_img.convert('RGBA')
 
-                # If we don't want to overwrite images, skip ones that already exist
-                if not deep and os.path.exists(save_name):
-                    update("Skipping existing file...")
-                    continue
-
-                # Compute necessary height given aspect ratio
-                resize_height = int(resize_width / aspect_ratio)
-
-                # Check if we are upscaling, in which case a new image isn't necessary
-                if resize_width >= width:
-                    warn("Upscaling detected! Format {} requires an image of width at least {}px\nSaving \
-                            at normal resolution...".format(width_name, resize_width))
-                    resize_width = width
-                    resize_height = height
-
-                if width_name == 'self':
-                    resize_width = width
-                    resize_height = height
-
-                resized_img = img.resize((resize_width, resize_height))
-
-                # Check if we need to convert the image before saving
-                if convert is not None:
-                    if convert == 'JPEG':
-                        resized_img = resized_img.convert('RGB')
-                    elif convert == 'PNG':
-                        resized_img = resized_img.convert('RGBA')
-
-                    save(resized_img, save_name, convert, quality)
-                else:
-                    save(resized_img, save_name, img.format, quality)
+                save(resized_img, save_name, convert, quality)
+            else:
+                save(resized_img, save_name, img.format, quality)
     
 if __name__ == "__main__":
     main()
