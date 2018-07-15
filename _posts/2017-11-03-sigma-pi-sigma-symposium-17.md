@@ -35,8 +35,8 @@ We would also like to give special thanks to Profs. Group, Paschke, Davis, and V
     path=img_path
     title="Pictures from the Event" 
     caption="Several students present their poster at the symposium." 
-    container-class="post-image" 
+    container-class="post-image-container" 
     title-class="post-image-title" 
-    caption-class="post-caption-title"
-    image-class="" 
+    caption-class="post-image-caption"
+    image-class="post-image" 
  %}
