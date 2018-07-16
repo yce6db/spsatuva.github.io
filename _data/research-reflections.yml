@@ -1,3 +1,116 @@
-- name: 
-  location:
-  url: 
+reflection-list:
+  - location: Caltech LIGO
+    name: Sophia Xiao
+    time: Summer 2014
+    short-name: caltech-sophia
+    url: https://docs.google.com/document/d/e/2PACX-1vSdVHG3vgBRBnpS3_C_rDeShGtnjYH3-5BfLXjQF_BfuwiBzc2grLZXfMYjbF0LaKS8Zu3OEyUpgCcr/pub
+  - location: Cornell University
+    name: Victoria Kovalchuk
+    time: Summer 2017
+    short-name: cornell-victoria
+    url: https://docs.google.com/document/d/e/2PACX-1vSrDWRyBro0c1DjfmODzbwS9EZwv2QNuJ0wN_TVq5ehI7pmrHi7nih-mcC31hpKTBbaH2NlvxvFmpa4/pub
+  - location: Fermilab
+    name: Eric Fries
+    time: Summer 2014
+    short-name: fermilab-eric
+    url: https://docs.google.com/document/d/e/2PACX-1vQtlPnDvtJ4-wUrwHRGUZ050xBxcOl1UGoxvnPlz4C-MUzwcXdu50ExyjlmTkDEbSC5Naq6u3ROBF1a/pub
+  - location: Fermilab
+    name: Robert Mina
+    time: Summer 2014
+    short-name: fermilab-robert
+    url: https://docs.google.com/document/d/e/2PACX-1vTqNryMmgbxeAOVc2hID46ZK8OfMV4cAsV6XnzMcU8eCiK_prnhKA69piyq0e6SZ0bdG3kjoo1pChHg/pub
+  - location: Fermilab
+    name: Sophia Xiao
+    time: Summer 2013
+    short-name: fermilab-sophia
+    url: https://docs.google.com/document/d/e/2PACX-1vTbQ09SqOK-t28BBAZ8zo3duH3Gq9nl5UO8AQijqbJJg3H3gu1ifqIEVKuqwz9SZ6e0EHmCwH1cKlVU/pub
+  - location: Harvard-Smithsonian Center for Astrophysics
+    name: Bridget Andersen
+    time: Summer 2017
+    short-name: cfa-bridget
+    url: https://docs.google.com/document/d/e/2PACX-1vRTxIN5nVeit8LA2gMpOpIJg1MvXsXui1S_k36kxf51SjQIyMLUXsqcL9epOUheUWNLXnxxq5qBh4YW/pub
+  - location: Harvard-Smithsonian Center for Astrophysics
+    name: Catherine Zucker
+    time: Summer 2014
+    short-name: cfa-catherine
+    url: https://docs.google.com/document/d/e/2PACX-1vSMoQJl0Hsnyir8hzlpiazz7ZswJ9V2hlSAVZdWOWYr48ljauLPZ2PKiK8Mol6S-lYFA4NNpnRyFYPd/pub
+  - location: Harvard-Smithsonian Center for Astrophysics
+    name: Mita Tembe
+    time: Summer 2013
+    short-name: cfa-mita
+    url: https://docs.google.com/document/d/e/2PACX-1vSgX4A9VMV993c6eHmZ1FGLtlLBm-qsdK3SNLl_f1eShuYsXye-sWgzUNH0HJyHjHOZcs7QriZ2j7VA/pub
+  - location: Institut Laue-Langevin Neutron Research Center
+    name: Dane Warner
+    time: Summer 2013
+    short-name: laue-dane
+    url: https://docs.google.com/document/d/e/2PACX-1vRxW_Lk3q22KiJe3S6DvrHEFvJ8eZPd9Z2gXCWNW7SIkQ15yAG9p71JoP_AFURzOQP7KXNZtNb_2hCw/pub
+  - location: Institut Laue-Langevin Neutron Research Center
+    name: Lucas Lukaczyk
+    time: Summer 2014
+    short-name: laue-lucas
+    url: https://docs.google.com/document/d/e/2PACX-1vQ_w6hSFe2rVIOUoPNt9UXUgs8NE1RrnXzrM8Ea2XRU9b8mMp2WGsPP11uPRhghodTxY_GNoCb_4Uvw/pub
+  - location: Institute for Astronomy, University of Hawaii at Manoa
+    name: Martine Lokken
+    time: Summer 2017
+    short-name: ifa-martine
+    url: https://docs.google.com/document/d/e/2PACX-1vQCRGOYQnKNHIKLRC6SyDolvXD1P-qwfjZj4pcw9vgmbVegGLRxzzUIuxT8JAWSS62XCF9UGImPMOXx/pub
+  - location: Jefferson Lab
+    name: Yash Shevde
+    time: Summer 2015
+    short-name: jlab-yash
+    url: https://docs.google.com/document/d/e/2PACX-1vTgsTpVBm441LHSEO7fhMudUYpA5HUbGm9vdODtKRqlVEnccDXr2DVRZ3F3sJweR0MKa95wbRoK6UW2/pub
+  - location: NASA Langley Research Center
+    name: Jonathan Colen
+    time: Summer 2017
+    short-name: nasa-jonathan
+    url: https://docs.google.com/document/d/e/2PACX-1vRqXjfx2de9ctSwYAoIWj-Vd3hyV_5Gjcvcw9xk5_fscJqgL47Z2loXwpqluoLOrdaHatPpCsF0U7de/pub
+  - location: National Institute for Subatomic Physics
+    name: Mita Tembe
+    time: Summer 2014
+    short-name: nisp-mita
+    url: https://docs.google.com/document/d/e/2PACX-1vQF0AF5ydcuvwFptVyEafaJN14Teg6HJ_Or4gddc1KZG5wRXT2MN032SymFCGauuKxW7cZAseWnN4Td/pub
+  - location: National Radio Astronomy Observatory
+    name: Adrian Mead
+    time: Summer 2013
+    short-name: nrao-adrian
+    url: https://docs.google.com/document/d/e/2PACX-1vR2xSZ-iidPUm4191OWyiCNfP7NjNRwaJyekhOXlaw-YtsWCjAVTCc4id91mqdp9_KVTNjOhJjFz7kb/pub
+  - location: National Radio Astronomy Observatory
+    name: Steven Stetzler
+    time: Summer 2017
+    short-name: nrao-steven
+    url: https://docs.google.com/document/d/e/2PACX-1vQeByvYwXQ5vXrM-0pWSZ3WC1Izj-Yle9ED8QVS0QYpiYSZaret04jbExBEtKBEcSvI3gsdB_tsrq1h/pub
+  - location: National Radio Astronomy Observatory
+    name: Bridget Andersen
+    time: Summer 2016
+    short-name: nrao-bridget
+    url: https://docs.google.com/document/d/e/2PACX-1vSxI-roiDwGrTJIe7xpI4_JVy26zB8LAAqh13xrFdvcvYSPWsxBIBCdkDruOKZvOuMZOMldeEKkHZUV/pub
+  - location: Rice Quantum Institute
+    name: Michael Viray
+    time: Summer 2014
+    short-name: rice-michael
+    url: https://docs.google.com/document/d/e/2PACX-1vRIYdVez9_ViJVQqAxvcsdOZCTFpcVJqIm4W7q8g9GkCC4Ie_sf2maOGNVSq9kARHGHId-qUQi5OZNB/pub
+  - location: SLAC Accelerator Laboratory
+    name: Margaret Doyle
+    time: Summer 2017
+    short-name: slac-margaret
+    url: https://docs.google.com/document/d/e/2PACX-1vSyoUv35Rcl9zBCRjuZb5Vb5hRiDDzSniTBR4WbTGKhCoOa5AhPIn9zixs4eD2IZJ8JOlvhaGOtUvdd/pub
+  - location: Space Telescope Science Institute
+    name: Bridget Andersen
+    time: Summer 2015
+    short-name: stsci-bridget
+    url: https://docs.google.com/document/d/e/2PACX-1vSA_odu1TLVDRXeEL1Bz07M-5_Fc3RuJgW3CZL1KaanGg6Fv48qRe4tpLm_PGtwMJBWYwk84DvGxA4v/pub
+  - location: University of Oklahoma
+    name: Christina Gilligan
+    time: Summer 2014
+    short-name: oklahoma-christina
+    url: https://docs.google.com/document/d/e/2PACX-1vQvjT8QGhe78HQBIEZJ-vVPtoNVp_s705fH7B2zveCIXBATr178fB5v-E5DjpvZUtYpJZdQuQhldL8V/pub
+  - location: University of Virginia
+    name: Ilya Andreev
+    time: Spring + Summer 2017
+    short-name: uva-ilya
+    url: https://docs.google.com/document/d/e/2PACX-1vQg7iGbHvvUEB63oDCeoJIQUMN_h5jvpMQgoY_zLwcedYezBK7J52PoijXy1ZipPsQFGziiMmbNGht0/pub
+  - location: Vanderbilt Institute of Nanoscale Science and Engineering
+    name: Anna Yanchenko
+    time: Summer 2014
+    short-name: vinse-anna
+    url: https://docs.google.com/document/d/e/2PACX-1vQP6WBHvdyUVUSsVC_E7Z8cTkA1uilg2r1e4C9fDcwTebCUjWbo8ATnS09OU7I8LzvhGMfXDqMwWs1S/pub

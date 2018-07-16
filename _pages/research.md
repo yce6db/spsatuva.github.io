@@ -83,8 +83,20 @@ Listing of REU opportunitites that UVA students have been succesful in applying 
 - [Space Telescope Science Institute](http://www.stsci.edu/institute/smo/students)
 - [Department of Energy Science Undergraduate Laboratory Internships](https://science.energy.gov/wdts/suli/) (SULI)
 
-Reflections from UVA students: [Google Drive Folder](https://drive.google.com/open?id=18dJfLk0cbzNBMAhACB7nd-3X8JluEDaD)
-(I'd like to replace this with a set of dropdown containers with HTML versions of the PDFs...shouldn't be too hard)
+### REU Reflections
+
+Reflections about REU experiences that UVA students have had can be found below. Each reflection contains information about the REU they participated in, including tips for applying, stipend amount, and perks of the program.
+
+<div class="project_list" id="project_list">
+    {% for reflection in site.data.research-reflections.reflection-list %}
+    <a href="#" class="project" data-toggle="collapse" data-target="#{{ reflection.short-name }}" aria-expanded="false" aria-controls="{{ reflection.short-name }}">
+        {{ reflection.location }} - {{ reflection.name }} - {{ reflection.time }}
+    </a>
+    <div class="project_container collapse" id="{{ reflection.short-name }}" aria-labelledby="{{ project.short-name }}">
+        <iframe style="width:100%;height:500px" src="{{ reflection.url }}?embeded=true"></iframe>
+    </div>
+    {% endfor %}
+</div>
 
 ___
 
@@ -99,6 +111,7 @@ Presenting your research at a scientific meeting allows you to travel to another
 If you are an undergraduate, and especially if you are coming out of your first research experience, you will likely be presenting a *poster* on your research, which is an informational document that you present to others at a poster session at a conference. SPS has compiled a guide and information on poster making best practices here: **INSERT LINK**
 
 ### Meetings you should attend
+
 What follows are several of the major meetings that you should try to attend, based on your research area. Of course, all meetings are open 
 - [American Physical Society (APS) April Meeting](https://www.aps.org/meetings/april/): This meeting is generally for those interested in: high energy physics, nuclear physics, astrophysics, and gravitational physics.
 - [American Physical Society (APS) March Meeting](https://www.aps.org/meetings/march/): This meeting is generally for those interested in: atomic, molecular, and optical physics, condensed matter physics, plasma physics, and biophysics
