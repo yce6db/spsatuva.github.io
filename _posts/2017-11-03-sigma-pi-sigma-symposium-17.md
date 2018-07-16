@@ -14,7 +14,7 @@ The Seventh Annual Undergraduate Physics Research Symposium was held on November
 - **Ben Hillman**: Micromagnetic Simulations of Magnetic Skyrmions
 - **Michael Worcester**: Optimizing Geometries in a Polarized Targets Study
 
-Abstracts for all presentations can be found here. Prizes were given to the best three presenters and top three posters. We would like to congratulate the following students for their outstanding performance:
+Abstracts for all presentations can be found [here](http://www.faculty.virginia.edu/spsuva/events/SPS_Symposium_Abstracts_2017.pdf). Prizes were given to the best three presenters and top three posters. We would like to congratulate the following students for their outstanding performance:
 
 Talks:
 - 1st place: Martine Lokken

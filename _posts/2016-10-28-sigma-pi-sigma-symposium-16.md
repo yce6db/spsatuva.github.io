@@ -5,7 +5,7 @@ categories: [Student Presentation, Sigma Pi Sigma]
 featured-img: 
 ---
 
-We would like to congratulate the following students for their outstanding performance:
+All abstracts from this event can be found [here](http://www.faculty.virginia.edu/spsuva/events/abstracts_Symposium_2016.pdf). We would like to congratulate the following students for their outstanding performance:
 
 ### Talks:
 - 1st place: Jesse Han
@@ -16,10 +16,10 @@ We would like to congratulate the following students for their outstanding perfo
 - 2nd place: Steven Stetzler
  
 ### Full Schedule
-- **12:00**: introduction
+- **12:00**: Introduction
 - **12:10** *Josh Pond*: Distinguishing Ion Pair Structures using Pulse Radiolysis and Time-Resolved Spectroscopy
 - **12:25** *Jiwon Han*: A New Strangeness Fit to World Parity-Violating Electron Scattering Data
-- **12:40** *Arvind Gupta*: The Distance to the Core of the Sagittarius Dwarf Galaxy from the Mid-Infrared Period- Lu**minosity - Relation for RR Lyrae Variable Stars
+- **12:40** *Arvind Gupta*: The Distance to the Core of the Sagittarius Dwarf Galaxy from the Mid-Infrared Period-Luminosity Relation for RR Lyrae Variable Stars
 - **12:55** *Ben Gilbert*: A Study on the Coffee Spilling Phenomena in the Low Impulse Regime
 - **1:10** *Gage DeZoort*: Anomalous Signal Reduction in the CMS ECAL Trigger
 - **1:25** *John Hack*: Distinguishing Ion Pair Structures using Pulse Radiolysis and Time-Resolved Spectroscopy
