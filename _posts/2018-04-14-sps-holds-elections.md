@@ -13,15 +13,15 @@ Singing off for the last time,
 
 -Matt W. Class of 2018
 
-{%- capture img_path -%}
+ {%- capture img_path -%}
  {{ site.url }}{{ site.baseurl }}/assets/img/posts/vote4pedrom
  {%- endcapture -%}
-{% include lazy-image.html 
+ {% include lazy-image.html 
     path=img_path 
     title="vote for pedrom" 
     caption="vote for pedrom." 
-    container-class="post-image" 
+    container-class="post-image-container" 
     title-class="post-image-title" 
-    caption-class="post-caption-title"
-    image-class=""  
- %}
+    caption-class="post-image-caption"
+    image-class="post-image"  
+ %} 
