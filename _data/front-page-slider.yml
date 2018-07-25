@@ -1,8 +1,9 @@
 images:
   - file: AAS
-  - file: APS
   - file: Clark_2
+  - file: Speakers
+  - file: Demo_Day
+  - file: Eclipse_Montage
+  - file: APS
   - file: Hike_Good_3
   - file: Ladies_in_the_Lab
-  - file: Speakers
-  - file: Demo_Day_Victoria_Ricky

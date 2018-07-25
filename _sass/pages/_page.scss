@@ -5,10 +5,10 @@
   position: relative;
   background-color: #dde5ea;
   background-repeat: no-repeat;
-  background-position: 50%;
+  background-position: 50% 0%;
   background-size: cover;
 
-  @include breakpoint($lg) {
+  @include breakpoint($md) {
     margin: 0 auto;
     height: 36em;
   }
@@ -65,6 +65,10 @@
 
   @include breakpoint($md) {
     max-width: 40em;
+  }
+
+  .hero__meta {
+    color: $bg-color;
   }
 
   .hero__title {
