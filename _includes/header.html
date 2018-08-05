@@ -2,9 +2,17 @@
   <div class="container">
     <div class="header__inner">
       <a class="header__logo" href="{{ '/' | relative_url }}">
+        {% if site.logo-type == 'text' %}
+        <h3 class="header__logo--text">
+          {{ site.logo-text }} 
+        </h3>
+        {% endif %}
+        
+        {% if site.logo-type == 'img' %}
         <div class="header__logo--container">
-          {% include logo.svg %}
+            {% include site.logo-img %}
         </div>
+        {% endif %}
       </a>
       <nav class="header__links">
         <div class="container header__links-wrapper">

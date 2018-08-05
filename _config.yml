@@ -50,6 +50,13 @@ tagline: >
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
+# Either img or text to select logo type - see _includes/header.html
+logo-type: 'text'
+# Image to use - must be in _includes/
+logo-img: logo.svg
+# Text to use
+logo-text: 'SPS at UVA'
+
 email: spsatuva@gmail.com # email for form submission
 
 # twitter_username: spsatuva # replace with your_twitter_username or comment to remove link from footer
