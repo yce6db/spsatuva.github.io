@@ -1,0 +1,14 @@
+.form__input {
+    input {
+        line-height: 1.25;
+    }
+
+}
+
+.form__input::before {
+    height: 0px;
+}
+
+.form__input::after {
+    height: 0px;
+}
