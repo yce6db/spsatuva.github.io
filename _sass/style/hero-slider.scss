@@ -1,0 +1,7 @@
+/* Re-center hero text on hero image resize */
+@media (max-width: $md) {
+    .hero__wrap {
+        transform: translate(-50%, -33%);
+        min-width: 300px;
+    }
+}
