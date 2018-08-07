@@ -17,33 +17,6 @@ social:
     - https://github.com/spsatuva
 
 # THEME SETTINGS
-navigation: # Navigation links
-  - name: 'Home'
-    link: '/'
-  - name: 'Events'
-    link: '/events'
-  - name: 'Resources'
-    link: 'none'
-    sublinks:
-      - name: 'Research'
-        link: '/research'
-      # - name: 'Courses'
-      #   link: '/courses'
-      - name: 'Grad School'
-        link: '/grad-school'
-  # - name: 'PHYS 1910'
-  #   link: 'none'
-  #   sublinks:
-  #     - name: 'About'
-  #       link: '/phys1910/about'
-  #     - name: 'Lectures'
-  #       link: '/phys1910/lectures'
-  # - name: 'Outreach'
-  #   link: '/outreach'
-  - name: 'About'
-    link: '/about'
-  - name: 'Contact'
-    link: '/contact'
 
 tagline: >
   A group of physics majors focused on community, public outreach, and academic excellence.

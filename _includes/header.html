@@ -16,7 +16,7 @@
       </a>
       <nav class="header__links">
         <div class="container header__links-wrapper">
-          {% for item in site.navigation %}
+          {% for item in site.data.navigation.header %}
             {% if item.sublinks %}
             <div class="header__item">
               {% if item.link == 'none' %}
