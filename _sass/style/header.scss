@@ -2,3 +2,8 @@
     margin-bottom: 0rem;
     color: $text-color;
 }
+
+/* Change this if you change the logo width */
+.header__logo {
+    min-width: 100px;
+}
