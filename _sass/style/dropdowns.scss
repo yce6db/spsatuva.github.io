@@ -26,13 +26,13 @@
     }
 
     .down {
-      transform: translateY(-3px) rotate(45deg);
-      -webkit-transform: translateY(-3px) rotate(45deg);
+      transform: translate(25%, -25%) rotate(45deg);
+      -webkit-transform: translate(25%, -25%) rotate(45deg);
     }
 
     .up {
-      transform: translateY(1px) rotate(225deg);
-      -webkit-transform: translateY(1px) rotate(225deg);
+      transform: translate(25%, 25%) rotate(225deg);
+      -webkit-transform: translate(25%, 25%) rotate(225deg);
     }
   }
 

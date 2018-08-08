@@ -31,18 +31,17 @@
         border: solid;
         border-width: 0 3px 3px 0;    
         padding: 6px;
-        margin-left: 15px;
         transition: all 0.5s;
     }
 
     .down {
-        transform: translateY(13px) rotate(45deg);
-        -webkit-transform: translateY(13px) rotate(45deg);
+        transform: translate(100%, 105%) rotate(45deg);
+        -webkit-transform: translate(100%, 105%) rotate(45deg);
     }
   
     .up {
-        transform: translateY(21px) rotate(225deg);
-        -webkit-transform: translateY(21px) rotate(225deg);
+        transform: translate(100%, 120%) rotate(225deg);
+        -webkit-transform: translate(100%, 120%) rotate(225deg);
     }  
 }
 

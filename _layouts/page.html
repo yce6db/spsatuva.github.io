@@ -1,47 +1,22 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
-  {% include head.html %}
+<div class="hero--small" {% if page.featured-img %} style="background-image: url({{ site.url }}{{ site.baseurl }}/assets/img/featured-images/{{ page.featured-img }});" {% endif %}>
+  <div class="hero__wrap">
+    <h1 class="hero__title">{{ page.title }}</h1>
+  </div>
+</div>
+<main class="site__content">
+  {% if page.container == true or page.container == nil %}
+  <div class="container">
+    <div class="page-content">
 
-  <body class="site">
-
-    {% if site.google_tag_manager %}
-
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
-
-    {% include header.html %}
-
-    <div class="hero--small" {% if page.featured-img %} style="background-image: url({{ site.url }}{{ site.baseurl }}/assets/img/featured-images/{{ page.featured-img }});" {% endif %}>
-      <div class="hero__wrap">
-        <h1 class="hero__title">{{ page.title }}</h1>
-      </div>
-    </div>
-    <main class="site__content">
-
-      {% if page.container == true or page.container == nil %}
-      <div class="container">
-        <div class="page-content">
-
-          {{ content }}
-
-        </div>
-      </div>
-      {% else %}
       {{ content }}
-      {% endif %}
 
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+    </div>
+  </div>
+  {% else %}
+  {{ content }}
+  {% endif %}
+</main>
