@@ -16,22 +16,23 @@
 /* Desktop */
 @media (min-width: $md) {  
   .header__link {
-    i {
+    .arrow {
       border: solid;
       border-width: 0 1px 1px 0;    
       display: inline-block;
       padding: 3px;
       margin-left: 7px;
+      transition: all 0.5s;
     }
 
     .down {
-      transform: translateY(-2px) rotate(45deg);
-      -webkit-transform: translateY(-2px) rotate(45deg);
+      transform: translateY(-3px) rotate(45deg);
+      -webkit-transform: translateY(-3px) rotate(45deg);
     }
 
     .up {
-      transform: translateY(3px) rotate(-135deg);
-      -webkit-transform: translateY(3px) rotate(-135deg);
+      transform: translateY(1px) rotate(225deg);
+      -webkit-transform: translateY(1px) rotate(225deg);
     }
   }
 

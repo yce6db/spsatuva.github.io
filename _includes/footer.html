@@ -34,6 +34,26 @@
   {% include scripts.js %}
 </script>
 
+<script>
+  $('.exec_board_year').click(function() {
+    var arrow_down = $(this).find('.arrow').attr('class').includes('down');
+    /* Flip all arrows down */
+    $('.exec_board_year').find('.arrow').removeClass('up down');
+    $('.exec_board_year').find('.arrow').addClass('down');
+    /* Flip current arrow if was already down */
+    if (arrow_down) {
+      $(this).find('.arrow').removeClass('up down');
+      $(this).find('.arrow').addClass('up');
+    }
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $("body").removeClass("preload");
+  });
+</script>
+
 <script async src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
 {% if site.service_worker %}
 <script async>

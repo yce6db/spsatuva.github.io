@@ -1,35 +1,40 @@
 function clearToggledHeaders() {
     /* Deactivate toggled elements */
-    var toggled = document.querySelectorAll(".header_toggled");
-    for (i = 0; i < toggled.length; i++) {
-        toggled[i].className = toggled[i].className.replace(" header_toggled", "");
-        /* Hide child */
-        child = document.getElementById(toggled[i].id.replace("_parent", "_child"));
-        child.style.display = 'none';
-    }
+    $(".header__toggled").children(".header__links-wrapper").css("display", "none");
+    $(".header__toggled").removeClass("header__toggled");
 
     /* Make all arrows down */
-    var arrows = document.querySelectorAll(".arrow");
-    for (i = 0; i < arrows.length; i++) {
-        arrows[i].className = arrows[i].className.replace("up", "down");
-    }
+    $('.header__link').find('.arrow').removeClass("up down");
+    $('.header__link').find('.arrow').addClass("down");
 }
 
-function toggleHeader(e) {
-    var e_toggled = e.className.includes("header_toggled");
+$('.header__item').click(function() {
+    var is_toggled = this.className.includes("header__toggled");
     clearToggledHeaders();
-
-    /* If selected header closed, open it */
-    if (!e_toggled) {
-        /* Show child */
-        e.className += " header_toggled";
-        child = document.getElementById(e.id.replace("_parent", "_child"));
-        child.style.display = 'block';
-        child.style.height = 'auto';
-        /* Flip arrow */
-        my_arrow.className = my_arrow.className.replace("down", "up");
+    /* Compute child id */
+    var child_id = this.id.replace("_parent", "_child");
+    /* If child element exists */
+    if ($("#" + child_id).length) {
+        if (is_toggled) {
+            /* Set parent as inactive */
+            $(this).removeClass("header__toggled");
+            /* Hide child */
+            $("#" + child_id).css("display", "none");
+            /* Flip indicator arrow */
+            $(this).find(".arrow").removeClass("up down");
+            $(this).find(".arrow").addClass("down");
+        } else {
+            /* Set parent as active */
+            $(this).addClass("header__toggled");
+            /* Show child */
+            $("#" + child_id).css("display", "block");
+            $("#" + child_id).css("height", "auto");
+            /* Flip indicator arrow */
+            $(this).find(".arrow").removeClass("up down");
+            $(this).find(".arrow").addClass("up");
+        }
     }
-}
+});
 
 /* Click anywhere to close dropdowns */
 $('html').click(function() {

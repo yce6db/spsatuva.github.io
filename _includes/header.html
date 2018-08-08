@@ -18,7 +18,7 @@
         <div class="container header__links-wrapper">
           {% for item in site.data.navigation.header %}
             {% if item.sublinks %}
-            <div class="header__item" id="{{ item.name }}_parent" onclick="toggleHeader(this)">
+            <div class="header__item" id="{{ item.name | remove: " " }}_parent">
               {% if item.link == 'none' %}
               <a class="header__link" style="cursor:pointer" itemprop="url">
               {% else %}
@@ -28,7 +28,7 @@
                 <i class="arrow down"></i>
                 <!-- <span class="parent-indicator"></span> -->
               </a>          
-              <div class="container header__links-wrapper" id="{{ item.name }}_child">
+              <div class="container header__links-wrapper" id="{{ item.name | remove: " " }}_child">
                 {% for subitem in item.sublinks %}
                 {% if subitem.link == 'none' %}
                 <a class="header__link" style="cursor:pointer" itemprop="url">

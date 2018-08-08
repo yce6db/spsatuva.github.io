@@ -18,6 +18,7 @@ ___
         <h1>
             {{ year.year }}
         </h1>
+        <i class="arrow{% if year.year == site.data.exec-board.current-year %} up {% else %} down {% endif %}"></i>
     </div>
     <div class="exec_board_container collapse {% if year.year == site.data.exec-board.current-year %} show {% endif %}" id="{{ year.year }}" aria-labelledby="{{ year.year }}" data-parent="#exec_board">
         {% for person in year.board %}
@@ -75,3 +76,4 @@ ___
     </div>
     {% endfor %}
 </div>
+
