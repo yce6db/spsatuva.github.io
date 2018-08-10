@@ -1,4 +1,4 @@
-current-year: 2018-2019
+current-year: 2018 - 2019
 
 members:
   - name: Pedrom Zadeh
@@ -202,7 +202,7 @@ members:
         astronomy building.
 
 exec-boards:
-  - year: 2018-2019
+  - year: 2018 - 2019
     board: 
     - name: Pedrom Zadeh
       role: President
@@ -226,7 +226,7 @@ exec-boards:
       role: Sigma Pi Sigma President
     - name: Robin Leichtnam
       role: Sigma Pi Sigma Vice President
-  - year: 2017-2018
+  - year: 2017 - 2018
     board:
     - name: Steven Stetzler
       role: President
@@ -250,7 +250,7 @@ exec-boards:
       role: Sigma Pi Sigma President
     - name: Bridget Andersen
       role: Sigma Pi Sigma Vice President
-  - year: 2016-2017
+  - year: 2016 - 2017
     board:
       - name: Gage DeZoort
         role: President
@@ -262,7 +262,7 @@ exec-boards:
         img: Steven_Stetzler
       - name: Andrew Coffee
         role: Secretary
-  - year: 2015-2016
+  - year: 2015 - 2016
     board:
       - name: Emily Cubbage
         role: President
@@ -272,13 +272,13 @@ exec-boards:
         role: Treasurer
       - name: Gage DeZoort
         role: Secretary
-  - year: 2014-2015
+  - year: 2014 - 2015
     board:
       - name: Mita Tembe
         role: President
       - name: Janet Rafner
         role: Treasurer / Secretary
-  - year: 2013-2014
+  - year: 2013 - 2014
     board:
       - name: Helen Rodgers
         role: President
