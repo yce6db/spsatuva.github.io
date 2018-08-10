@@ -1,0 +1,33 @@
+.collapse-list-heading {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+
+    clear: both;
+
+    * {
+        float: left;
+    }
+
+    .arrow {
+        float: left;
+        border: solid;
+        border-width: 0 3px 3px 0;    
+        padding: 6px;
+        transition: all 0.5s;
+    }
+
+    .down {
+        transform: translate(100%, 105%) rotate(45deg);
+        -webkit-transform: translate(100%, 105%) rotate(45deg);
+    }
+  
+    .up {
+        transform: translate(100%, 120%) rotate(225deg);
+        -webkit-transform: translate(100%, 120%) rotate(225deg);
+    }  
+}
+
+.collapse-list-info-container {
+    display: inline-block;
+}
