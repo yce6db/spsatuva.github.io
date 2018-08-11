@@ -1,0 +1,20 @@
+.guide-list-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.guide-list-heading {
+    color: $heading-color;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: table;
+    font-weight: bold;
+    border-bottom-style: solid; 
+    border-bottom-color: $heading-color;
+    font-size: 1.5em;
+}
+
+.clark-header-image {
+    width: 100%;
+    margin-bottom: 5px;
+}
