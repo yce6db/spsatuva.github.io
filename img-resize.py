@@ -91,8 +91,8 @@ def find_images(folder):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--convert", type=str, action='store',
-        help="The format to convert all images to. Either JPEG or PNG.",
-        default='JPEG')
+        help="The format to convert all images to. Either JPEG or PNG. Default = None",
+        default=None)
     parser.add_argument("--quality", type=int, action='store',
         help="The quality to use with JPEG compression. Valid range is 1 - 100.",
         default=70)
@@ -156,18 +156,15 @@ def main():
     images = [Image.open(i) for i in image_names]
 
     for name, img in zip(image_names, images):
-        # print(name)
         folder_name = os.path.dirname(name)
         if folder_name != in_dir:
             folder_name = folder_name.replace(in_dir + '/', '')
-        
         # Check if we are scanning the root directory, in which case we want
         # those files to go to the root of the our directory
-        if folder_name == in_dir:
+        if folder_name == in_dir or folder_name + '/' == in_dir:
             save_dir = out_dir
         else:
             save_dir = os.path.join(out_dir, folder_name)
-
         make_dir(save_dir)
 
         update("\nProcessing {}".format(name))
@@ -187,7 +184,9 @@ def main():
         for width_name, resize_width in key_val_list:
             filename, ext = os.path.splitext(name)
 
-            if img.format == 'JPEG' or convert == 'JPEG':
+            if convert is None:
+                ext = ext[1:]
+            elif img.format == 'JPEG' or convert == 'JPEG':
                 ext = 'jpg'
             elif img.format == 'PNG' or convert == 'PNG':
                 ext = 'png'
@@ -208,8 +207,7 @@ def main():
 
             # Check if we are upscaling, in which case a new image isn't necessary
             if resize_width >= width:
-                warn("Upscaling detected! Format {} requires an image of width at least {}px\nSaving \
-                        at normal resolution...".format(width_name, resize_width))
+                warn("Upscaling detected! Format {} requires an image of width at least {}px\nSaving at normal resolution...".format(width_name, resize_width))
                 resize_width = width
                 resize_height = height
 
