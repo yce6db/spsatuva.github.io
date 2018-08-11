@@ -48,22 +48,24 @@ ___
                     </h3>
                 </div>
                 {% if image %}
-                <div class="exec_board_image">
-                    <img data-sizes="auto" class="exec_board_image lazyload blur" src="{{ site.baseurl }}/assets/img/exec/{{ image }}_placehold.jpg" data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_sm.jpg 576w, {{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_md.jpg 768w, {{ site.url }}{{ site.baseurl }}/assets/img/exec/{{ image }}_lg.jpg 992w"/>
-                    <noscript><img class="exec_board_image" src="{{ site.baseurl }}/assets/img/exec/{{ image }}.jpg"/></noscript>
-                </div>
+                    {% include lazy-image.html
+                       image=image 
+                       base_path='exec'
+                       container-class="exec_board_image"
+                       image-class="exec_board_image"
+                    %}
                 {% endif %}
                 {% if homepage or email %}
-                {% if homepage %}
-                <p>
-                    <strong>Homepage</strong>: <a href="{{ homepage }}"> {{ homepage }} </a>
-                </p>
-                {% endif %}
-                {% if email %}
-                <p>
-                    <strong>Email</strong>: <a href="mailto:{{ email }}"> {{ email }} </a>
-                </p>
-                {% endif %}
+                    {% if homepage %}
+                    <p>
+                        <strong>Homepage</strong>: <a href="{{ homepage }}"> {{ homepage }} </a>
+                    </p>
+                    {% endif %}
+                    {% if email %}
+                    <p>
+                        <strong>Email</strong>: <a href="mailto:{{ email }}"> {{ email }} </a>
+                    </p>
+                    {% endif %}
                 {% endif %}
             </div>
             <div class="exec_board_description">

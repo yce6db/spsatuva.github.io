@@ -13,28 +13,12 @@ We got together in the freezing cold and decided to go for a walk/hike through R
 
 Thanks to everyone who came out!
 
-{%- capture img_path1 -%}
-{{ site.url }}{{ site.baseurl }}/assets/img/posts/2018_sps_wild1
-{%- endcapture -%}
 {% include lazy-image.html 
-    path=img_path1 
-    title="Pictures from the Event" 
-    caption="The wild and elusive physics student in its natural habitat." 
-    container-class="post-image-container" 
-    title-class="post-image-title" 
-    caption-class="post-image-caption"
-    image-class="post-image"  
+   image="2018_sps_wild1.jpg" 
+   title="Pictures from the Event" 
+   caption="The wild and elusive physics student in its natural habitat."
 %}
 
-{%- capture img_path2 -%}
-{{ site.url }}{{ site.baseurl }}/assets/img/posts/2018_sps_wild2
-{%- endcapture -%}
 {% include lazy-image.html 
-    path=img_path2 
-    title="" 
-    caption=""
-    container-class="post-image-container" 
-    title-class="post-image-title" 
-    caption-class="post-image-caption"
-    image-class="post-image" 
+   image="2018_sps_wild2.jpg"
 %}

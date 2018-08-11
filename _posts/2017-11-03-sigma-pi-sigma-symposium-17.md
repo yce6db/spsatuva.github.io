@@ -28,15 +28,8 @@ Posters:
 
 We would also like to give special thanks to Profs. Group, Paschke, Davis, and Vucelja. We would like to thank the Physics and Astronomy Departments for support for prizes, and the College Councel for support for lunch. 
 
- {%- capture img_path -%}
- {{ site.url }}{{ site.baseurl }}/assets/img/posts/2017_Symposium 
- {%- endcapture -%}
- {% include lazy-image.html 
-    path=img_path
-    title="Pictures from the Event" 
-    caption="Several students present their poster at the symposium." 
-    container-class="post-image-container" 
-    title-class="post-image-title" 
-    caption-class="post-image-caption"
-    image-class="post-image" 
- %}
+{% include lazy-image.html 
+   image="2017_Symposium.jpg"
+   title="Pictures from the Event" 
+   caption="Several students present their poster at the symposium."
+%}

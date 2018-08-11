@@ -1,19 +1,116 @@
+<!-- Determine what the full path to the image is -->
+<!-- Assumes /assets/img/ as the base path and appends
+     posts/ if page is a post or {{ include.base_path }}
+     if base_path is passed to the lazy-image include      
+-->
+{% unless include.image_path %}
+  {% if page.layout == 'post' %}
+    {%- capture img_base_path -%}
+      {{ site.url }}{{ site.baseurl }}/assets/img/posts/
+    {%- endcapture -%}
+  {% elsif include.base_path %}
+    {%- capture img_base_path -%}
+      {{ site.url }}{{ site.baseurl }}/assets/img/{{ include.base_path }}/
+    {%- endcapture -%}
+  {% else %}
+    {%- capture img_base_path -%}
+      {{ site.url }}{{ site.baseurl }}/assets/img/
+    {%- endcapture -%}
+  {% endif %}
+{% endunless %}
 
-<div class="{{ include.container-class }}">
+<!-- Make assumptions about the div container class if
+     page is a post
+-->
+{% if include.container-class %}
+  {% assign container-class = include.container-class %}
+{% else %}
+  {% if page.layout == 'post' %}
+    {% assign container-class = 'post-image-container' %}
+  {% endif %}
+{% endif %}
+
+<!-- Make assumptions about the title class if
+     page is a post
+-->
+{% if include.title-class %}
+  {% assign title-class = include.title-class %}
+{% else %}
+  {% if page.layout == 'post' %}
+    {% assign title-class = 'post-image-title' %}
+  {% endif %}
+{% endif %}
+
+<!-- Make assumptions about the caption class if
+     page is a post
+-->
+{% if include.caption-class %}
+  {% assign caption-class = include.caption-class %}
+{% else %}
+  {% if page.layout == 'post' %}
+    {% assign caption-class = 'post-image-caption' %}
+  {% endif %}
+{% endif %}
+
+<!-- Make assumptions about the image class if
+     page is a post
+-->
+{% if include.image-class %}
+  {% assign image-class = include.image-class %}
+{% else %}
+  {% if page.layout == 'post' %}
+    {% assign image-class = 'post-image' %}
+  {% endif %}
+{% endif %}
+
+{% assign image_name_split = include.image | split: "." %}
+
+{% if image_name_split.size == 1 %}
+    {% assign ext = 'jpg' %}
+{% else %}
+    {% assign image = image_name_split[0] %}
+    {% assign ext = image_name_split[1] %}
+{% endif %}
+
+{%- capture image_path -%}
+    {{ img_base_path }}{{ image }}
+{%- endcapture -%}
+
+{%- capture placehold_path -%}
+  {{ image_path }}_placehold.{{ ext }}
+{%- endcapture -%}
+
+{%- capture sm_path -%}
+  {{ image_path }}_sm.{{ ext }}
+{%- endcapture -%}
+
+{%- capture md_path -%}
+  {{ image_path }}_md.{{ ext }}
+{%- endcapture -%}
+
+{%- capture lg_path -%}
+  {{ image_path }}_lg.{{ ext }}
+{%- endcapture -%}
+
+{%- capture img_path -%}
+  {{ image_path }}.{{ ext }}
+{%- endcapture -%}
+
+<div {% if container-class %}class="{{ container-class }}"{% endif %}>
   {% if include.title %}
-  <h3 class="{{ include.title-class }}">{{ include.title}}</h3>
+    <h3 {% if title-class %}class="{{ title-class }}"{% endif %}>{{ include.title}}</h3>
   {% endif %}
   {% if include.caption %} 
-  <p class="{{ include.caption-class }}"> {{ include.caption}} </p>
+    <p {% if caption-class %}class="{{ caption-class }}"{% endif %}> {{ include.caption}} </p>
   {% endif %}
   <img 
     data-sizes="auto" 
-    class="lazyload blur {{ include.image-class }}" 
-    src="{{ include.path | append: ".jpg" }}" 
-    data-srcset="{{ include.path | append: "_sm.jpg" }} 576w, {{ include.path | append: "_md.jpg" }} 768w, {{ include.path | append: "_lg.jpg" }} 992w" 
-    {% if include.caption %} 
-    alt="{{ include.caption }}" 
+    class="lazyload blur {{ image-class }}" 
+    src="{{ placehold_path }}" 
+    data-srcset="{{ sm_path }} 576w, {{ md_path }} 768w, {{ lg_path }} 992w" 
+    {% if include.alt %} 
+    alt="{{ include.alt }}" 
     {% endif %}
-    />
-  <noscript><img class="{{ include.image-class }}" src="{{ include.path | append: ".jpg" }}"/></noscript>
+  />
+  <noscript><img class="{{ image-class }}" src="{{ img_path }}"/></noscript>
 </div>
