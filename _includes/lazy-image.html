@@ -63,8 +63,10 @@
   {% endif %}
 {% endif %}
 
+<!-- Split the image name to get the filename and extension -->
 {% assign image_name_split = include.image | split: "." %}
 
+<!-- If no extension included, assume jpg -->
 {% if image_name_split.size == 1 %}
     {% assign ext = 'jpg' %}
 {% else %}
@@ -76,6 +78,7 @@
     {{ img_base_path }}{{ image }}
 {%- endcapture -%}
 
+<!-- Generate paths to responsive sized images -->
 {%- capture placehold_path -%}
   {{ image_path }}_placehold.{{ ext }}
 {%- endcapture -%}
@@ -96,6 +99,7 @@
   {{ image_path }}.{{ ext }}
 {%- endcapture -%}
 
+<!-- Actual HTML generated -->
 <div {% if container-class %}class="{{ container-class }}"{% endif %}>
   {% if include.title %}
     <h3 {% if title-class %}class="{{ title-class }}"{% endif %}>{{ include.title}}</h3>
