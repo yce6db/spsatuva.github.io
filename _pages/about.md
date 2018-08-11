@@ -50,7 +50,7 @@ ___
                 {% if image %}
                     {% include lazy-image.html
                        image=image 
-                       base_path='exec'
+                       base-path='exec'
                        container-class="exec_board_image"
                        image-class="exec_board_image"
                     %}

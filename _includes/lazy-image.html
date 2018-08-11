@@ -1,19 +1,19 @@
 <!-- Determine what the full path to the image is -->
 <!-- Assumes /assets/img/ as the base path and appends
-     posts/ if page is a post or {{ include.base_path }}
-     if base_path is passed to the lazy-image include      
+     posts/ if page is a post or {{ include.base-path }}
+     if base-path is passed to the lazy-image include      
 -->
 {% unless include.image_path %}
   {% if page.layout == 'post' %}
-    {%- capture img_base_path -%}
+    {%- capture img_base-path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/posts/
     {%- endcapture -%}
-  {% elsif include.base_path %}
-    {%- capture img_base_path -%}
-      {{ site.url }}{{ site.baseurl }}/assets/img/{{ include.base_path }}/
+  {% elsif include.base-path %}
+    {%- capture img_base-path -%}
+      {{ site.url }}{{ site.baseurl }}/assets/img/{{ include.base-path }}/
     {%- endcapture -%}
   {% else %}
-    {%- capture img_base_path -%}
+    {%- capture img_base-path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/
     {%- endcapture -%}
   {% endif %}
@@ -75,7 +75,7 @@
 {% endif %}
 
 {%- capture image_path -%}
-    {{ img_base_path }}{{ image }}
+    {{ img_base-path }}{{ image }}
 {%- endcapture -%}
 
 <!-- Generate paths to responsive sized images -->
