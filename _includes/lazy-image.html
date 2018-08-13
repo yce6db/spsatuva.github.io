@@ -1,8 +1,10 @@
+{% comment %}
 <!-- Determine what the full path to the image is -->
 <!-- Assumes /assets/img/ as the base path and appends
      posts/ if page is a post or {{ include.base-path }}
      if base-path is passed to the lazy-image include      
 -->
+{% endcomment %}
 {% unless include.image_path %}
   {% if page.layout == 'post' %}
     {%- capture img_base-path -%}
@@ -19,9 +21,11 @@
   {% endif %}
 {% endunless %}
 
+{% comment %}
 <!-- Make assumptions about the div container class if
      page is a post
 -->
+{% endcomment %}
 {% if include.container-class %}
   {% assign container-class = include.container-class %}
 {% else %}
@@ -30,9 +34,11 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Make assumptions about the title class if
      page is a post
 -->
+{% endcomment %}
 {% if include.title-class %}
   {% assign title-class = include.title-class %}
 {% else %}
@@ -41,9 +47,11 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Make assumptions about the caption class if
      page is a post
 -->
+{% endcomment %}
 {% if include.caption-class %}
   {% assign caption-class = include.caption-class %}
 {% else %}
@@ -52,9 +60,11 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Make assumptions about the image class if
      page is a post
 -->
+{% endcomment %}
 {% if include.image-class %}
   {% assign image-class = include.image-class %}
 {% else %}
@@ -63,10 +73,14 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Split the image name to get the filename and extension -->
+{% endcomment %}
 {% assign image_name_split = include.image | split: "." %}
 
+{% comment %}
 <!-- If no extension included, assume jpg -->
+{% endcomment %}
 {% if image_name_split.size == 1 %}
     {% assign ext = 'jpg' %}
 {% else %}
@@ -78,7 +92,9 @@
     {{ img_base-path }}{{ image }}
 {%- endcapture -%}
 
+{% comment %}
 <!-- Generate paths to responsive sized images -->
+{% endcomment %}
 {%- capture placehold_path -%}
   {{ image_path }}_placehold.{{ ext }}
 {%- endcapture -%}
@@ -99,7 +115,9 @@
   {{ image_path }}.{{ ext }}
 {%- endcapture -%}
 
+{% comment %}
 <!-- Actual HTML generated -->
+{% endcomment %}
 <div {% if container-class %}class="{{ container-class }}"{% endif %}>
   {% if include.title %}
     <h3 {% if title-class %}class="{{ title-class }}"{% endif %}>{{ include.title}}</h3>
@@ -107,9 +125,12 @@
   {% if include.caption %} 
     <p {% if caption-class %}class="{{ caption-class }}"{% endif %}> {{ include.caption}} </p>
   {% endif %}
+  {% if include.title or include.caption %}
+  <div>
+  {% endif %}
   <img 
     data-sizes="auto" 
-    class="lazyload blur {{ image-class }}" 
+    class="lazyload blur {{ image-class }} {% unless include.no-full-width %} full-width-img {% endunless %}" 
     src="{{ placehold_path }}" 
     data-srcset="{{ sm_path }} 576w, {{ md_path }} 768w, {{ lg_path }} 992w" 
     {% if include.alt %} 
@@ -117,4 +138,7 @@
     {% endif %}
   />
   <noscript><img class="{{ image-class }}" src="{{ img_path }}"/></noscript>
+  {% if include.title or include.caption %}
+  </div>
+  {% endif %}
 </div>

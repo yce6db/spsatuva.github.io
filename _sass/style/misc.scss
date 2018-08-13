@@ -8,3 +8,23 @@ pre {
         word-wrap: break-word;       /* Internet Explorer 5.5+ */
     }
 }
+
+.media-test {
+    width: 100px;
+
+    @media (min-width: $lg) {
+        width: 4px;
+    }
+
+    @media (max-width: $lg) {
+        width: 3px;
+    }
+
+    @media (max-width: $md) {
+        width: 2px;
+    }
+
+    @media (max-width: $sm) {
+        width: 1px;
+    }
+}
