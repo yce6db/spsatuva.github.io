@@ -7,3 +7,9 @@
 .header__logo {
     min-width: 100px;
 }
+
+@media (min-width: $md) {
+    .header__logo {
+        margin-right: 0;
+    }
+}
