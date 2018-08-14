@@ -106,9 +106,25 @@ So you've finished a research project, or you are still working on it but have s
 
 Presenting your research at a scientific meeting allows you to travel to another location (usually nice places), meet others in the physics community (often famous people and nobel prize winners), and share your results with your peers. Presenting your research is also a **core** part of being a scientist. Many physicists spend a large portion of their time writing papers for their research group and presenting work on behalf of the collaborations they work with, so if you plan on sticking around, you should get used to presenting your work. It is also a great thing to have on your CV / resume when appling for graduate programs, as presenting your work is a sign that you've *produced results*, which is a sign of an effective researcher and physicist.
 
-### Posters
+### Posters and Talks
 
-If you are an undergraduate, and especially if you are coming out of your first research experience, you will likely be presenting a *poster* on your research, which is an informational document that you present to others at a poster session at a conference. SPS has compiled a guide and information on poster making best practices here: **INSERT LINK**
+If you are an undergraduate, and especially if you are coming out of your first research experience, you will likely be presenting a *poster* on your research, which is an informational document that you present to others at a poster session at a conference. Posters are relatively straightforward to make, and it's best to follow a few general guidelines (you can find plenty of information on this with Google. A simple search revealed these guides [here](https://guides.nyu.edu/posters), [here](https://www.youtube.com/watch?v=AwMFhyH7_5g), and [here](https://hsp.berkeley.edu/sites/default/files/ScientificPosters.pdf)). First, use a large font that will be visible from far away. Second, limit the amount of text you use. Replace it all with pretty pictures instead! Third, tailor you poster content and spoken explanations to be accessbile to a general audience. Likely no one other than you and your advisor will understand the details of your work so keep it simple. These are just general guidelines and what the poster looks like is up to you, but just make something pretty and accessible and people will enjoy reading it. 
+
+The advice for making a good talk is generally similar to making a poster. Make your slides easily readable and dynamic. Use lots of pictures to get your point across and limit how much text you use. And keep your talk short, simple, and accessible. Finally, and most importantly: **DO NOT GO OVER YOUR ALLOTTED TIME**. Practice your talk to ensure that you can get through it in the presentation time you are given with room at the end for questions.
+
+You can find examples of posters from past SPS members below to act as a guide when making your own poster or talk.
+
+{% assign path = "/assets/pdf/research/" %}
+
+#### Posters 
+- [Poster presented at AAS]({{ path | append: "Poster_1.pdf" }})
+- [Poster presented at APS]({{ path | append: "Poster_2.pdf" }})
+- [Poster 3]({{ path | append: "Poster_3.pdf" }})
+
+#### Talks
+- [A collection of informal research talks given at SPS by students]({{ path | append: "SPS_Research_Talks.pdf" }})
+- [Talk 2]({{ path | append: "talk_2.pdf" }})
+- [Talk 3]({{ path | append: "talk_3.pdf" }})
 
 ### Meetings you should attend
 
