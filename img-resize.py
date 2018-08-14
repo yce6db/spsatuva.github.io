@@ -17,10 +17,24 @@ import sys
 import os
 import shutil
 from glob import glob
-from PIL import Image
 import argparse
 
 is_win = 'win' in sys.platform
+
+try:
+    from PIL import Image
+except:
+    print("Cannot import PIL. Try:")
+    print("\npython -m pip install Pillow\n")
+    if is_win:
+        print("If you need permission to install, open cmd as administrator")
+    else:
+        print("If you need permission, instead run")
+        print("\nsudo python -m pip install Pillow\n")
+    
+    print("If you run python with a command other than 'python', replace 'python' with the command you use above.\n")
+
+    exit(1)
 
 class colors:
     HEADER = '\033[95m'
