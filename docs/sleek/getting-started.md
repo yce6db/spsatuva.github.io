@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: doc
 title: Getting Started with Sleek
 featured-img: sleek
 mathjax: true

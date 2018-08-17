@@ -1,6 +1,6 @@
 ---
-layout: docs
-title: sleek
+layout: doc
+title: Sleek
 ---
 
 # Sleek

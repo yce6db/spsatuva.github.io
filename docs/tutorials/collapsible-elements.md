@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Making collapsible elements
-permalink: /docs/test-collapse/
+layout: doc
+title: Making Collapsible Elements
 ---
 
 See documentation for Boostrap collapse elements [here](http://getbootstrap.com/docs/4.0/components/collapse/).

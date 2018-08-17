@@ -1,0 +1,19 @@
+<div class="sidenav">
+{% for nav-item in site.data.sidebar.nav %}
+
+    <strong class="nav-heading">{{ nav-item.title | upcase }}</strong>
+
+    <hr>
+
+    <ul class="nav-list">
+    {% for nav-sub-item in nav-item.list %}
+    
+        <li class="nav-item">
+            <a href="{{ nav-sub-item.url }}">{{ nav-sub-item.name }}</a>
+        </li>
+
+    {% endfor %}
+    </ul>
+
+{% endfor %}
+</div>
