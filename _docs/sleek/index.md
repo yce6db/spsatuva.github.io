@@ -1,6 +1,8 @@
 ---
-layout: doc
+layout: docs
 title: Sleek
+doc-title: Sleek Documentation
+permalink: /docs/sleek/
 ---
 
 # Sleek
