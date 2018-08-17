@@ -1,40 +1,41 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
-  {% include head.html %}
-
-  <body class="site">
-
-    {% if site.google_tag_manager %}
-
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
-
-    {% include header.html %}
-
-      {% if page.container == true or page.container == nil %}
-      <div class="container">
-        <div class="page-content">
-
-          {{ content }}
-
+<main class="site__content">
+    <div class="container">
+        <div class="doc-container">
+            {% include sidebar.html docs=true %}
+            <div class="doc-content">
+                {% if page.title %}
+                <div class="doc-content-heading">
+                    <h1>{{ page.title }}</h1>
+                </div>
+                {% endif %}
+                {{ content }}
+            </div>
         </div>
-      </div>
-      {% else %}
-      {{ content }}
-      {% endif %}
+    </div>
+</main>
+  
+{% include mathjax.html %}
 
-    </main>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<script>
+    window.onload = function() {
+        var item = document.getElementById(
+            {% if page.doc-title %}
+            "{{ page.doc-title | remove: ' '}}"
+            {% else %}
+            "{{ page.title | remove: ' '}}"
+            {% endif %}
+        );
+        var topPos = item.offsetTop;
+        var sidenav = document.getElementById('sidenav');
+        var divHeight = sidenav.clientHeight;
+        /* 20 is the combined padding on the top and bottom of the sidenav div */
+        var not_visible = topPos > divHeight - 20;
+        if (not_visible) {
+            document.getElementById('sidenav').scrollTop = topPos;
+        }
+    };
+</script>

@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Making collapsible elements
-permalink: /docs/test-collapse/
+layout: docs
+title: Making Collapsible Elements
 ---
 
 See documentation for Boostrap collapse elements [here](http://getbootstrap.com/docs/4.0/components/collapse/).
@@ -76,7 +75,7 @@ This renders to:
 
 # With liquid tags and external data
 
-We can make this more complex by generating the list with liquid tags. Examine the data in `_data/test-collapse.yml`, which has the structure:
+We can make this more complex by generating the list with liquid tags. Examine the data in `_data/docs/test-collapse.yml`, which has the structure:
 
 ```yml
 data:
@@ -94,8 +93,8 @@ With the following HTML + Liquid code
 ```html
 {% raw %}<div class="collapse-list-wrapper" 
      id="complex-wrapper-id">
-    <!-- We loop over each item in the list specified with site.data.test-collapse.data -->
-    {% for item in site.data.test-collapse.data %}
+    <!-- We loop over each item in the list specified with site.data.docs.test-collapse.data -->
+    {% for item in site.data.docs.test-collapse.data %}
     <!-- We're going to make a unique HTML5-friendly (no spaces) target id to use from the data -->
     <!-- Here, we just use the heading name to uniquely identify each item in the collapse list -->
     <!-- The capture tag takes whatever is rendered inside it and puts it in a string contained in the variable 'target-id' to use later -->
@@ -139,7 +138,7 @@ Which, when the Liquid tags renders out gives this code:
 ```html
 <div class="collapse-list-wrapper" 
      id="complex-wrapper-id">
-    {% for item in site.data.test-collapse.data %}
+    {% for item in site.data.docs.test-collapse.data %}
     {%- capture target-id -%}
         {{ item.heading-name | remove: " " }}
     {%- endcapture -%}
@@ -173,8 +172,8 @@ We can make a collapse list that renders to:
 <div style="background-color: #f8f8f8; border-radius: 0.3rem; border: solid 1px; padding: 5px;">
     <div class="collapse-list-wrapper" 
          id="complex-wrapper-id">
-        <!-- We loop over each item in the list specified with site.data.test-collapse.data -->
-        {% for item in site.data.test-collapse.data %}
+        <!-- We loop over each item in the list specified with site.data.docs.test-collapse.data -->
+        {% for item in site.data.docs.test-collapse.data %}
         <!-- We're going to make a unique HTML5-friendly (no spaces) target id to use from the data -->
         <!-- Here, we just use the heading name to uniquely identify each item in the collapse list -->
         <!-- The capture tag takes whatever is rendered inside it and puts it in a string contained in the variable 'target-id' to use later -->

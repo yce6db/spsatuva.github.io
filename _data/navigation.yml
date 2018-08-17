@@ -4,7 +4,6 @@ header: # Navigation links
   - name: 'Events'
     link: '/events'
   - name: 'Resources'
-    link: 'none'
     sublinks:
       - name: 'Research'
         link: '/research'
@@ -13,14 +12,12 @@ header: # Navigation links
       - name: 'Grad School'
         link: '/grad-school'
   - name: 'PHYS 1910'
-    link: 'none'
     sublinks:
       - name: 'About'
         link: '/phys1910/about'
       - name: 'Lectures'
         link: '/phys1910/lectures'
   - name: 'Outreach'
-    link: 'none'
     sublinks:
       - name: 'About'
         link: '/outreach/about'

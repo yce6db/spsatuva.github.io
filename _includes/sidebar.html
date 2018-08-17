@@ -1,0 +1,63 @@
+<div class="sidenav{% if include.in-line %}-in-line{% endif %}" id="sidenav">
+{% if include.nav %}
+    {% for nav-item in include.nav %}
+        <strong class="nav-heading">{{ nav-item.title | upcase }}</strong>
+        <hr>
+        <ul class="nav-list">
+        {% for nav-sub-item in nav-item.list %}
+            <li class="nav-item">
+                <a href="{{ nav-sub-item.url }}">{{ nav-sub-item.name }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+{% endif %}
+{% if include.docs %}
+    {% for doc in site.docs %}
+        {% assign split_path = doc.url | split: "/" %}
+        {% if split_path[2] %}
+            {% assign my_dir = split_path[2] %}
+        {% else %}
+            {% assign my_dir = split_path[1] %}
+        {% endif %}
+        {% if doc.doc-title %}
+            {% assign doc-title = doc.doc-title %}
+        {% else %}
+            {% assign doc-title = doc.title %}
+        {% endif %}
+        {% if my_dir contains 'index' %}
+            {% assign header = 'Documentation' %}
+        {% else %}
+            {% assign header = my_dir %}
+        {% endif %}
+        {% if my_dir == current_dir %}
+            <li class="nav-item">
+                {% if doc.url == page.url %}
+                    <strong>
+                {% endif %}
+                        <a id="{{ doc-title | remove: " " }}" href="{{ doc.url }}">{{ doc-title }}</a>
+                {% if doc.url == page.url %}
+                    </strong>
+                {% endif %}
+            </li>
+        {% else %}
+            {% unless forloop.index == 1 %}
+                </ul>
+            {% endunless %}
+            <strong class="nav-heading">{{ header | upcase }}</strong>
+            <hr>
+            <ul class="nav-list">
+            <li class="nav-item" id="{{ doc-title | remove: " " }}">
+                {% if doc.url == page.url %}
+                    <strong>
+                {% endif %}
+                        <a href="{{ doc.url }}">{{ doc-title }}</a>
+                {% if doc.url == page.url %}
+                    </strong>
+                {% endif %}
+            </li>
+            {% assign current_dir = my_dir %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+</div>
