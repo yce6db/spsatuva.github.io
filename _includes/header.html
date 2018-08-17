@@ -19,14 +19,9 @@
           {% for item in site.data.navigation.header %}
             {% if item.sublinks %}
             <div class="header__item" id="{{ item.name | remove: " " }}_parent">
-              {% if item.link == 'none' %}
               <a class="header__link" style="cursor:pointer" itemprop="url">
-              {% else %}
-              <a class="header__link" href="{{ site.baseurl}}{{ item.link }}" itemprop="url">
-              {% endif %}
                 <span itemprop="name">{{ item.name }}</span> 
                 <i class="arrow down"></i>
-                <!-- <span class="parent-indicator"></span> -->
               </a>          
               <div class="container header__links-wrapper" id="{{ item.name | remove: " " }}_child">
                 {% for subitem in item.sublinks %}
