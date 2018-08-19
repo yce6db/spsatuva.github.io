@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Outreach
-permalink: /outreach/about/
 ---
 
 Our SPS chapter participates in a number of outreach programs, and all SPS members are able to be involved in these.

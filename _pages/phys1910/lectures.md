@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PHYS 1910 Lectures
-permalink: /phys1910/lectures/
 ---
 
 Here you can find an archive of lecture recordings for the PHYS 1910 course, which you can find out more about [here]( {{ site.url }}{{ site.baseurl }}/phys1910/about/ ).

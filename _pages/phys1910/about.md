@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PHYS 1910
-permalink: /phys1910/about/
 ---
 
 # PHYS 1910 - Introduction to Physics Research

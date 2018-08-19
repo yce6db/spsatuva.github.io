@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Courses
-permalink: /courses/
 ---
 
 Here is all of the information about courses at UVA!

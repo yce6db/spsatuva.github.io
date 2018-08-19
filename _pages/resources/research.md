@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-permalink: /research/
 featured-img: bubble_chamber.jpg
 ---
 
