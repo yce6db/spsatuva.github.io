@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $("body").removeClass("preload");
+  $("body").removeClass("preload");
 });
