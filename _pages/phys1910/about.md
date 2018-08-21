@@ -1,7 +1,6 @@
 ---
 layout: page
 title: PHYS 1910
-permalink: /phys1910/about/
 ---
 
 # PHYS 1910 - Introduction to Physics Research
@@ -44,7 +43,7 @@ Below you can find the current and previous syllabi and course schedules for PHY
                 {% include lazy-image.html
                     image=image
                     base-path='pages/phys1910'
-                    image-class="image-1910"
+                    image-class="image-1910 full-width-img"
                 %}
                 <h2 class="image-name-1910"> {{ name }} </h2>
                 <h3 class="image-title-1910"> {{ title }} </h3>

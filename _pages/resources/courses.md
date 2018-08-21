@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Courses
-permalink: /courses/
-featured-img: bubble_chamber.jpg
 ---
 
 
@@ -14,36 +12,31 @@ Here is the link to the pdf the department has that more information about the p
 Here are some summaries/descriptions of courses that are required/typically offered:
 <div class="collapse-list-wrapper4phys1710" 
      id="wrapper-1710">
-<div class="collapse-list-heading" 
-         data-toggle="collapse" 
-         data-target="#1710" 
-         aria-controls="1710" 
-         aria-expanded="false">
-
-<h2> Intro physcis 1: PHYS 1710 </h2>
-<i class="arrow up"></i>
+    <div class="collapse-list-heading" 
+        data-toggle="collapse" 
+        data-target="#1710" 
+        aria-controls="1710" 
+        aria-expanded="false">
+        <h2> Intro physcis 1: PHYS 1710 </h2>
+        <i class="arrow h2arrow down"></i>
     </div>
-
-<div class="collapse-list-target collapse show" 
-         id="1710" 
-         aria-labelledby="1710" 
-         data-parent="#wrapper-1710">
-
-<p> 
-        
-This is often the first physics class someone will take when they begin the physics major at UVA. It is a calculus based introduction that covers the following topics: kinematics, mechanics, fluid dynamics, thermodynamics, and simple harmonic motion. This class is 5 credit course (4 credit lecture) and includes a 1 credit discussion session. 
-
-<br>
-<br>
-the standard text is <a href="https://www.amazon.com/MasteringPhysics-Student-Physics-Scientists-Engineers/dp/0131992260"> Physics for Scientists and Engineers, Giancoli, 4th edtion</a>
-<br>
-<br>
-You can expect to cover chapters 1-21 
-<br>
-<br>
-Prerequiste: Calculus 1(MATH 1310)        
-</p>
-</div>
+    <div class="collapse-list-target collapse" 
+        id="1710" 
+        aria-labelledby="1710" 
+        data-parent="#wrapper-1710">
+        <p>     
+        This is often the first physics class someone will take when they begin the physics major at UVA. It is a calculus based introduction that covers the following topics: kinematics, mechanics, fluid dynamics, thermodynamics, and simple harmonic motion. This class is 5 credit course (4 credit lecture) and includes a 1 credit discussion session. 
+        <br>
+        <br>
+        the standard text is <a href="https://www.amazon.com/MasteringPhysics-Student-Physics-Scientists-Engineers/dp/0131992260"> Physics for Scientists and Engineers, Giancoli, 4th edtion</a>
+        <br>
+        <br>
+        You can expect to cover chapters 1-21 
+        <br>
+        <br>
+        Prerequiste: Calculus 1(MATH 1310)        
+        </p>
+    </div>
 </div>
 
 
@@ -56,10 +49,10 @@ Prerequiste: Calculus 1(MATH 1310)
          aria-expanded="false">
 
 <h2> Intro physics 2: PHYS 1720 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="1720" 
          aria-labelledby="1720" 
          data-parent="#wrapper-1720">
@@ -90,10 +83,10 @@ Prerequistes: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHY
          aria-expanded="false">
 
 <h2> Fundementals of Scientfic Computing: PHYS 2660 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="2660" 
          aria-labelledby="2660" 
          data-parent="#wrapper-2660">
@@ -125,10 +118,10 @@ Prerequisite: One semester of calculus and one semester of introductory physics 
          aria-expanded="false">
 
 <h2> Modern Physics: PHYS 2620 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="2620" 
          aria-labelledby="2620" 
          data-parent="#wrapper-2620">
@@ -155,11 +148,11 @@ Prereqs: PHYS 2320, 2415, 1720, or 2610, and MATH 2310(Calc 3)
          aria-expanded="false">
 
 <h2> Elementrary lab 1: PHYS 2630 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="2630" 
          aria-labelledby="2630" 
          data-parent="#wrapper-2630">
@@ -187,10 +180,10 @@ This course is a lot of work outside of class so although it is a 3 credit cours
          aria-expanded="false">
 
 <h2> Elementrary lab 2: PHYS 2640 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="2640" 
          aria-labelledby="2640" 
          data-parent="#wrapper-2640">
@@ -214,10 +207,10 @@ Prerequisite: PHYS 1710, 1720, and 2630
          aria-expanded="false">
 
 <h2> Classical Mechanics: PHYS 3210 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3210" 
          aria-labelledby="3210" 
          data-parent="#wrapper-3210">
@@ -246,10 +239,10 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 1720
          aria-expanded="false">
 
 <h2> Electricity and Magnetisim 1: PHYS 3420 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3420" 
          aria-labelledby="3420" 
          data-parent="#wrapper-3420">
@@ -277,10 +270,10 @@ Prerequisite: MATH 4210, and PHYS 1720 or PHYS 2415
          aria-expanded="false">
 
 <h2> Electricity and Magnetisim 2: PHYS 3420 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3430" 
          aria-labelledby="3430" 
          data-parent="#wrapper-3430">
@@ -306,10 +299,10 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-expanded="false">
 
 <h2> Statistical physics: PHYS 3310 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3310" 
          aria-labelledby="3310" 
          data-parent="#wrapper-3310">
@@ -337,10 +330,10 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 2620
          aria-expanded="false">
 
 <h2> Quantum physics 1: PHYS 3650 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3650" 
          aria-labelledby="3650" 
          data-parent="#wrapper-3650">
@@ -369,10 +362,10 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, PHYS 2620; corequisite: PHYS 3
          aria-expanded="false">
 
 <h2> Quantum physics 2: PHYS 3660 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3660" 
          aria-labelledby="3660" 
          data-parent="#wrapper-3660">
@@ -397,10 +390,10 @@ Prerequisite: PHYS 3650.
          aria-expanded="false">
 
 <h2> Intermediate lab (1 or 2): PHYS 3170 or 3180 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3170" 
          aria-labelledby="3170" 
          data-parent="#wrapper-3170">

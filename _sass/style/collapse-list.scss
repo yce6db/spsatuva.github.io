@@ -12,20 +12,53 @@
     .arrow {
         float: left;
         border: solid;
-        border-width: 0 3px 3px 0;    
-        padding: 6px;
         transition: all 0.5s;
     }
 
-    .down {
+    .h1arrow {
+        border-width: 0 3px 3px 0;    
+        padding: 6px;
+    }
+
+    .h2arrow {
+        border-width: 0 3px 3px 0;    
+        padding: 5px;
+    }
+
+    .h3arrow {
+        border-width: 0 2px 2px 0;    
+        padding: 3px;
+    }
+
+    .down.h1arrow {
         transform: translate(100%, 105%) rotate(45deg);
         -webkit-transform: translate(100%, 105%) rotate(45deg);
     }
   
-    .up {
+    .down.h2arrow {
+        transform: translate(100%, 90%) rotate(45deg);
+        -webkit-transform: translate(100%, 90%) rotate(45deg);
+    }
+
+    .down.h3arrow {
+        transform: translate(100%, 120%) rotate(45deg);
+        -webkit-transform: translate(100%, 120%) rotate(45deg);
+    }
+
+    .up.h1arrow {
         transform: translate(100%, 120%) rotate(225deg);
         -webkit-transform: translate(100%, 120%) rotate(225deg);
-    }  
+    }
+
+    .up.h2arrow {
+        transform: translate(100%, 120%) rotate(225deg);
+        -webkit-transform: translate(100%, 120%) rotate(225deg);
+    }
+
+    .up.h3arrow {
+        transform: translate(100%, 140%) rotate(225deg);
+        -webkit-transform: translate(100%, 140%) rotate(225deg);
+    }
 }
 
 .collapse-list-info-container {

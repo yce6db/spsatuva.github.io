@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 # Who We Are
@@ -21,7 +20,7 @@ ___
         <h1>
             {{ year.year }}
         </h1>
-        <i class="arrow{% if year.year == site.data.exec-board.current-year %} up {% else %} down {% endif %}"></i>
+        <i class="arrow h1arrow{% if year.year == site.data.exec-board.current-year %} up {% else %} down {% endif %}"></i>
     </div>
     <div class="exec_board_container collapse {% if year.year == site.data.exec-board.current-year %} show {% endif %}" id="{{ year_no_space }}" aria-labelledby="{{ year_no_space }}" data-parent="#exec_board">
         {% for person in year.board %}
@@ -52,7 +51,7 @@ ___
                        image=image 
                        base-path='exec'
                        container-class="exec_board_image"
-                       image-class="exec_board_image"
+                       image-class="exec_board_image full-width-img"
                     %}
                 {% endif %}
                 {% if homepage or email %}

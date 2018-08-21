@@ -62,12 +62,15 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ['_pages', 'docs']
+# include: ['_pages', 'docs']
 permalink: /:year/:month/:day/:title/
 
 collections:
   docs:
     output: true    
+  pages:
+    output: true
+    permalink: /:path/
 
 compress_html:
   clippings: all
