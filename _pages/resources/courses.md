@@ -18,7 +18,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
         aria-controls="1710" 
         aria-expanded="false">
         <h2> Intro physcis 1: PHYS 1710 </h2>
-        <i class="arrow down"></i>
+        <i class="arrow h2arrow down"></i>
     </div>
     <div class="collapse-list-target collapse" 
         id="1710" 
@@ -49,7 +49,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
          aria-expanded="false">
 
 <h2> Intro physics 2: PHYS 1720 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -83,7 +83,7 @@ Prerequistes: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHY
          aria-expanded="false">
 
 <h2> Fundementals of Scientfic Computing: PHYS 2660 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -118,7 +118,7 @@ Prerequisite: One semester of calculus and one semester of introductory physics 
          aria-expanded="false">
 
 <h2> Modern Physics: PHYS 2620 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -148,7 +148,7 @@ Prereqs: PHYS 2320, 2415, 1720, or 2610, and MATH 2310(Calc 3)
          aria-expanded="false">
 
 <h2> Elementrary lab 1: PHYS 2630 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 
@@ -180,7 +180,7 @@ This course is a lot of work outside of class so although it is a 3 credit cours
          aria-expanded="false">
 
 <h2> Elementrary lab 2: PHYS 2640 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -207,7 +207,7 @@ Prerequisite: PHYS 1710, 1720, and 2630
          aria-expanded="false">
 
 <h2> Classical Mechanics: PHYS 3210 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -239,7 +239,7 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 1720
          aria-expanded="false">
 
 <h2> Electricity and Magnetisim 1: PHYS 3420 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -270,7 +270,7 @@ Prerequisite: MATH 4210, and PHYS 1720 or PHYS 2415
          aria-expanded="false">
 
 <h2> Electricity and Magnetisim 2: PHYS 3420 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -299,7 +299,7 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-expanded="false">
 
 <h2> Statistical physics: PHYS 3310 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -330,7 +330,7 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 2620
          aria-expanded="false">
 
 <h2> Quantum physics 1: PHYS 3650 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -362,7 +362,7 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, PHYS 2620; corequisite: PHYS 3
          aria-expanded="false">
 
 <h2> Quantum physics 2: PHYS 3660 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -390,7 +390,7 @@ Prerequisite: PHYS 3650.
          aria-expanded="false">
 
 <h2> Intermediate lab (1 or 2): PHYS 3170 or 3180 </h2>
-<i class="arrow down"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
