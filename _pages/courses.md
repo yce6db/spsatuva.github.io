@@ -417,6 +417,207 @@ Prerequisite: PHYS 2640 or PHYS 2419. PHYS 3170 is an independent course, and no
 </div>
 </div>
 
+<div class="collapse-list-wrapper4phys3995" 
+     id="wrapper-3995">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3995" 
+         aria-controls="3995" 
+         aria-expanded="false">
+
+<h2> Resarch: PHYS 3995 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="3995" 
+         aria-labelledby="3995" 
+         data-parent="#wrapper-3995">
+
+<p>
+All physics students seeking the bachlors of sciecne must take PHYS 3995 under the guidence of a proffessor. This usually includes doing a small project over the course of the semester and then writing a small summary at the end that will be turned into the deparment. For more information check out the research page <a href= "/research"> here</a>
+
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys3110" 
+     id="wrapper-3110">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3110" 
+         aria-controls="3110" 
+         aria-expanded="false">
+
+<h2> Widely Applied Physics : PHYS 3995 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="3110" 
+         aria-labelledby="3110" 
+         data-parent="#wrapper-3110">
+
+<p>
+Applications of physical principles to a diverse set of phenomena: order of magnitude estimates, dimensional analysis, material science and engineering, astrophysics, aeronautics and space flight, communications technology, meteorology, sound & acoustics and fluid dynamics. Not all topics will be covered in every course.
+<br>
+<br>
+No standard text
+<br>
+<br>
+Prerequisite: PHYS 2620
+
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys3150" 
+     id="wrapper-3150">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3150" 
+         aria-controls="3150" 
+         aria-expanded="false">
+
+<h2> Electronics lab : PHYS 3150 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="3150" 
+         aria-labelledby="3150" 
+         data-parent="#wrapper-3150">
+
+<p>
+The course begins by covering the fundamentals of analog and digital electronics, including the use of transistors, FET's, operational amplifiers, TTL, and CMOS integrated circuits. Following this students conduct projects with modern microcontroller boards (Arduino and Raspberry Pi) using the concepts and the experience gained from the prior fundamentals. Six laboratory hours
+<br>
+<br>
+Prerequisite: PHYS 2640 or 2040 or PHYS 2419
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys5310" 
+     id="wrapper-5310">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5310" 
+         aria-controls="5310" 
+         aria-expanded="false">
+
+<h2> Optics : PHYS 5310 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="5310" 
+         aria-labelledby="5310" 
+         data-parent="#wrapper-5310">
+
+<p>
+This course introduces topics such as reflection and refraction at interfaces, geometrical optics, interference phenomena, diffraction, Gaussian optics, and polarization. For students who do not want to take E&M 2 they can take this course instead and still be awarded the Bachelors of Science. 
+<br>
+<br>
+standard text is <a href="https://www.amazon.com/Optics-Miles-V-Klein/dp/0471872970">Optics by Klien & Furtak</a>
+<br>
+<br>
+Prerequisite: PHYS 2320, 2415, 2610, or an equivalent college-level electromagnetism course; knowledge of vector calculus and previous exposure to Maxwell's equations.
+</p>
+</div>
+</div>
+
+
+<div class="collapse-list-wrapper4phys5620" 
+     id="wrapper-5620">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5620" 
+         aria-controls="5620" 
+         aria-expanded="false">
+
+<h2> Solid State Physics: PHYS 5620 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="5620" 
+         aria-labelledby="5620" 
+         data-parent="#wrapper-5620">
+
+<p>
+In this course you will study various phenomena in condensed matter physics, including crystallography, basic group theory, x-ray and neutron diffraction, lattice vibrations, electrons in a metal, electronic band theory, electrons under an external magnetic field, semiconductors, magnetism and superconductivity. Not only the topics but also the theoretical and experimental techniques that are covered in this course are essential for PhD students as well as advanced Undergraduate students in Physics, Chemistry, Chemical Engineering, and Materials Science and Engineering to excel in their research career. 
+<br>
+<br>
+Standard text is 
+<br>
+<br>
+Prerequisite: PHYS 3650 (Quantum Mechanics I) or an equivalent course
+
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys5630" 
+     id="wrapper-5630">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5630" 
+         aria-controls="5630" 
+         aria-expanded="false">
+
+<h2> Computational physics 1: PHYS 5630 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="5630" 
+         aria-labelledby="5630" 
+         data-parent="#wrapper-5630">
+
+<p>
+ Review of computational methods for differentiation, integration, interpolation, finding zeroes, extrema, etc. proceeding to a concentration on numerical solutions of differential equations, basic spectral analysis, numerical methods for matrices and Monte Carlo simulation applied to problems in classical and modern physics.
+ <br>
+ <br>
+Prerequisite: PHYS 2660; pre- or corequisite: PHYS 3210 and PHYS 3650
+<br>
+<br>
+</p>
+</div>
+</div>
+
+
+<div class="collapse-list-wrapper4phys5720" 
+     id="wrapper-5720">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5720" 
+         aria-controls="5720" 
+         aria-expanded="false">
+
+<h2> Introduction to Nuclear and Particle Physics: PHYS 5720 </h2>
+<i class="arrow up"></i>
+    </div>
+
+<div class="collapse-list-target collapse show" 
+         id="5720" 
+         aria-labelledby="5720" 
+         data-parent="#wrapper-5720">
+
+<p>
+Students will study subatomic structure, basic constituents, and their mutual interactions.
+<br>
+<br>
+The standard text is <a href ="https://books.google.com/books/about/Introduction_to_Elementary_Particles.html?id=Wb9DYrjcoKAC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths Intro to Particle </a>
+<br>
+<br>
+You can expect to cover chapters 1-4, 6, and 7
+<br>
+<br>
+</p>
+</div>
+</div>
+
+
 <br>
 Below you can find information about courses at UVA!
 
