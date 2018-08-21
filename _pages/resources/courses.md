@@ -419,10 +419,10 @@ Prerequisite: PHYS 2640 or PHYS 2419. PHYS 3170 is an independent course, and no
          aria-expanded="false">
 
 <h2> Resarch: PHYS 3995 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3995" 
          aria-labelledby="3995" 
          data-parent="#wrapper-3995">
@@ -443,10 +443,10 @@ All physics students seeking the bachlors of sciecne must take PHYS 3995 under t
          aria-expanded="false">
 
 <h2> Widely Applied Physics : PHYS 3995 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3110" 
          aria-labelledby="3110" 
          data-parent="#wrapper-3110">
@@ -473,10 +473,10 @@ Prerequisite: PHYS 2620
          aria-expanded="false">
 
 <h2> Electronics lab : PHYS 3150 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="3150" 
          aria-labelledby="3150" 
          data-parent="#wrapper-3150">
@@ -499,10 +499,10 @@ Prerequisite: PHYS 2640 or 2040 or PHYS 2419
          aria-expanded="false">
 
 <h2> Optics : PHYS 5310 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="5310" 
          aria-labelledby="5310" 
          data-parent="#wrapper-5310">
@@ -529,10 +529,10 @@ Prerequisite: PHYS 2320, 2415, 2610, or an equivalent college-level electromagne
          aria-expanded="false">
 
 <h2> Solid State Physics: PHYS 5620 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="5620" 
          aria-labelledby="5620" 
          data-parent="#wrapper-5620">
@@ -559,10 +559,10 @@ Prerequisite: PHYS 3650 (Quantum Mechanics I) or an equivalent course
          aria-expanded="false">
 
 <h2> Computational physics 1: PHYS 5630 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="5630" 
          aria-labelledby="5630" 
          data-parent="#wrapper-5630">
@@ -588,10 +588,10 @@ Prerequisite: PHYS 2660; pre- or corequisite: PHYS 3210 and PHYS 3650
          aria-expanded="false">
 
 <h2> Introduction to Nuclear and Particle Physics: PHYS 5720 </h2>
-<i class="arrow up"></i>
+<i class="arrow h2arrow down"></i>
     </div>
 
-<div class="collapse-list-target collapse show" 
+<div class="collapse-list-target collapse" 
          id="5720" 
          aria-labelledby="5720" 
          data-parent="#wrapper-5720">
@@ -606,6 +606,381 @@ The standard text is <a href ="https://books.google.com/books/about/Introduction
 You can expect to cover chapters 1-4, 6, and 7
 <br>
 <br>
+</p>
+</div>
+</div>
+
+
+<div class="collapse-list-wrapper4phys3040" 
+     id="wrapper-3040">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3040" 
+         aria-controls="3040" 
+         aria-expanded="false">
+
+<h2> Physics of the human body: PHYS 3040 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="3040" 
+         aria-labelledby="3040" 
+         data-parent="#wrapper-3040">
+
+<p>
+Application of basic physics principles to functions of the human body: biomechanics, metabolism, cardiovascular, cognitive & respiratory systems, and the senses. Medical diagnosis and therapy technologies (e.g., PET, MRI, CT) are discussed. 
+<br>
+<br>
+No textbook for this class so its important that you come to class and take good notes. 
+<br>
+<br>
+Prerequisite: a semester of calculus and PHYS 2010 or PHYS 1425 or PHYS 1710.
+<br> 
+Corequisite: PHYS 2020 or PHYS 2415 or PHYS 1720
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys3120" 
+     id="wrapper-3120">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3120" 
+         aria-controls="3120" 
+         aria-expanded="false">
+
+<h2> Applied Physics Energy: PHYS 3120 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="3120" 
+         aria-labelledby="3120" 
+         data-parent="#wrapper-3120">
+
+<p>
+Basic physics principles involved in energy production, distribution and storage: engines, generators, photosynthesis, fossil fuels, solar energy, photovoltaics, thermoelectrics, geothermal, wind & hydro power, fuel cells, batteries, nuclear energy, and the power grid. 
+<br>
+<br>
+No textbook for this class so make sure you take good notes. 
+<br>
+<br>
+Prequiste: PHYS 2620. PHYS 3110 is not a prerequsite.
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys3250" 
+     id="wrapper-3250">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3250" 
+         aria-controls="3250" 
+         aria-expanded="false">
+
+<h2> Applied Nuclear Physics: PHYS 3250 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="3250" 
+         aria-labelledby="3250" 
+         data-parent="#wrapper-3250">
+
+<p>
+Applications of nuclear physics and nuclear energy: Introduction to nuclear physics, radioactivity, radiation standards and units,interaction of radiation with matter, accelerators, x-ray generators, detectors, biological effects, nuclear medicine, nuclear fission and reactors, nuclear fusion. 
+<br>
+<br>
+The standard text is <a href="https://books.google.com/books/about/Nuclear_Physics.html?id=agRC1r0qzFAC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Nuclear Physics, Principles and Applications by Jhon Lilley. </a>
+<br>
+<br>
+Prerequisite: PHYS 2620
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys5160" 
+     id="wrapper-5160">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5160" 
+         aria-controls="5160" 
+         aria-expanded="false">
+
+<h2> Intro to string theory: PHYS 5160 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="5160" 
+         aria-labelledby="5160" 
+         data-parent="#wrapper-5160">
+
+<p>
+This course introduces a modern topic in theoretical high energy physics to an advanced undergraduate / beginner graduate student audience. Among the directions which are being explored are the physics of extra dimensions, and a unified treatment of gravity and electromagnetism in the context of string theory
+<br>
+<br>
+The standard text is <a href="https://books.google.com/books/about/A_First_Course_in_String_Theory.html?id=ih9kI9MEzh0C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> A First Course in String Theory by Barton Zwiebach </a>
+<br>
+<br>
+You can expect to cover chapters 
+<br>
+<br>
+Prerequisite: Physics 3210 (Classical Mechanics), 3430 (Electricity & Magnetism II) and 3660 (Quantum Mechanics II)
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys5240" 
+     id="wrapper-5240">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5240" 
+         aria-controls="5240" 
+         aria-expanded="false">
+
+<h2> Intro to General Realativity: PHYS 5240 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="5240" 
+         aria-labelledby="5240" 
+         data-parent="#wrapper-5240">
+
+<p>
+Reviews special relativity and coordinate transformations. Includes the principle of equivalence; effects of gravitation on other systems and fields; general tensor analysis in curved spaces and gravitational field equations; Mach's principle, tests of gravitational theories; perihelion precession, red shift, bending of light, gyroscopic precession, radar echo delay; gravitational radiation; relativisitic stellar structure and cosmography; and cosmology.
+<br>
+<br>
+The standard text is <a href="http://202.38.64.11/~jmy/documents/ebooks/Schutz%20A%20First%20Course%20in%20General%20Relativity(Second%20Edition).pdf"> A First course in Genreal Relativity by Bernard Schutz </a>
+<br>
+<br>
+You can expect to cover the entire book. 
+<br>
+<br>
+I personally wasnt too much of a fan of schutz and I think <a href="https://books.google.com/books/about/Spacetime_and_Geometry.html?id=1SKFQgAACAAJ&source=kp_book_description"> Spacetime and Geometry by Sean Carrol</a> is a much better book, and i reccommend buying this book for your personal bookshelf
+<br>
+<br>
+ Prerequisite: Advanced calculus through partial differentiation and multiple integration; vector analysis in three dimensions.
+</p>
+</div>
+</div>
+
+
+<div class="collapse-list-wrapper4phys5640" 
+     id="wrapper-5640">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5640" 
+         aria-controls="5640" 
+         aria-expanded="false">
+
+<h2> Computational Physics 2: PHYS 5640 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="5640" 
+         aria-labelledby="5640" 
+         data-parent="#wrapper-5640">
+
+<p>
+  
+ Countuning from the frist semester of Computational Physics you will study advanced topics in computational physics including numerical methods for partial differential equations, Monte Carlo modeling, advanced methods for linear systems, and special topics in computational physics
+<br>
+<br>
+Prerequisite: PHYS 5630
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4phys5880" 
+     id="wrapper-5880">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#5880" 
+         aria-controls="5880" 
+         aria-expanded="false">
+
+<h2> Quantum Computing: PHYS 5880 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="5880" 
+         aria-labelledby="5880" 
+         data-parent="#wrapper-5880">
+
+<p>
+An introduction to quantum computation, a modern discipline looking for ways to harness the power of quantum mechanics to gain exponential speedup of computations and simulations. We will go through the basic algorithms, discuss error correction and various physical platforms suggested for a possible implementation of such a computer. 
+<br>
+<br>
+Students in the PHYS UGRD career must take PHYS 3650 before they can enroll in PHYS 5880. This does NOT apply to students in ALL other careers
+<br>
+<br>
+The course assumes a knowledge of linear algebra, basic probability and familiarity with quantum mechanics
+</p>
+</div>
+</div>
+<br>
+
+<h1> MATH Courses </h1>
+<br>
+<div class="collapse-list-wrapper4math1320" 
+     id="wrapper-1320">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#1320" 
+         aria-controls="1320" 
+         aria-expanded="false">
+
+<h2> Calculus 2: MATH 1320 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="1320" 
+         aria-labelledby="1320" 
+         data-parent="#wrapper-1320">
+
+<p>
+A second calculus course for natural-science majors, students planning additional work in mathematics, and students intending to pursue graduate work in the applied social sciences. Topics include applications of the integral, techniques of integration, differential equations, infinite series, parametric equations, and polar coordinates. 
+<br>
+<br>
+Standard text is <a href="https://books.google.com/books/about/Calculus_Early_Transcendentals.html?id=QyOYWR9RLI8C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Stewart, Early Transcedenals 7th Edtion </a>
+<br>
+<br>
+Prerequisite: MATH 1310 or equivalent; at most one of MATH 1220 and MATH 1320 may be taken for credit.
+</p>
+</div>
+</div>
+
+
+
+
+<div class="collapse-list-wrapper4math2310" 
+     id="wrapper-2310">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#2310" 
+         aria-controls="2310" 
+         aria-expanded="false">
+
+<h2> Calculus 3: MATH 2310 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="2310" 
+         aria-labelledby="2310" 
+         data-parent="#wrapper-2310">
+
+
+<p>
+A continuation of Calc I and II, this course is about functions of several variables. Topics include finding maxima and minima of functions of several variables/surfaces and curves in three-dimensional space/integration over these surfaces and curves. Additional topics: conservative vector fields/Stokes' and the divergence theorems/how these concepts relate to real world applications. 
+<br>
+<br>
+The standard text is <a href="https://books.google.com/books/about/Multivariable_Calculus.html?id=K1LyXtlFDbkC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false">Stewart Multivariable Calclus, 8th edtion </a>
+<br>
+<br>
+Prerequisite: MATH 1320 or the equivalent.
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4math3250" 
+     id="wrapper-3250">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#3250" 
+         aria-controls="3250" 
+         aria-expanded="false">
+
+<h2> Ordinary Differntial Equations </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="3250" 
+         aria-labelledby="3250" 
+         data-parent="#wrapper-3250">
+
+
+<p>
+Intoduces the methods, theory, and applications of differential equations. Includes first-order, second and higher-order linear equations, series solutions, linear systems of first-order differential equations, and the associated matrix theory. May include numerical methods, non-linear systems, boundary value problems, and additional applications.
+<br>
+<br>
+The standard text is <a href="https://www.wiley.com/en-us/Elementary+Differential+Equations+and+Boundary+Value+Problems,+10th+Edition-p-9780470458310"> Elementary Differential Equations and Boundary Value Problems, 10th Edition </a>
+Do not buy this book from their website, it is way too expensive and not worth the price. 
+<br>
+<br>
+Prerequisite: MATH 1320 or its equivalent.
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4math4210" 
+     id="wrapper-4210">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#4210" 
+         aria-controls="4210" 
+         aria-expanded="false">
+
+<h2> Mathematics for Physics: MATH 4210 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="4210" 
+         aria-labelledby="4210" 
+         data-parent="#wrapper-4210">
+
+<p>
+This course covers linear algebra/complex analysis/vector differential & integral calculus. Thus it is a compressed version of MATH 3351 & MATH 3340 and a review of some of the material in MATH 2310. Emphasis is on the physical interpretation. [This course does not count as a Mathematics elective for Mathematics majors if both MATH 3351 and MATH 3340 are to be counted.] 
+<br>
+<br>
+The standard text book is <a href="https://books.google.com/books/about/Advanced_Engineering_Mathematics.html?id=Zc8f5hvm4G8C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Advanced Engineering Mathematics, Peter O'neil</a>
+
+<br>
+<br>
+You can expect to cover chapters 6-12 and 19-22
+<br>
+<br>
+Prerequisite: MATH 2310 or MATH 2315 or APMA 2120
+</p>
+</div>
+</div>
+
+<div class="collapse-list-wrapper4math4220" 
+     id="wrapper-4220">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#4220" 
+         aria-controls="4220" 
+         aria-expanded="false">
+
+<h2> Partial Differntial Equations:MATH 4220 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="4220" 
+         aria-labelledby="4220" 
+         data-parent="#wrapper-4220">
+
+<p>
+This course is a beginning course in partial differential equations/Fourier analysis/special functions (such as spherical harmonics and Bessel functions). The discussion of partial differential equations will include the Laplace and Poisson equations and the heat and wave equations
+<br>
+<br>
+The standar text is <a href="https://books.google.com/books/about/Advanced_Engineering_Mathematics.html?id=Zc8f5hvm4G8C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Advanced Engineering Mathematics, Peter O'neil</a>
+<br>
+<br>
+You will cover chapters 13-18
+<br>
+<br>
+Prerequisites: MATH 3250 and either MATH 3351 or MATH 4210
 </p>
 </div>
 </div>
