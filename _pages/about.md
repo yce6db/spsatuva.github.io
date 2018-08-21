@@ -51,7 +51,7 @@ ___
                        image=image 
                        base-path='exec'
                        container-class="exec_board_image"
-                       image-class="exec_board_image"
+                       image-class="exec_board_image full-width-img"
                     %}
                 {% endif %}
                 {% if homepage or email %}
