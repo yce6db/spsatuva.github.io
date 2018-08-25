@@ -11,6 +11,7 @@
         transition: all 0.5s;
     }
 
+    // Sizing for arrow and arrow-heading spacing for each heading type
     .h1arrow {
         border-width: 0 3px 3px 0;    
         padding: 6px;
@@ -38,34 +39,39 @@
         padding-left: 18px;
     }
 
-    .down.h1arrow {
-        transform: translateY(1em) translateX(3px) rotate(45deg);
-        -webkit-transform: translateY(1em) translateX(3px) rotate(45deg);
-    }
-  
-    .down.h2arrow {
-        transform: translate(3px, 0.7em) rotate(45deg);
-        -webkit-transform: translate(3px, 0.7em) rotate(45deg);
-    }
-
-    .down.h3arrow {
-        transform: translate(3px, 120%) rotate(45deg);
-        -webkit-transform: translate(3px, 120%) rotate(45deg);
-    }
-
-    .up.h1arrow {
+    // Arrow up when not collapsed
+    .h1arrow {
         transform: translateY(1.3em) translateX(3px) rotate(225deg);
         -webkit-transform: translateY(1.3em) translateX(3px) rotate(225deg);
     }
 
-    .up.h2arrow {
+    .h2arrow {
         transform: translate(3px, 1em) rotate(225deg);
         -webkit-transform: translate(3px, 1em) rotate(225deg);
     }
 
-    .up.h3arrow {
+    .h3arrow {
         transform: translate(3px, 140%) rotate(225deg);
         -webkit-transform: translate(3px, 140%) rotate(225deg);
+    }
+
+}
+
+// Arrow down when collapsed
+.collapse-list-heading.collapsed {
+    .h1arrow {
+        transform: translateY(1em) translateX(3px) rotate(45deg);
+        -webkit-transform: translateY(1em) translateX(3px) rotate(45deg);
+    }
+  
+    .h2arrow {
+        transform: translate(3px, 0.7em) rotate(45deg);
+        -webkit-transform: translate(3px, 0.7em) rotate(45deg);
+    }
+
+    .h3arrow {
+        transform: translate(3px, 120%) rotate(45deg);
+        -webkit-transform: translate(3px, 120%) rotate(45deg);
     }
 }
 

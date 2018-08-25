@@ -17,7 +17,7 @@ ___
         {{ year.year | remove: " " }}
     {%- endcapture -%}
     {%- capture expanded -%}
-        {% if year.year == site.data.exec-board.current-year %}"true"{% else %}"false"{% endif %}
+        {% if year.year == site.data.exec-board.current-year %}true{% else %}false{% endif %}
     {%- endcapture -%}
     {% include collapse-list-heading.html 
        heading=year.year

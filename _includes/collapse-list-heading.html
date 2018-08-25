@@ -17,12 +17,12 @@
     {% assign arrow-type = 'h1arrow' %}
 {% endif %}
 
-<div class="collapse-list-heading {{ include.classes }}"
+<div class="collapse-list-heading {{ include.classes }} {% unless include.expanded == 'true' %}collapsed{% endunless %}"
      data-toggle="collapse"
      data-target="#{{ include.target-id }}"
      aria-controls="{{ include.target-id }}" 
      aria-expanded="{% if include.expanded == 'true' %}true{% else %}false{% endif %}">
-    <i class="arrow {{ arrow-type }} {% if include.expanded == 'true' %}up{% else %}down{% endif %}"></i>
+    <i class="arrow {{ arrow-type }}"></i>
     <{{ heading-type }}>
         {{ include.heading }}
     </{{ heading-type }}>
