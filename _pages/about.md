@@ -16,12 +16,14 @@ ___
     {%- capture year_no_space -%}
         {{ year.year | remove: " " }}
     {%- endcapture -%}
-    <div class="collapse-list-heading" data-toggle="collapse" data-target="#{{ year_no_space }}" {% if year.year == site.data.exec-board.current-year %} aria-expanded="true" {% else %} aria-expanded="false" {% endif %} aria-controls="{{ year_no_space }}">
-        <h1>
-            {{ year.year }}
-        </h1>
-        <i class="arrow h1arrow{% if year.year == site.data.exec-board.current-year %} up {% else %} down {% endif %}"></i>
-    </div>
+    {%- capture expanded -%}
+        {% if year.year == site.data.exec-board.current-year %}"true"{% else %}"false"{% endif %}
+    {%- endcapture -%}
+    {% include collapse-list-heading.html 
+       heading=year.year
+       target-id=year_no_space
+       expanded=expanded
+    %}
     <div class="exec_board_container collapse {% if year.year == site.data.exec-board.current-year %} show {% endif %}" id="{{ year_no_space }}" aria-labelledby="{{ year_no_space }}" data-parent="#exec_board">
         {% for person in year.board %}
             {% assign image = false %}

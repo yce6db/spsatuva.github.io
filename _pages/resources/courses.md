@@ -8,7 +8,6 @@ The physics department at UVA offers three different degrees. The Bachelors of A
 
 Here is the link to the pdf the department has that more information about the physics program and an example of a typical course schedule for each degree. [Major Brochure 2018-2019](http://www.phys.virginia.edu/Education/Programs/MajorBrochure/default.pdf)
 
-
 Here are some summaries/descriptions of courses that are required/typically offered:
 <div class="collapse-list-wrapper4phys1710" 
      id="wrapper-1710">
@@ -17,8 +16,8 @@ Here are some summaries/descriptions of courses that are required/typically offe
         data-target="#1710" 
         aria-controls="1710" 
         aria-expanded="false">
-        <h2> Intro physcis 1: PHYS 1710 </h2>
         <i class="arrow h2arrow down"></i>
+        <h2> Intro physcis 1: PHYS 1710 </h2>
     </div>
     <div class="collapse-list-target collapse" 
         id="1710" 
@@ -48,8 +47,8 @@ Here are some summaries/descriptions of courses that are required/typically offe
          aria-controls="1720" 
          aria-expanded="false">
 
-<h2> Intro physics 2: PHYS 1720 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Intro physics 2: PHYS 1720 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -82,8 +81,12 @@ Prerequistes: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHY
          aria-controls="2660" 
          aria-expanded="false">
 
-<h2> Fundementals of Scientfic Computing: PHYS 2660 </h2>
+<div>
 <i class="arrow h2arrow down"></i>
+</div>
+<div>
+<h2> Fundementals of Scientfic Computing: PHYS 2660 </h2>
+</div>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -117,8 +120,8 @@ Prerequisite: One semester of calculus and one semester of introductory physics 
          aria-controls="2620" 
          aria-expanded="false">
 
-<h2> Modern Physics: PHYS 2620 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Modern Physics: PHYS 2620 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -147,8 +150,8 @@ Prereqs: PHYS 2320, 2415, 1720, or 2610, and MATH 2310(Calc 3)
          aria-controls="2630" 
          aria-expanded="false">
 
-<h2> Elementrary lab 1: PHYS 2630 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Elementrary lab 1: PHYS 2630 </h2>
     </div>
 
 
@@ -179,8 +182,8 @@ This course is a lot of work outside of class so although it is a 3 credit cours
          aria-controls="2640" 
          aria-expanded="false">
 
-<h2> Elementrary lab 2: PHYS 2640 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Elementrary lab 2: PHYS 2640 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -206,8 +209,8 @@ Prerequisite: PHYS 1710, 1720, and 2630
          aria-controls="3210" 
          aria-expanded="false">
 
-<h2> Classical Mechanics: PHYS 3210 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Classical Mechanics: PHYS 3210 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -238,8 +241,8 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 1720
          aria-controls="3420" 
          aria-expanded="false">
 
-<h2> Electricity and Magnetisim 1: PHYS 3420 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Electricity and Magnetisim 1: PHYS 3420 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -269,8 +272,8 @@ Prerequisite: MATH 4210, and PHYS 1720 or PHYS 2415
          aria-controls="3430" 
          aria-expanded="false">
 
-<h2> Electricity and Magnetisim 2: PHYS 3420 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Electricity and Magnetisim 2: PHYS 3420 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -298,8 +301,8 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-controls="3310" 
          aria-expanded="false">
 
-<h2> Statistical physics: PHYS 3310 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Statistical physics: PHYS 3310 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -329,8 +332,8 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 2620
          aria-controls="3650" 
          aria-expanded="false">
 
-<h2> Quantum physics 1: PHYS 3650 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Quantum physics 1: PHYS 3650 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -361,8 +364,8 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, PHYS 2620; corequisite: PHYS 3
          aria-controls="3660" 
          aria-expanded="false">
 
-<h2> Quantum physics 2: PHYS 3660 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Quantum physics 2: PHYS 3660 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -389,8 +392,8 @@ Prerequisite: PHYS 3650.
          aria-controls="3170" 
          aria-expanded="false">
 
-<h2> Intermediate lab (1 or 2): PHYS 3170 or 3180 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Intermediate lab (1 or 2): PHYS 3170 or 3180 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -418,8 +421,8 @@ Prerequisite: PHYS 2640 or PHYS 2419. PHYS 3170 is an independent course, and no
          aria-controls="3995" 
          aria-expanded="false">
 
-<h2> Resarch: PHYS 3995 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Resarch: PHYS 3995 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -442,8 +445,8 @@ All physics students seeking the bachlors of sciecne must take PHYS 3995 under t
          aria-controls="3110" 
          aria-expanded="false">
 
-<h2> Widely Applied Physics : PHYS 3995 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Widely Applied Physics : PHYS 3995 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -472,8 +475,8 @@ Prerequisite: PHYS 2620
          aria-controls="3150" 
          aria-expanded="false">
 
-<h2> Electronics lab : PHYS 3150 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Electronics lab : PHYS 3150 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -498,8 +501,8 @@ Prerequisite: PHYS 2640 or 2040 or PHYS 2419
          aria-controls="5310" 
          aria-expanded="false">
 
-<h2> Optics : PHYS 5310 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Optics : PHYS 5310 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -528,8 +531,8 @@ Prerequisite: PHYS 2320, 2415, 2610, or an equivalent college-level electromagne
          aria-controls="5620" 
          aria-expanded="false">
 
-<h2> Solid State Physics: PHYS 5620 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Solid State Physics: PHYS 5620 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -558,8 +561,8 @@ Prerequisite: PHYS 3650 (Quantum Mechanics I) or an equivalent course
          aria-controls="5630" 
          aria-expanded="false">
 
-<h2> Computational physics 1: PHYS 5630 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Computational physics 1: PHYS 5630 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -587,8 +590,8 @@ Prerequisite: PHYS 2660; pre- or corequisite: PHYS 3210 and PHYS 3650
          aria-controls="5720" 
          aria-expanded="false">
 
-<h2> Introduction to Nuclear and Particle Physics: PHYS 5720 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Introduction to Nuclear and Particle Physics: PHYS 5720 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -619,8 +622,8 @@ You can expect to cover chapters 1-4, 6, and 7
          aria-controls="3040" 
          aria-expanded="false">
 
-<h2> Physics of the human body: PHYS 3040 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Physics of the human body: PHYS 3040 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -650,8 +653,8 @@ Corequisite: PHYS 2020 or PHYS 2415 or PHYS 1720
          aria-controls="3120" 
          aria-expanded="false">
 
-<h2> Applied Physics Energy: PHYS 3120 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Applied Physics Energy: PHYS 3120 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -679,8 +682,8 @@ Prequiste: PHYS 2620. PHYS 3110 is not a prerequsite.
          aria-controls="3250" 
          aria-expanded="false">
 
-<h2> Applied Nuclear Physics: PHYS 3250 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Applied Nuclear Physics: PHYS 3250 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -708,8 +711,8 @@ Prerequisite: PHYS 2620
          aria-controls="5160" 
          aria-expanded="false">
 
-<h2> Intro to string theory: PHYS 5160 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Intro to string theory: PHYS 5160 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -740,8 +743,8 @@ Prerequisite: Physics 3210 (Classical Mechanics), 3430 (Electricity & Magnetism 
          aria-controls="5240" 
          aria-expanded="false">
 
-<h2> Intro to General Realativity: PHYS 5240 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Intro to General Realativity: PHYS 5240 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -776,8 +779,8 @@ I personally wasnt too much of a fan of schutz and I think <a href="https://book
          aria-controls="5640" 
          aria-expanded="false">
 
-<h2> Computational Physics 2: PHYS 5640 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Computational Physics 2: PHYS 5640 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -803,8 +806,8 @@ Prerequisite: PHYS 5630
          aria-controls="5880" 
          aria-expanded="false">
 
-<h2> Quantum Computing: PHYS 5880 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Quantum Computing: PHYS 5880 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -835,8 +838,8 @@ The course assumes a knowledge of linear algebra, basic probability and familiar
          aria-controls="1320" 
          aria-expanded="false">
 
-<h2> Calculus 2: MATH 1320 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Calculus 2: MATH 1320 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -867,8 +870,8 @@ Prerequisite: MATH 1310 or equivalent; at most one of MATH 1220 and MATH 1320 ma
          aria-controls="2310" 
          aria-expanded="false">
 
-<h2> Calculus 3: MATH 2310 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Calculus 3: MATH 2310 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -897,8 +900,8 @@ Prerequisite: MATH 1320 or the equivalent.
          aria-controls="3250" 
          aria-expanded="false">
 
-<h2> Ordinary Differntial Equations </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Ordinary Differntial Equations </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -928,8 +931,8 @@ Prerequisite: MATH 1320 or its equivalent.
          aria-controls="4210" 
          aria-expanded="false">
 
-<h2> Mathematics for Physics: MATH 4210 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Mathematics for Physics: MATH 4210 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -961,8 +964,8 @@ Prerequisite: MATH 2310 or MATH 2315 or APMA 2120
          aria-controls="4220" 
          aria-expanded="false">
 
-<h2> Partial Differntial Equations:MATH 4220 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Partial Differntial Equations:MATH 4220 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
