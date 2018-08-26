@@ -29,10 +29,17 @@ Below you can find the current and previous syllabi and course schedules for PHY
     {%- capture year_no_space -%}
         {{ year.year | remove: " " }}
     {%- endcapture -%}
-    <div class="collapse-list-heading" data-toggle="collapse" data-target="#{{ year_no_space }}" aria-expanded="true" aria-controls="{{ year_no_space }}">
-        <h2> {{ year.year }} </h2>
-        <i class="arrow {% if site.data.phys1910.current-year == year.year %} up {% else %} down {% endif %}"></i>
-    </div>
+    {% if site.data.phys1910.current-year == year.year %}
+        {% assign expanded = true %}
+    {% else %}
+        {% assign expanded = false %}
+    {% endif %}
+    {% include collapse-list-heading.html 
+       heading=year.year
+       heading-type='h2'
+       expanded=expanded
+       target-id=year_no_space
+    %}
     <div class="info-container-1910 collapse {% if site.data.phys1910.current-year == year.year %} show {% endif %}" id="{{ year_no_space }}" aria-labelledby="{{ year_no_space }}" data-parent="#1910-years">
         {% for person in year.people %}
             {% assign image = person.image %}
@@ -43,13 +50,14 @@ Below you can find the current and previous syllabi and course schedules for PHY
                 {% include lazy-image.html
                     image=image
                     base-path='pages/phys1910'
-                    image-class="image-1910 full-width-img"
+                    image-class="image-1910"
                 %}
                 <h2 class="image-name-1910"> {{ name }} </h2>
                 <h3 class="image-title-1910"> {{ title }} </h3>
                 {% if site.data.phys1910.current-year == year.year %}
                 <a href="mailto:{{ email }}"> {{ email }} </a>
                 {% endif %}
+                <hr class="image-separator-1910">
             </div>
         {% endfor %}
     </div>

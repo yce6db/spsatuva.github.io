@@ -5,19 +5,20 @@
 
     clear: both;
 
-    * {
-        float: left;
-    }
-
     .arrow {
         float: left;
         border: solid;
         transition: all 0.5s;
     }
 
+    // Sizing for arrow and arrow-heading spacing for each heading type
     .h1arrow {
         border-width: 0 3px 3px 0;    
         padding: 6px;
+    }
+
+    h1 {
+        padding-left: 30px;
     }
 
     .h2arrow {
@@ -25,42 +26,51 @@
         padding: 5px;
     }
 
+    h2 {
+        padding-left: 25px;
+    }
+
     .h3arrow {
         border-width: 0 2px 2px 0;    
         padding: 3px;
     }
 
-    .down.h1arrow {
-        transform: translate(100%, 105%) rotate(45deg);
-        -webkit-transform: translate(100%, 105%) rotate(45deg);
-    }
-  
-    .down.h2arrow {
-        transform: translate(100%, 90%) rotate(45deg);
-        -webkit-transform: translate(100%, 90%) rotate(45deg);
+    h3 {
+        padding-left: 18px;
     }
 
-    .down.h3arrow {
-        transform: translate(100%, 120%) rotate(45deg);
-        -webkit-transform: translate(100%, 120%) rotate(45deg);
+    // Arrow up when not collapsed
+    .h1arrow {
+        transform: translateY(1.3em) translateX(3px) rotate(225deg);
+        -webkit-transform: translateY(1.3em) translateX(3px) rotate(225deg);
     }
 
-    .up.h1arrow {
-        transform: translate(100%, 120%) rotate(225deg);
-        -webkit-transform: translate(100%, 120%) rotate(225deg);
+    .h2arrow {
+        transform: translate(3px, 1em) rotate(225deg);
+        -webkit-transform: translate(3px, 1em) rotate(225deg);
     }
 
-    .up.h2arrow {
-        transform: translate(100%, 120%) rotate(225deg);
-        -webkit-transform: translate(100%, 120%) rotate(225deg);
+    .h3arrow {
+        transform: translate(3px, 140%) rotate(225deg);
+        -webkit-transform: translate(3px, 140%) rotate(225deg);
     }
 
-    .up.h3arrow {
-        transform: translate(100%, 140%) rotate(225deg);
-        -webkit-transform: translate(100%, 140%) rotate(225deg);
-    }
 }
 
-.collapse-list-info-container {
-    display: inline-block;
+// Arrow down when collapsed
+.collapse-list-heading.collapsed {
+    .h1arrow {
+        transform: translateY(1em) translateX(3px) rotate(45deg);
+        -webkit-transform: translateY(1em) translateX(3px) rotate(45deg);
+    }
+  
+    .h2arrow {
+        transform: translate(3px, 0.7em) rotate(45deg);
+        -webkit-transform: translate(3px, 0.7em) rotate(45deg);
+    }
+
+    .h3arrow {
+        transform: translate(3px, 120%) rotate(45deg);
+        -webkit-transform: translate(3px, 120%) rotate(45deg);
+    }
 }

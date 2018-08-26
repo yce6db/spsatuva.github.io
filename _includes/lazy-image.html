@@ -1,27 +1,32 @@
-<!-- Determine what the full path to the image is -->
-<!-- Assumes /assets/img/ as the base path and appends
-     posts/ if page is a post or {{ include.base-path }}
-     if base-path is passed to the lazy-image include      
+{% comment %}
+<!-- 
+  Determine what the full path to the image is
+
+  Assumes /assets/img/ as the base path and appends
+  posts/ if page is a post or {{ include.base-path }}
+  if base-path is passed to the lazy-image include
 -->
+{% endcomment %}
 {% unless include.image_path %}
   {% if page.layout == 'post' %}
-    {%- capture img_base-path -%}
+    {%- capture img_base_path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/posts/
     {%- endcapture -%}
   {% elsif include.base-path %}
-    {%- capture img_base-path -%}
+    {%- capture img_base_path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/{{ include.base-path }}/
     {%- endcapture -%}
   {% else %}
-    {%- capture img_base-path -%}
+    {%- capture img_base_path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/
     {%- endcapture -%}
   {% endif %}
 {% endunless %}
 
+{% comment %}
 <!-- Make assumptions about the div container class if
-     page is a post
--->
+     page is a post -->
+{% endcomment %}
 {% if include.container-class %}
   {% assign container-class = include.container-class %}
 {% else %}
@@ -30,9 +35,10 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Make assumptions about the title class if
-     page is a post
--->
+     page is a post -->
+{% endcomment %}
 {% if include.title-class %}
   {% assign title-class = include.title-class %}
 {% else %}
@@ -41,9 +47,10 @@
   {% endif %}
 {% endif %}
 
-<!-- Make assumptions about the caption class if
-     page is a post
--->
+{% comment %}
+<!-- Make assumptions about the caption class 
+     if page is a post -->
+{% endcomment %}
 {% if include.caption-class %}
   {% assign caption-class = include.caption-class %}
 {% else %}
@@ -52,9 +59,10 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Make assumptions about the image class if
-     page is a post
--->
+     page is a post -->
+{% endcomment %}
 {% if include.image-class %}
   {% assign image-class = include.image-class %}
 {% else %}
@@ -63,10 +71,14 @@
   {% endif %}
 {% endif %}
 
+{% comment %}
 <!-- Split the image name to get the filename and extension -->
+{% endcomment %}
 {% assign image_name_split = include.image | split: "." %}
 
+{% comment %}
 <!-- If no extension included, assume jpg -->
+{% endcomment %}
 {% if image_name_split.size == 1 %}
     {% assign ext = 'jpg' %}
 {% else %}
@@ -75,10 +87,12 @@
 {% endif %}
 
 {%- capture image_path -%}
-    {{ img_base-path }}{{ image }}
+    {{ img_base_path }}{{ image }}
 {%- endcapture -%}
 
+{% comment %}
 <!-- Generate paths to responsive sized images -->
+{% endcomment %}
 {%- capture placehold_path -%}
   {{ image_path }}_placehold.{{ ext }}
 {%- endcapture -%}
@@ -99,7 +113,9 @@
   {{ image_path }}.{{ ext }}
 {%- endcapture -%}
 
+{% comment %}
 <!-- Actual HTML generated -->
+{% endcomment %}
 <div {% if container-class %}class="{{ container-class }}"{% endif %}>
   {% if include.title %}
     <h3 {% if title-class %}class="{{ title-class }}"{% endif %}>{{ include.title}}</h3>

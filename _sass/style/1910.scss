@@ -1,8 +1,6 @@
 .info-container-1910 {
     display: flex;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 10px;
 }
 
@@ -14,18 +12,8 @@
     width: 99%;
 }
 
-.years-1910 {
-    .collapse-list-heading {
-        .arrow {
-            border-width: 0 3px 3px 0;    
-            padding: 4px;    
-        }
-        
-        .up {
-            transform: translate(100%, 135%) rotate(225deg);
-            -webkit-transform: translate(100%, 135%) rotate(225deg);
-        }  
-    }
+.image-separator-1910 {
+    display: none;
 }
 
 .lectures-years {
@@ -78,10 +66,12 @@
         width: 100%;
     }
 
+    .image-separator-1910 {
+        display: block;
+    }
+
     .info-container-1910 {
         display: block;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .recording-video {

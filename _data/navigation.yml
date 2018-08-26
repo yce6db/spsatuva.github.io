@@ -7,8 +7,8 @@ header: # Navigation links
     sublinks:
       - name: 'Research'
         link: '/resources/research'
-      # - name: 'Courses'
-      #   link: '/courses'
+      - name: 'Courses'
+        link: '/resources/courses'
       - name: 'Grad School'
         link: '/resources/grad-school'
   - name: 'PHYS 1910'

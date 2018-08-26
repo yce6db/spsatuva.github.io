@@ -8,11 +8,10 @@ The physics department at UVA offers three different degrees. The Bachelors of A
 
 Here is the link to the pdf the department has that more information about the physics program and an example of a typical course schedule for each degree. [Major Brochure 2018-2019](http://www.phys.virginia.edu/Education/Programs/MajorBrochure/default.pdf)
 
-
 Here are some summaries/descriptions of courses that are required/typically offered:
 <div class="collapse-list-wrapper4phys1710" 
      id="wrapper-1710">
-    <div class="collapse-list-heading" 
+    <div class="collapse-list-heading collapsed" 
         data-toggle="collapse" 
         data-target="#1710" 
         aria-controls="1710" 
@@ -42,14 +41,19 @@ Here are some summaries/descriptions of courses that are required/typically offe
 
 <div class="collapse-list-wrapper4phys1720" 
      id="wrapper-1720">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#1720" 
          aria-controls="1720" 
          aria-expanded="false">
 
+<<<<<<< HEAD
 <h2> Intro Physics 2: PHYS 1720 </h2>
 <i class="arrow h2arrow down"></i>
+=======
+<i class="arrow h2arrow"></i>
+<h2> Intro physics 2: PHYS 1720 </h2>
+>>>>>>> 1c2e935202bda5bd26c7877251f27534dcd9f318
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -103,7 +107,7 @@ Check it out <a href= "/phys1910/about/"> here</a>
 
 <div class="collapse-list-wrapper4phys2660" 
      id="wrapper-2660">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#2660" 
          aria-controls="2660" 
@@ -138,14 +142,14 @@ Prerequisite: One semester of calculus (MATH 1310) and one semester of introduct
 
 <div class="collapse-list-wrapper4phys2620" 
      id="wrapper-2620">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#2620" 
          aria-controls="2620" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Modern Physics: PHYS 2620 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -168,7 +172,7 @@ Prerequisites: PHYS 2320, General Physics 2 (PHYS 2415), Intro Phys 2 (PHYS 1720
 
 <div class="collapse-list-wrapper4phys2630" 
      id="wrapper-2630">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#2630" 
          aria-controls="2630" 
@@ -203,7 +207,7 @@ This course is a lot of work outside of class so although it is a 3 credit cours
 
 <div class="collapse-list-wrapper4phys2630" 
      id="wrapper-2640">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#2640" 
          aria-controls="2640" 
@@ -230,14 +234,14 @@ Prerequisite: Intro Physics 1 & 2 (PHYS 1710 & 1720) and Elementary Lab 1 (PHYS 
 
 <div class="collapse-list-wrapper4phys3210" 
      id="wrapper-3210">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3210" 
          aria-controls="3210" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Classical Mechanics: PHYS 3210 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -262,7 +266,7 @@ Prerequisite: Differential Equations (MATH 3250), and Intro Phys 2 (PHYS 1720)
 
 <div class="collapse-list-wrapper4phys3420" 
      id="wrapper-3420">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3420" 
          aria-controls="3420" 
@@ -293,7 +297,7 @@ Prerequisite: Mathematics for Physics (MATH 4210), and Intro Physics 2 (PHYS 172
 
 <div class="collapse-list-wrapper4phys3430" 
      id="wrapper-3430">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3430" 
          aria-controls="3430" 
@@ -322,7 +326,7 @@ The text is the same as E&M 1 and you will cover chapters 8-12
 
 <div class="collapse-list-wrapper4phys3310" 
      id="wrapper-3310">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3310" 
          aria-controls="3310" 
@@ -353,7 +357,7 @@ Prerequisite: Differential Equations (MATH 3250) and Modern Physics (PHYS 2620).
 
 <div class="collapse-list-wrapper4phys3650" 
      id="wrapper-3650">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3650" 
          aria-controls="3650" 
@@ -385,7 +389,7 @@ Prerequisite: Differential Equations (MATH 3250), Modern Physics (PHYS 2620): Co
 
 <div class="collapse-list-wrapper4phys3660" 
      id="wrapper-3660">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3660" 
          aria-controls="3660" 
@@ -414,7 +418,7 @@ Prerequisite: Quantum Mechanics 1 (PHYS 3650).
 
 <div class="collapse-list-wrapper4phys3170" 
      id="wrapper-3170">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3170" 
          aria-controls="3170" 
@@ -443,7 +447,7 @@ Prerequisite: Elementary Lab 2 (PHYS 2640) or General Physics II Workshop (PHYS 
 
 <div class="collapse-list-wrapper4phys3995" 
      id="wrapper-3995">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3995" 
          aria-controls="3995" 
@@ -467,7 +471,7 @@ All physics students seeking the bachelors of science must take PHYS 3995 under 
 
 <div class="collapse-list-wrapper4phys3110" 
      id="wrapper-3110">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3110" 
          aria-controls="3110" 
@@ -497,7 +501,7 @@ Prerequisite: Modern Physics (PHYS 2620)
 
 <div class="collapse-list-wrapper4phys3150" 
      id="wrapper-3150">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3150" 
          aria-controls="3150" 
@@ -523,7 +527,7 @@ Prerequisite: Elementary Lab 2 (PHYS 2640) or Basic Physics Labratory 2 (PHYS 20
 
 <div class="collapse-list-wrapper4phys5310" 
      id="wrapper-5310">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5310" 
          aria-controls="5310" 
@@ -553,14 +557,14 @@ Prerequisite: General Physics 2 (PHYS 2415) or an equivalent college-level elect
 
 <div class="collapse-list-wrapper4phys5620" 
      id="wrapper-5620">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5620" 
          aria-controls="5620" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Solid State Physics: PHYS 5620 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -583,7 +587,7 @@ Prerequisite: Quantum Mechanics I (PHYS 3650) or an equivalent course
 
 <div class="collapse-list-wrapper4phys5630" 
      id="wrapper-5630">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5630" 
          aria-controls="5630" 
@@ -612,14 +616,14 @@ Prerequisite: PHYS 2660; pre or corequisite: Clssical Mechanics (PHYS 3210) and 
 
 <div class="collapse-list-wrapper4phys5720" 
      id="wrapper-5720">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5720" 
          aria-controls="5720" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Introduction to Nuclear and Particle Physics: PHYS 5720 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -644,7 +648,7 @@ You can expect to cover chapters 1-4, 6, and 7
 
 <div class="collapse-list-wrapper4phys3040" 
      id="wrapper-3040">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3040" 
          aria-controls="3040" 
@@ -675,14 +679,14 @@ Corequisite: Principles of Physics 2 (PHYS 2020) or General Physics 2 (PHYS 2415
 
 <div class="collapse-list-wrapper4phys3120" 
      id="wrapper-3120">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3120" 
          aria-controls="3120" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Applied Physics Energy: PHYS 3120 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -704,14 +708,14 @@ Prequiste: Modern Physics (PHYS 2620). PHYS 3110 is not a prerequsite.
 
 <div class="collapse-list-wrapper4phys3250" 
      id="wrapper-3250">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3250" 
          aria-controls="3250" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Applied Nuclear Physics: PHYS 3250 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -733,7 +737,7 @@ Prerequisite: Modern Physics (PHYS 2620)
 
 <div class="collapse-list-wrapper4phys5160" 
      id="wrapper-5160">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5160" 
          aria-controls="5160" 
@@ -765,14 +769,14 @@ Prerequisite: Classical Mechanics (Physics 3210), Electricity & Magnetism II (PH
 
 <div class="collapse-list-wrapper4phys5240" 
      id="wrapper-5240">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5240" 
          aria-controls="5240" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Intro to General Realativity: PHYS 5240 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -801,14 +805,14 @@ I personally wasnt too much of a fan of schutz and I think <a href="https://book
 
 <div class="collapse-list-wrapper4phys5640" 
      id="wrapper-5640">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5640" 
          aria-controls="5640" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Computational Physics 2: PHYS 5640 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -827,14 +831,14 @@ Prerequisite: Computational Physics 1 (PHYS 5630)
 
 <div class="collapse-list-wrapper4phys5880" 
      id="wrapper-5880">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#5880" 
          aria-controls="5880" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Quantum Computing: PHYS 5880 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -859,14 +863,14 @@ The course assumes a knowledge of linear algebra, basic probability and familiar
 <br>
 <div class="collapse-list-wrapper4math1320" 
      id="wrapper-1320">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#1320" 
          aria-controls="1320" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Calculus 2: MATH 1320 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -889,14 +893,14 @@ Prerequisite: Calculus 1 (MATH 1310) or equivalent; at most one of Survey of Cal
 
 <div class="collapse-list-wrapper4math2310" 
      id="wrapper-2310">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#2310" 
          aria-controls="2310" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Calculus 3: MATH 2310 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -919,7 +923,7 @@ Prerequisite: Calculus 2 (MATH 1320) or the equivalent.
 
 <div class="collapse-list-wrapper4math3250" 
      id="wrapper-3250">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#3250" 
          aria-controls="3250" 
@@ -950,14 +954,14 @@ Prerequisite: Calculus 2 (MATH 1320) or its equivalent.
 
 <div class="collapse-list-wrapper4math4210" 
      id="wrapper-4210">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#4210" 
          aria-controls="4210" 
          aria-expanded="false">
 
+<i class="arrow h2arrow"></i>
 <h2> Mathematics for Physics: MATH 4210 </h2>
-<i class="arrow h2arrow down"></i>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -983,7 +987,7 @@ Prerequisite: Calculus 3 (MATH 2310) or Advanced Calculus and Linear Algebra I (
 
 <div class="collapse-list-wrapper4math4220" 
      id="wrapper-4220">
-<div class="collapse-list-heading" 
+<div class="collapse-list-heading collapsed" 
          data-toggle="collapse" 
          data-target="#4220" 
          aria-controls="4220" 

@@ -10,21 +10,27 @@ Here you can find an archive of lecture recordings for the PHYS 1910 course, whi
     {%- capture year_no_spaces -%}
         {{ year.year | remove: " " }}
     {%- endcapture -%}
-    <div class="collapse-list-heading" data-toggle="collapse" data-target="#{{ year_no_spaces }}" aria-expanded="{% if year.year == site.data.phys1910.current-year %} true {% else %} false {% endif %}" aria-labelledby="{{ year_no_spaces }}">
-        <h1> 
-            {{ year.year }}
-        </h1>
-        <i class="arrow {% if year.year == site.data.phys1910.current-year %} up {% else %} down {% endif %}">
-        </i>
-    </div>
+    {% if year.year == site.data.phys1910.current-year %}
+        {% assign expanded = true %}
+    {% else %} 
+        {% assign expanded = false %}
+    {% endif %}
+    {% include collapse-list-heading.html
+       heading=year.year
+       target-id=year_no_spaces
+       heading-type='h1'
+       expanded=expanded
+    %}
     <div class="recordings collapse {% if year.year == site.data.phys1910.current-year %} show {% endif %}" id="{{ year_no_spaces }}" aria-labelledby="{{ year_no_spaces }}" data-parent="#lectures-years">
         {% if year.recordings %}
         {% for recording in year.recordings %}
-            <h3>
-                <a class="recording-info" data-toggle="collapse" data-target="#{{ recording.id }}" aria-expanded="false" aria-controls="{{ recording.id }}"> 
-                    {{ recording.speaker }} - {{ recording.title }} 
-                </a>
-            </h3>
+            <div class="collapse-list-heading collapsed" data-toggle="collapse" data-target="#{{ recording.id }}" aria-expanded="false" aria-controls="{{ recording.id }}">
+                <h3>
+                    <a class="recording-info"> 
+                        {{ recording.speaker }} - {{ recording.title }} 
+                    </a>
+                </h3>
+            </div>
             <div class="recording-container collapse" id="{{ recording.id }}" aria-labelledby="{{ recording.id }}">
                 {% if recording.slides %}
                 <h4>

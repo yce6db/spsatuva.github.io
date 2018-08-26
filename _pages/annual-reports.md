@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Annual Reports
-permalink: /annual-reports/
 ---
 
 Find our annual reports at the following links
