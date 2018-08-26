@@ -2,7 +2,9 @@
 layout: home
 ---
 
+{% comment %}
 <!-- Hero Slider -->
+{% endcomment %}
 <div id="hero-carousel" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="7000">
     <div class="carousel-inner">
     {% for image in site.data.front-page-slider.images %}
@@ -18,7 +20,9 @@ layout: home
     </div>
 </div>
 
-<!-- Main content   -->
+{% comment %}
+<!-- Main content -->
+{% endcomment %}
 <main class="site__content">
     <section class="blog">
     </section>
