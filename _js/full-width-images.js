@@ -13,7 +13,7 @@ function resizeImages() {
         var margin = ( scale - 100. ) / 2. + 1;
         $(this).parent().css("width", scale.toString() + "%");
         $(this).parent().css("margin-left", "-" + margin.toString() + "%");
-        $(this).css("max-height", "400px");
+        $(this).css("max-height", "65vh");
         $(this).css("object-fit", "cover");
         $('.site__content').css("overflow", "hidden");
       }
@@ -24,6 +24,7 @@ function resizeImages() {
       $(this).parent().css("width", "100%");
       $(this).parent().css("margin-left", "0%");
       $(this).css("max-height", "");
+      $(this).css("object-fit", "");
       $('.site__content').css("overflow", "");
     });
   }  
@@ -38,5 +39,5 @@ $( window ).resize(function() {
 });
 
 $('.collapse').on('shown.bs.collapse', function() {
-    resizeImages();
+  resizeImages();
 });
