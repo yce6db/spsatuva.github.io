@@ -20,10 +20,12 @@ See documentation for Boostrap collapse elements [here](http://getbootstrap.com/
          data-target="#target-id" 
          aria-controls="target-id" 
          aria-expanded="true">
+        <!-- This is the arrow element. It MUST be before the heading. -->
+        <!-- The arrow includes an h1arrow class to indicate what size it should be -->
+        <!-- h1arrow, h2arrow, and h3arrow classes are all available to match the size of h1, h2, and h3 -->
+        <i class="arrow h1arrow"></i>
         <!-- This is the heading name. You can change to anything you want, but h1 is a good size for a title -->
         <h1> Heading Name </h1>
-        <!-- This is the arrow element -->
-        <i class="arrow up"></i>
     </div>
     <!-- This is what gets collapsed -->
     <!-- Give this a unique id 'target-id' so that Bootstrap knows what gets collapsed when you click on the corresponding heading -->
@@ -41,7 +43,7 @@ See documentation for Boostrap collapse elements [here](http://getbootstrap.com/
 
 This renders to:
 
-<div style="background-color: #f8f8f8; border-color: rgb(222, 226, 230); border-radius: 0.3rem; border: solid 1px; padding: 5px;">
+<div class="tutorial-wrapper">
 <!-- This is the wrapper for the whole collapsible list. Give it a class name so you can style it and give it a unique id to reference later -->
 <div class="collapse-list-wrapper" 
      id="wrapper-id">
@@ -54,10 +56,12 @@ This renders to:
          data-target="#target-id" 
          aria-controls="target-id" 
          aria-expanded="true">
+        <!-- This is the arrow element. It MUST be before the heading. -->
+        <!-- The arrow includes an h1arrow class to indicate what size it should be -->
+        <!-- h1arrow, h2arrow, and h3arrow classes are all available to match the size of h1, h2, and h3 -->
+        <i class="arrow h1arrow"></i>
         <!-- This is the heading name. You can change to anything you want, but h1 is a good size for a title -->
         <h1> Heading Name </h1>
-        <!-- This is the arrow element -->
-        <i class="arrow up"></i>
     </div>
     <!-- This is what gets collapsed -->
     <!-- Give this a unique id 'target-id' so that Bootstrap knows what gets collapsed when you click on the corresponding heading -->
@@ -65,7 +69,7 @@ This renders to:
     <div class="collapse-list-target collapse show" 
          id="target-id" 
          aria-labelledby="target-id" 
-         data-parent="wrapper-id">
+         data-parent="#wrapper-id">
         <p> Content goes here </p>
         <h3> It can be anything, as long as it's wrapped in the collapsible div </h3>
         <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
@@ -104,16 +108,16 @@ With the following HTML + Liquid code
     <!-- We check which item in the list we are currently examining with forloop.index -->
     <!-- If it is the first element, we want it to be expanded. -->
     <!-- If it is any other element, we want the content to be hidden -->
-    <div class="collapse-list-heading" 
+    <div class="collapse-list-heading {% unless forloop.index == 1 %} collapsed {% endunless %}" 
          data-toggle="collapse" 
          data-target="#{{ target-id }}" 
          aria-controls="{{ target-id }}" 
          aria-expanded="{% if forloop.index == 1 %} true {% else %} false {% endif %}">
-        <!-- Put in a heading with the name specified -->
-        <h1> {{ item.heading-name }} </h1>
         <!-- If it is the first element, we want the arrow pointing up -->
         <!-- If it is any other element, we want the arrow pointing down -->
-        <i class="arrow {% if forloop.index == 1 %} up {% else %} down {% endif %}"></i>
+        <i class="arrow h1arrow"></i>
+        <!-- Put in a heading with the name specified -->
+        <h1> {{ item.heading-name }} </h1>
     </div>
     <!-- If it is the first element, we want the content to be shown  -->
     <!-- If it is any other element, we want the content to be hidden -->
@@ -142,16 +146,18 @@ Which, when the Liquid tags renders out gives this code:
     {%- capture target-id -%}
         {{ item.heading-name | remove: " " }}
     {%- endcapture -%}
-    <!-- Note the automatically generated element ids -->
-    <div class="collapse-list-heading" 
+    <!-- The controller -->
+    <div class="collapse-list-heading {% unless forloop.index == 1 %} collapsed {% endunless %}" 
          data-toggle="collapse" 
          data-target="#{{ target-id }}" 
          aria-controls="{{ target-id }}" 
          aria-expanded="{% if forloop.index == 1 %} true {% else %} false {% endif %}">
+        <!-- The arrow -->
+        <i class="arrow h1arrow"></i>
         <!-- The heading -->
         <h1> {{ item.heading-name }} </h1>
-        <i class="arrow {% if forloop.index == 1 %} up {% else %} down {% endif %}"></i>
     </div>
+    <!-- What is hidden / shown -->
     <div class="collapse-list-target collapse {% if forloop.index == 1 %} show {% endif %}" 
          id="{{ target-id }}" 
          aria-labelledby="{{ target-id }}" 
@@ -169,45 +175,131 @@ Which, when the Liquid tags renders out gives this code:
 
 We can make a collapse list that renders to:
 
-<div style="background-color: #f8f8f8; border-radius: 0.3rem; border: solid 1px; padding: 5px;">
+<div class="tutorial-wrapper">
     <div class="collapse-list-wrapper" 
-         id="complex-wrapper-id">
-        <!-- We loop over each item in the list specified with site.data.docs.test-collapse.data -->
+        id="complex-wrapper-id">
         {% for item in site.data.docs.test-collapse.data %}
-        <!-- We're going to make a unique HTML5-friendly (no spaces) target id to use from the data -->
-        <!-- Here, we just use the heading name to uniquely identify each item in the collapse list -->
-        <!-- The capture tag takes whatever is rendered inside it and puts it in a string contained in the variable 'target-id' to use later -->
         {%- capture target-id -%}
             {{ item.heading-name | remove: " " }}
         {%- endcapture -%}
-        <!-- We check which item in the list we are currently examining with forloop.index -->
-        <!-- If it is the first element, we want it to be expanded. -->
-        <!-- If it is any other element, we want the content to be hidden -->
-        <div class="collapse-list-heading" 
-             data-toggle="collapse" 
-             data-target="#{{ target-id }}" 
-             aria-controls="{{ target-id }}" 
-             aria-expanded="{% if forloop.index == 1 %} true {% else %} false {% endif %}">
-            <!-- Put in a heading with the name specified -->
+        <div class="collapse-list-heading {% unless forloop.index == 1 %} collapsed {% endunless %}" 
+            data-toggle="collapse" 
+            data-target="#{{ target-id }}" 
+            aria-controls="{{ target-id }}" 
+            aria-expanded="{% if forloop.index == 1 %} true {% else %} false {% endif %}">
+            <i class="arrow h1arrow"></i>
             <h1> {{ item.heading-name }} </h1>
-            <!-- If it is the first element, we want the arrow pointing up -->
-            <!-- If it is any other element, we want the arrow pointing down -->
-            <i class="arrow {% if forloop.index == 1 %} up {% else %} down {% endif %}"></i>
         </div>
-        <!-- If it is the first element, we want the content to be shown  -->
-        <!-- If it is any other element, we want the content to be hidden -->
         <div class="collapse-list-target collapse {% if forloop.index == 1 %} show {% endif %}" 
-             id="{{ target-id }}" 
-             aria-labelledby="{{ target-id }}" 
-             data-parent="#complex-wrapper-id">
-            <!-- Copy in the content specified from the data with {{ item.content }} -->
+            id="{{ target-id }}" 
+            aria-labelledby="{{ target-id }}" 
+            data-parent="#complex-wrapper-id">
             {{ item.content }}
-            <!-- Check if we specified an image in the data -->
             {% if item.image %}
-            <!-- If so, include an image -->
             <img src="{{ item.image }}"/>
             {% endif %}
         </div>
         {% endfor %}
     </div>
 </div>
+
+# Templated heading and content
+
+It can get complicated making the collapse list heading, and this code is frequently repeated so there is a template that takes care making that part for you. It is found in `_includes/collapse-list-heading.html` and is used as follows:
+
+```liquid
+{% raw %}{% include collapse-list-heading.html
+   <!-- Required. Can also be a liquid variable. -->
+   heading="My Heading"
+   <!-- Required. Can also be a liquid variable -->
+   target-id="my-target-id"
+   <!-- Optional. Either true or false -->
+   expanded=true
+   <!-- Optional. Default = h1 -->
+   heading-type='h3'
+   <!-- Optional. Include all of the CSS classes you want here -->
+   classes="class-one class-two"
+%}{% endraw %}
+```
+
+This heading can be paired with an accompanying target include found in `_includes/collapse-list-target.html` and is used as follows:
+
+```liquid
+{% raw %}{%- capture content -%}
+ <p> I am inside this div. </p>
+{%- endcapture -%}
+{% include collapse-list-target.html
+   <!-- Required. Pass the id of the target element here. -->
+   id="my-target-id"
+   <!-- Required. Either true or false. -->
+   expanded=true
+   <!-- Required. A string containing all of the content to put inside the target. -->
+   content=content
+   <!-- Optional. Used for when there are multiple items to control. Pass the id of the div that wraps all the collapse-lists. -->
+   parent-id=""
+   <!-- Optional. Pass all of the CSS classes that you want in one string separated by spaces. -->
+   classes=""
+%}{% endraw %}
+```
+
+So in total we have:
+
+```liquid
+{% raw %}{% include collapse-list-heading.html
+   <!-- Required. Can also be a liquid variable. -->
+   heading="My Heading"
+   <!-- Required. Can also be a liquid variable -->
+   target-id="my-target-id"
+   <!-- Optional. Either true or false -->
+   expanded=true
+   <!-- Optional. Default = h1 -->
+   heading-type='h3'
+   <!-- Optional. Include all of the CSS classes you want here -->
+   classes="class-one class-two"
+%}
+
+{%- capture content -%}
+ <p> I am inside this div. </p>
+{%- endcapture -%}
+{% include collapse-list-target.html
+   id="my-target-id"
+   expanded=true
+   content=content
+   parent-id=""
+   classes=""
+%}{% endraw %}
+```
+
+which renders out to the following html
+
+```html
+<!-- The heading -->
+{% include collapse-list-heading.html heading="My Heading" target-id="my-target-id" expanded=true heading-type='h3' %}
+{%- capture content -%}
+<p> I am inside this div </p>
+{%- endcapture -%}
+<!-- The target -->
+{% include collapse-list-target.html id="my-target-id" expanded=true content=content parent-id="" classes="" %}
+```
+
+which finally renders to:
+<div class="tutorial-wrapper">
+    {% include collapse-list-heading.html 
+    heading="My Heading"
+    target-id="my-target-id"
+    expanded=true
+    heading-type='h3'
+    %}
+    {%- capture content -%}
+    <p> I am inside this div </p>
+    {%- endcapture -%}
+    {% include collapse-list-target.html 
+       id="my-target-id"
+       expanded=true
+       content=content
+       parent-id=""
+       classes=""
+    %}
+</div>
+
+Of course this gets a bit cumbersome, especially with using `collapse-list-target.html` which requires capturing **all** of the content we wish to be inside the dropdown *before* we actually make the div. The `collapse-list-heading.html` template is more self-contained and can be used independently as long as you remember to properly id your collapse targets and pass them to `collapse-list-heading.html`.

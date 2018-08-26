@@ -1,0 +1,9 @@
+
+<div class="collapse-list-target collapse{% if include.expanded %} show{% endif %}{% if include.classes %} {{ include.classes }}{% endif %}" 
+    id="{{ include.id }}" 
+    aria-labelledby="{{ include.id }}" 
+    {% if include.parent-id and include.parent-id != "" %}
+    data-parent="#{{ include.parent-id }}"
+    {% endif %}>
+ {{ include.content }}
+</div>

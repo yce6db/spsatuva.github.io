@@ -1,4 +1,3 @@
-
 {% if include.heading-type %}
     {% if include.heading-type == 'h1' %}
         {% assign heading-type = 'h1' %}
@@ -16,12 +15,11 @@
     {% assign heading-type = 'h1' %}
     {% assign arrow-type = 'h1arrow' %}
 {% endif %}
-
-<div class="collapse-list-heading {{ include.classes }} {% unless include.expanded == 'true' %}collapsed{% endunless %}"
+<div class="collapse-list-heading{%if include.classes %} {{ include.classes }}{% endif %}{% unless include.expanded %} collapsed{% endunless %}"
      data-toggle="collapse"
      data-target="#{{ include.target-id }}"
      aria-controls="{{ include.target-id }}" 
-     aria-expanded="{% if include.expanded == 'true' %}true{% else %}false{% endif %}">
+     aria-expanded="{% if include.expanded %}true{% else %}false{% endif %}">
     <i class="arrow {{ arrow-type }}"></i>
     <{{ heading-type }}>
         {{ include.heading }}
