@@ -21,13 +21,7 @@ header:
           link: /path/to/dropdownitem2
 ```
 
-The main navigation structure can be accessed with the liquid variable `site.data.navigation.header`, which is a list containing each of the links to be displayed in the header of each page of this site. For example, currently if I paste in the contents of this variable here, I will get:
-
-```
-{{ site.data.navigation.header }}
-```
-
-This data is used in the file `_includes/header.html`, where this list is iterated over to generate the header on the top of the site. If you take a look at this file you will see something like:
+The main navigation structure can be accessed with the liquid variable `site.data.navigation.header`, which is a list containing each of the links to be displayed in the header of each page of this site. This data is used in the file `_includes/header.html`, where a list like the one shown above is iterated over to generate the header on the top of the site. If you take a look at this file you will see something like:
 
 ```liquid
 {% raw %}{% for item in site.data.nagivation.header %}
