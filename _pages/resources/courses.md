@@ -16,9 +16,10 @@ Here are some summaries/descriptions of courses that are required/typically offe
         data-target="#1710" 
         aria-controls="1710" 
         aria-expanded="false">
-        <h2> Intro Physcis 1: PHYS 1710 </h2>
         <i class="arrow h2arrow down"></i>
-    </div>
+        <h2> Intro Physcis 1: PHYS 1710 </h2>
+        
+  </div>
     <div class="collapse-list-target collapse" 
         id="1710" 
         aria-labelledby="1710" 
@@ -35,7 +36,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
         <br>
         Prerequisite: Calculus 1(MATH 1310)        
         </p>
-    </div>
+  </div>
 </div>
 
 
@@ -47,9 +48,10 @@ Here are some summaries/descriptions of courses that are required/typically offe
          aria-controls="1720" 
          aria-expanded="false">
 
-<h2> Intro Physics 2: PHYS 1720 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Intro Physics 2: PHYS 1720 </h2>
+
+  </div>
 
 <div class="collapse-list-target collapse" 
          id="1720" 
@@ -79,9 +81,10 @@ Prerequisites: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PH
          aria-controls="1910" 
          aria-expanded="false">
 
-<h2> Introduction to Physics Research: PHYS 1910 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Introduction to Physics Research: PHYS 1910 </h2>
+
+  </div>
 
 <div class="collapse-list-target collapse" 
          id="1910" 
@@ -108,9 +111,10 @@ Check it out <a href= "/phys1910/about/"> here</a>
          aria-controls="2660" 
          aria-expanded="false">
 
-<h2> Fundamentals of Scientific Computing: PHYS 2660 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Fundamentals of Scientific Computing: PHYS 2660 </h2>
+
+  </div>
 
 <div class="collapse-list-target collapse" 
          id="2660" 
@@ -173,9 +177,10 @@ Prerequisites: PHYS 2320, General Physics 2 (PHYS 2415), Intro Phys 2 (PHYS 1720
          aria-controls="2630" 
          aria-expanded="false">
 
-<h2> Elementary Lab 1: PHYS 2630 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Elementary Lab 1: PHYS 2630 </h2>
+
+</div>
 
 
 <div class="collapse-list-target collapse" 
@@ -208,9 +213,9 @@ This course is a lot of work outside of class so although it is a 3 credit cours
          aria-controls="2640" 
          aria-expanded="false">
 
-<h2> Elementary Lab 2: PHYS 2640 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Elementary Lab 2: PHYS 2640 </h2>
+</div>
 
 <div class="collapse-list-target collapse" 
          id="2640" 
@@ -267,9 +272,10 @@ Prerequisite: Differential Equations (MATH 3250), and Intro Phys 2 (PHYS 1720)
          aria-controls="3420" 
          aria-expanded="false">
 
-<h2> Electricity and Magnetism 1: PHYS 3420 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Electricity and Magnetism 1: PHYS 3420 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3420" 
@@ -298,8 +304,8 @@ Prerequisite: Mathematics for Physics (MATH 4210), and Intro Physics 2 (PHYS 172
          aria-controls="3430" 
          aria-expanded="false">
 
-<h2> Electricity and Magnetism 2: PHYS 3420 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Electricity and Magnetism 2: PHYS 3420 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -327,9 +333,10 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-controls="3310" 
          aria-expanded="false">
 
-<h2> Statistical Physics: PHYS 3310 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Statistical Physics: PHYS 3310 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3310" 
@@ -358,9 +365,10 @@ Prerequisite: Differential Equations (MATH 3250) and Modern Physics (PHYS 2620).
          aria-controls="3650" 
          aria-expanded="false">
 
-<h2> Quantum Physics 1: PHYS 3650 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Quantum Physics 1: PHYS 3650 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3650" 
@@ -390,9 +398,10 @@ Prerequisite: Differential Equations (MATH 3250), Modern Physics (PHYS 2620): Co
          aria-controls="3660" 
          aria-expanded="false">
 
-<h2> Quantum Physics 2: PHYS 3660 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Quantum Physics 2: PHYS 3660 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3660" 
@@ -419,9 +428,10 @@ Prerequisite: Quantum Mechanics 1 (PHYS 3650).
          aria-controls="3170" 
          aria-expanded="false">
 
-<h2> Intermediate Lab (1 or 2): PHYS 3170 or 3180 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Intermediate Lab (1 or 2): PHYS 3170 or 3180 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3170" 
@@ -448,9 +458,10 @@ Prerequisite: Elementary Lab 2 (PHYS 2640) or General Physics II Workshop (PHYS 
          aria-controls="3995" 
          aria-expanded="false">
 
-<h2> Research: PHYS 3995 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Research: PHYS 3995 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3995" 
@@ -472,9 +483,10 @@ All physics students seeking the bachelors of science must take PHYS 3995 under 
          aria-controls="3110" 
          aria-expanded="false">
 
-<h2> Widely Applied Physics: PHYS 3995 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Widely Applied Physics: PHYS 3995 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3110" 
@@ -502,9 +514,10 @@ Prerequisite: Modern Physics (PHYS 2620)
          aria-controls="3150" 
          aria-expanded="false">
 
-<h2> Electronics Lab: PHYS 3150 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Electronics Lab: PHYS 3150 </h2>
+
+ </div>
 
 <div class="collapse-list-target collapse" 
          id="3150" 
@@ -528,8 +541,8 @@ Prerequisite: Elementary Lab 2 (PHYS 2640) or Basic Physics Labratory 2 (PHYS 20
          aria-controls="5310" 
          aria-expanded="false">
 
-<h2> Optics: PHYS 5310 </h2>
 <i class="arrow h2arrow down"></i>
+<h2> Optics: PHYS 5310 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -560,7 +573,8 @@ Prerequisite: General Physics 2 (PHYS 2415) or an equivalent college-level elect
 
 <i class="arrow h2arrow"></i>
 <h2> Solid State Physics: PHYS 5620 </h2>
-    </div>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="5620" 
@@ -588,9 +602,10 @@ Prerequisite: Quantum Mechanics I (PHYS 3650) or an equivalent course
          aria-controls="5630" 
          aria-expanded="false">
 
-<h2> Computational Physics 1: PHYS 5630 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Computational Physics 1: PHYS 5630 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="5630" 
@@ -649,9 +664,10 @@ You can expect to cover chapters 1-4, 6, and 7
          aria-controls="3040" 
          aria-expanded="false">
 
-<h2> Physics of the Human Body: PHYS 3040 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Physics of the Human Body: PHYS 3040 </h2>
+
+ </div>
 
 <div class="collapse-list-target collapse" 
          id="3040" 
@@ -738,9 +754,10 @@ Prerequisite: Modern Physics (PHYS 2620)
          aria-controls="5160" 
          aria-expanded="false">
 
-<h2> Intro to String Theory: PHYS 5160 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Intro to String Theory: PHYS 5160 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="5160" 
@@ -924,9 +941,10 @@ Prerequisite: Calculus 2 (MATH 1320) or the equivalent.
          aria-controls="3250" 
          aria-expanded="false">
 
-<h2> Ordinary Differential Equations: MATH 3250 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Ordinary Differential Equations: MATH 3250 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="3250" 
@@ -988,9 +1006,10 @@ Prerequisite: Calculus 3 (MATH 2310) or Advanced Calculus and Linear Algebra I (
          aria-controls="4220" 
          aria-expanded="false">
 
-<h2> Partial Differntial Equations: MATH 4220 </h2>
 <i class="arrow h2arrow down"></i>
-    </div>
+<h2> Partial Differntial Equations: MATH 4220 </h2>
+
+</div>
 
 <div class="collapse-list-target collapse" 
          id="4220" 
