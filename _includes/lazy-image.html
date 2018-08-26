@@ -9,15 +9,15 @@
 {% endcomment %}
 {% unless include.image_path %}
   {% if page.layout == 'post' %}
-    {%- capture img_base-path -%}
+    {%- capture img_base_path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/posts/
     {%- endcapture -%}
   {% elsif include.base-path %}
-    {%- capture img_base-path -%}
+    {%- capture img_base_path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/{{ include.base-path }}/
     {%- endcapture -%}
   {% else %}
-    {%- capture img_base-path -%}
+    {%- capture img_base_path -%}
       {{ site.url }}{{ site.baseurl }}/assets/img/
     {%- endcapture -%}
   {% endif %}
@@ -87,7 +87,7 @@
 {% endif %}
 
 {%- capture image_path -%}
-    {{ img_base-path }}{{ image }}
+    {{ img_base_path }}{{ image }}
 {%- endcapture -%}
 
 {% comment %}
