@@ -47,13 +47,8 @@ Here are some summaries/descriptions of courses that are required/typically offe
          aria-controls="1720" 
          aria-expanded="false">
 
-<<<<<<< HEAD
 <h2> Intro Physics 2: PHYS 1720 </h2>
 <i class="arrow h2arrow down"></i>
-=======
-<i class="arrow h2arrow"></i>
-<h2> Intro physics 2: PHYS 1720 </h2>
->>>>>>> 1c2e935202bda5bd26c7877251f27534dcd9f318
     </div>
 
 <div class="collapse-list-target collapse" 
