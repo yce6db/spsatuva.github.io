@@ -50,13 +50,14 @@ Below you can find the current and previous syllabi and course schedules for PHY
                 {% include lazy-image.html
                     image=image
                     base-path='pages/phys1910'
-                    image-class="image-1910 full-width-img"
+                    image-class="image-1910"
                 %}
                 <h2 class="image-name-1910"> {{ name }} </h2>
                 <h3 class="image-title-1910"> {{ title }} </h3>
                 {% if site.data.phys1910.current-year == year.year %}
                 <a href="mailto:{{ email }}"> {{ email }} </a>
                 {% endif %}
+                <hr class="image-separator-1910">
             </div>
         {% endfor %}
     </div>

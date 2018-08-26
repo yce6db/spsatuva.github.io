@@ -1,8 +1,6 @@
 .info-container-1910 {
     display: flex;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 10px;
 }
 
@@ -12,6 +10,10 @@
 
 .image-1910 {
     width: 99%;
+}
+
+.image-separator-1910 {
+    display: none;
 }
 
 .lectures-years {
@@ -64,10 +66,16 @@
         width: 100%;
     }
 
+    .image-item-1910 {
+       
+    }
+
+    .image-separator-1910 {
+        display: block;
+    }
+
     .info-container-1910 {
         display: block;
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .recording-video {
