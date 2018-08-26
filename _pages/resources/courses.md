@@ -4,7 +4,7 @@ title: Courses
 ---
 
 
-The physics department at UVA offers three different degrees. The Bachelors of Arts in physics (B.A), The Bachelors of Science in physics (B.S), and the Bachelors of Science in Astrophysics jointly with the Astoronmy department (B.S). Depending on what kind of degree you are seeking will determine what courses you should think about taking. Of course you should consult your undergrad advisor for their advice on picking courses. 
+The physics department at UVA offers three different degrees. The Bachelors of Arts in physics (B.A), The Bachelors of Science in physics (B.S), and the Bachelors of Science in Astrophysics jointly with the Astrononmy department (B.S). Depending on what kind of degree you are seeking will determine what courses you should think about taking. Of course you should consult your undergrad advisor for their advice on picking courses. 
 
 Here is the link to the pdf the department has that more information about the physics program and an example of a typical course schedule for each degree. [Major Brochure 2018-2019](http://www.phys.virginia.edu/Education/Programs/MajorBrochure/default.pdf)
 
@@ -17,7 +17,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
         data-target="#1710" 
         aria-controls="1710" 
         aria-expanded="false">
-        <h2> Intro physcis 1: PHYS 1710 </h2>
+        <h2> Intro Physcis 1: PHYS 1710 </h2>
         <i class="arrow h2arrow down"></i>
     </div>
     <div class="collapse-list-target collapse" 
@@ -34,7 +34,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
         You can expect to cover chapters 1-21 
         <br>
         <br>
-        Prerequiste: Calculus 1(MATH 1310)        
+        Prerequisite: Calculus 1(MATH 1310)        
         </p>
     </div>
 </div>
@@ -48,7 +48,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
          aria-controls="1720" 
          aria-expanded="false">
 
-<h2> Intro physics 2: PHYS 1720 </h2>
+<h2> Intro Physics 2: PHYS 1720 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -58,7 +58,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
          data-parent="#wrapper-1720">
 
 <p>
-This is the second semester of introductory topics in physics and covers the following topics; gravitation, electricity & magnetism, and optics. Like 1710 this course is 5 credits with a discussion section. 
+This is the second semester of introductory topics in physics and covers the following topics; gravitation, electricity & magnetism, and optics. Like PHYS 1710 this course is 5 credits with a discussion section. 
 <br>
 <br>
 The text is the same as PHYS 1710 and you can expect to cover chapters 21-35. 
@@ -67,10 +67,37 @@ The text is the same as PHYS 1710 and you can expect to cover chapters 21-35.
 Here is a copy of the syllabus from when prof. basseler taught the course <a href="https://collab.its.virginia.edu/syllabi/public/dae98f12-1310-4f62-aed9-f1ab0625c5db">syllabus</a> 
 <br>
 <br>
-Prerequistes: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHYS 1710)  or General Physics I(PHYS 1425), and Calclus 3(MATH 2310) is a corequiste. 
+Prerequisites: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHYS 1710)  or General Physics I(PHYS 1425), and Calculus 3(MATH 2310) is a corequisite. 
 </p>
 </div>
 </div>
+
+<div class="collapse-list-wrapper4phys1910" 
+     id="wrapper-1910">
+<div class="collapse-list-heading" 
+         data-toggle="collapse" 
+         data-target="#1910" 
+         aria-controls="1910" 
+         aria-expanded="false">
+
+<h2> Introduction to Physics Research: PHYS 1910 </h2>
+<i class="arrow h2arrow down"></i>
+    </div>
+
+<div class="collapse-list-target collapse" 
+         id="1910" 
+         aria-labelledby="1910" 
+         data-parent="#wrapper-1910">
+
+<p>
+We have a whole page deticated to this course already. 
+<br>
+<br>
+Check it out <a href= "/phys1910/about/"> here</a>
+</p>
+</div>
+</div>
+
 
 
 
@@ -82,7 +109,7 @@ Prerequistes: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHY
          aria-controls="2660" 
          aria-expanded="false">
 
-<h2> Fundementals of Scientfic Computing: PHYS 2660 </h2>
+<h2> Fundamentals of Scientific Computing: PHYS 2660 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -92,17 +119,17 @@ Prerequistes: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHY
          data-parent="#wrapper-2660">
 
 <p>
-This class is an introduction into the C programming language and its purpose to familiarize students to solving basic physics problems using programming. In this class you will learn use of external libraries, implementation of basic algorithms with focus on numerical methods, and error analysis & data fitting. Lecture meets once a week and there is a lab session every week. 
+This class is an introduction into the C programming language and its purpose is to familiarize students to solving basic physics problems using programming. In this class you will learn use of external libraries, implementation of basic algorithms with focus on numerical methods, and error analysis & data fitting. Lecture meets once a week and there is a lab session every week. 
 <br>
 <br>
-A fair warning about this course, the material starts off really easy but it progressively gets more difficult, especially the final project. You can ask any who took this course and they will all tell you the same thing... START THE FINAL EARLY! 
+A fair warning about this course, the material starts off really easy but it progressively gets more difficult, especially the final project. You can ask anyone who took this course and they will all tell you the same thing... START THE FINAL EARLY! 
 <br>
 <br>
 
 The texts for this course are <a href="https://www.amazon.com/C-Programming-Scientists-Engineers-Applications/dp/0763739529">C Programming for Scientists and Engineers with Applications by Carol Ziegler and Rama Reddy</a> and <a href="https://www.amazon.com/Statistics-Nuclear-Particle-Physicists-Louis/dp/0521379342/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=1AVEDEG1NHK67HT2YVXE">Statistics for Nuclear and Particle Physicists by louis Lyons</a>
 <br>
 <br>
-Prerequisite: One semester of calculus and one semester of introductory physics (PHYS 1710, 1425, or 2010).
+Prerequisite: One semester of calculus (MATH 1310) and one semester of introductory physics (PHYS 1710, 1425, or 2010).
 
 </p>
 </div>
@@ -134,7 +161,7 @@ This class in an introduction into the more modern fields of 20th century physic
 The standard text is <a href="https://books.google.com/books/about/Modern_Physics.html?id=3tobAAAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Modern physics, Krane </a>
 <br>
 <br>
-Prereqs: PHYS 2320, 2415, 1720, or 2610, and MATH 2310(Calc 3)
+Prerequisites: PHYS 2320, General Physics 2 (PHYS 2415), Intro Phys 2 (PHYS 1720), or PHYS 2610, and Calculus 3 (MATH 2310)
 </p>
 </div>
 </div>
@@ -147,7 +174,7 @@ Prereqs: PHYS 2320, 2415, 1720, or 2610, and MATH 2310(Calc 3)
          aria-controls="2630" 
          aria-expanded="false">
 
-<h2> Elementrary lab 1: PHYS 2630 </h2>
+<h2> Elementary Lab 1: PHYS 2630 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -158,10 +185,13 @@ Prereqs: PHYS 2320, 2415, 1720, or 2610, and MATH 2310(Calc 3)
          data-parent="#wrapper-2630">
 
 <p>
-This is an introductary lab course where students first become familar with running expirments releated to the topics covered in physics:1710 & 1720. The course focus on quantification, computation, and data analysis with selected experiments in mechanics, heat, electricity & magnetism, and optics. 
+This is an introductory lab course where students first become familiar with running experiments related to the topics covered in physics:1710 & 1720. The course focus on quantification, computation, and data analysis with selected experiments in mechanics, heat, electricity & magnetism, and optics. 
 <br>
 <br>
- One lecture hour and four laboratory hours per week. Prerequisite: PHYS 1710 & 1720.
+ One lecture hour and four laboratory hours per week. 
+ <br>
+ <br>
+Prerequisite: Intro Physics 1 & 2, (PHYS 1710 & 1720).
 <br>
 <br>
 This course is a lot of work outside of class so although it is a 3 credit course, be prepared to spend a lot of time on the lab reports. 
@@ -179,7 +209,7 @@ This course is a lot of work outside of class so although it is a 3 credit cours
          aria-controls="2640" 
          aria-expanded="false">
 
-<h2> Elementrary lab 2: PHYS 2640 </h2>
+<h2> Elementary Lab 2: PHYS 2640 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -189,10 +219,10 @@ This course is a lot of work outside of class so although it is a 3 credit cours
          data-parent="#wrapper-2640">
 
 <p>
-This is the second semester of the intoducotry labe sequence for physics majors contuning with expeiremns in mechanics, heat, electricity & magnetism, and optics. 
+This is the second semester of the introductory lab sequence for physics majors continuing with experiments in mechanics, heat, electricity & magnetism, and optics. 
 <br>
 <br>
-Prerequisite: PHYS 1710, 1720, and 2630
+Prerequisite: Intro Physics 1 & 2 (PHYS 1710 & 1720) and Elementary Lab 1 (PHYS 2630).
 
 </p>
 </div>
@@ -215,7 +245,7 @@ Prerequisite: PHYS 1710, 1720, and 2630
          aria-labelledby="3210" 
          data-parent="#wrapper-3210">
 <p>
-This is usally the first of the core classes that physics majors take and entials a more indepth and advanced investigation of classical physics. The course begins with a overview of topics covered in PHYS 1710(kinematics, momentum, and energy) but now with the knowledge of multivariable calculus, differtial equations, and linear algebra. Then students are introdued into lagrangian formalism and the calculus of variations, followed by orbits, rotinal motion of rigid bodies, and coupled spring problems. 
+This is usually the first of the core classes that physics majors take and entails a more in-depth and advanced investigation of classical physics. The course begins with an overview of topics covered in PHYS 1710(kinematics, momentum, and energy) but now with the knowledge of multivariable calculus, differential equations, and linear algebra. Then students are introduced into lagrangian formalism and the calculus of variations, followed by orbits, rotational motion of rigid bodies, and coupled spring problems. 
 <br> 
 <br>
 The standard text is <a href ="https://www.amazon.com/Classical-Mechanics-John-R-Taylor/dp/189138922X"> Taylor Classical Mechanics</a>
@@ -224,7 +254,7 @@ The standard text is <a href ="https://www.amazon.com/Classical-Mechanics-John-R
 You will cover chapters 1-11
 <br>
 <br>
-Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 1720
+Prerequisite: Differential Equations (MATH 3250), and Intro Phys 2 (PHYS 1720)
 <br>
 </p>
 </div>
@@ -238,7 +268,7 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 1720
          aria-controls="3420" 
          aria-expanded="false">
 
-<h2> Electricity and Magnetisim 1: PHYS 3420 </h2>
+<h2> Electricity and Magnetism 1: PHYS 3420 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -247,16 +277,16 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 1720
          aria-labelledby="3420" 
          data-parent="#wrapper-3420">
 <p>
-This course entails a more thorough and extensive investigation into electrostatcis, magnetostatics, and electrodynamics. You will cover a treatment of electromagnetic phenomena with the use of vector calculus, including Maxwell's equations. 
+This course entails a more thorough and extensive investigation into electrostatics, magnetostatics, and electrodynamics. You will cover a treatment of electromagnetic phenomena with the use of vector calculus, including Maxwell's equations. 
 <br>
 <br>
-The standard text is <a href="https://books.google.com/books/about/Introduction_to_Electrodynamics.html?id=ndAoDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths Intodcution to electrodnyamics </a>
+The standard text is <a href="https://books.google.com/books/about/Introduction_to_Electrodynamics.html?id=ndAoDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths Introduction to electrodynamics </a>
 <br>
 <br>
 You can expect to cover chapters 1-7
 <br>
 <br>
-Prerequisite: MATH 4210, and PHYS 1720 or PHYS 2415
+Prerequisite: Mathematics for Physics (MATH 4210), and Intro Physics 2 (PHYS 1720) or General Physics 2 (PHYS 2415).
 </p>
 </div>
 </div>
@@ -269,7 +299,7 @@ Prerequisite: MATH 4210, and PHYS 1720 or PHYS 2415
          aria-controls="3430" 
          aria-expanded="false">
 
-<h2> Electricity and Magnetisim 2: PHYS 3420 </h2>
+<h2> Electricity and Magnetism 2: PHYS 3420 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -278,13 +308,13 @@ Prerequisite: MATH 4210, and PHYS 1720 or PHYS 2415
          aria-labelledby="3430" 
          data-parent="#wrapper-3430">
 <p>
-Contuing where you left off in E&M 1 you will cover topics such as electomagnetic waves, gaue theory, electromagnetic radation, and realatavistic electrodynamics. The intergals in this course are a lot of "fun." 
+Continuing where you left off in E&M 1, you will cover topics such as; electomagnetic waves, gauge theory, electromagnetic radation, and realatavistic electrodynamics. The intergals in this course are a lot of "fun." 
 <br>
 <br>
 The text is the same as E&M 1 and you will cover chapters 8-12
 <br>
 <br>
- Prerequisite: (E&M 1) PHYS 3420
+ Prerequisite: E&M 1 (PHYS 3420)
 </p>
 </div>
 </div>
@@ -298,7 +328,7 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-controls="3310" 
          aria-expanded="false">
 
-<h2> Statistical physics: PHYS 3310 </h2>
+<h2> Statistical Physics: PHYS 3310 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -307,7 +337,7 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-labelledby="3310" 
          data-parent="#wrapper-3310">
 <p>
-This course is a introduction in statiscal mechanics that begings with an overiew of the laws of thermodynamics, treatment of kinetic theory, and then introduces the theory and applications of Boltzmann, Bose-Einstein, and Fermi-Dirac statistics. 
+This course is an introduction in statisical mechanics that begins with an overview of the laws of thermodynamics and treatment of kinetic theory. Then introduces the theory and applications of Boltzmann, Bose-Einstein, and Fermi-Dirac statistics. 
 <br>
 <br>
 The standard text is <a href="https://books.google.com/books/about/An_Introduction_to_Thermal_Physics.html?id=1gosQgAACAAJ">Introduction to Thermal Physics, Schroder</a>
@@ -315,7 +345,7 @@ The standard text is <a href="https://books.google.com/books/about/An_Introducti
 <br>
 You can expect to cover chapters 1-8
 
-Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 2620
+Prerequisite: Differential Equations (MATH 3250) and Modern Physics (PHYS 2620).
 </p>
 </div>
 </div>
@@ -329,7 +359,7 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 2620
          aria-controls="3650" 
          aria-expanded="false">
 
-<h2> Quantum physics 1: PHYS 3650 </h2>
+<h2> Quantum Physics 1: PHYS 3650 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -339,16 +369,16 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, and PHYS 2620
          data-parent="#wrapper-3650">
 
 <p>
-This course is an introducion to the laws of quantum mechanics and focuses on introducing studnets to wave mechanics, dirac notion, and solving the schrodinger equation for diffrent potenials. 
+This course is an introduction to the laws of Quantum Mechanics and focuses on introducing students to wave mechanics, Dirac notion, and solving the schrodinger equation for various potentials. 
 <br>
 <br>
-The standard text is <a href="https://books.google.com/books/about/Introduction_to_Quantum_Mechanics.html?id=82FjDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths introduction to Quantum Mechanics </a> 
+The standard text is <a href="https://books.google.com/books/about/Introduction_to_Quantum_Mechanics.html?id=82FjDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths Introduction to Quantum Mechanics </a> 
 <br>
 <br>
 You can expect to cover chapters 1-4
 <br>
 <br>
-Prerequisite: MATH 3255 (preferred) or MATH 3250, PHYS 2620; corequisite: PHYS 3210
+Prerequisite: Differential Equations (MATH 3250), Modern Physics (PHYS 2620): Corequisite: Classical Mechanics (PHYS 3210)
 </p>
 </div>
 </div>
@@ -361,7 +391,7 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, PHYS 2620; corequisite: PHYS 3
          aria-controls="3660" 
          aria-expanded="false">
 
-<h2> Quantum physics 2: PHYS 3660 </h2>
+<h2> Quantum Physics 2: PHYS 3660 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -371,12 +401,13 @@ Prerequisite: MATH 3255 (preferred) or MATH 3250, PHYS 2620; corequisite: PHYS 3
          data-parent="#wrapper-3660">
 
 <p>
-The second half of quantum mechanics focuses less on the fomralism and more on the applications of quantum mechanics to modern problems. Depending on the instructor you might use a diffrent textbook and learn diffrent material, but you should certinly learn pertubation theory. 
-
-There isnt a standard text but i would expect them to use griffiths, but it depends on who your instructor is. I personally don't care for the second half of griffiths. 
+The second half of Quantum Mechanics focuses less on the formalism, and more on the applications of quantum mechanics to modern problems. Depending on the instructor you might use a different textbook and learn different material, but you should certainly learn perturbation theory. 
 <br>
 <br>
-Prerequisite: PHYS 3650.
+There isn't a standard text but I would expect them to use Griffiths, but it depends on who your instructor is. I personally don't care for the second half of Griffiths, and I used <a href="https://books.google.com/books/about/Quantum_Mechanics.html?id=SvdoN3k8EysC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Landau-Lifshitz </a>. 
+<br>
+<br>
+Prerequisite: Quantum Mechanics 1 (PHYS 3650).
 </p>
 </div>
 </div>
@@ -389,7 +420,7 @@ Prerequisite: PHYS 3650.
          aria-controls="3170" 
          aria-expanded="false">
 
-<h2> Intermediate lab (1 or 2): PHYS 3170 or 3180 </h2>
+<h2> Intermediate Lab (1 or 2): PHYS 3170 or 3180 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -399,13 +430,13 @@ Prerequisite: PHYS 3650.
          data-parent="#wrapper-3170">
 
 <p>
-Intermidate lab 1 and 2 are the same course just offered during different semesters. These courses are desgimned to teach studens on how to run more complicated and modern expierments that are bases on quanutm mechanics, solid state physics, and optics. Students will also learn on how to write exentesive and thorugh lab reports that require reading peer revieed literature. Students will be paired up in partersn and will choose 5 experinents to do that take about 2.5 weeks each. You will write a lab report for 4 of them and will then present the last one for a presentation grade. 
+Intermediate lab 1 and 2 are the same course, just offered during different semesters. These courses are designed to teach students on how to run more complicated and modern experiments that are based on quantum mechanics, solid state physics, and optics. Students will also learn on how to write extensive and thorough lab reports that require reading peer reviwed literature. Students will be paired up in partners and will choose 5 experiments to do that take about 2.5 weeks each. You will write a lab report for 4 of them and will then present the last one for a presentation grade. 
 <br>
 <br>
 Like most labs, you can expect a lot of work outside of class. 
 <br>
 <br>
-Prerequisite: PHYS 2640 or PHYS 2419. PHYS 3170 is an independent course, and not a prerequisite
+Prerequisite: Elementary Lab 2 (PHYS 2640) or General Physics II Workshop (PHYS 2419). Intermidate Lab 1 (PHYS 3170) is an independent course, and not a prerequisite for PHYS 3180
 </p>
 </div>
 </div>
@@ -418,7 +449,7 @@ Prerequisite: PHYS 2640 or PHYS 2419. PHYS 3170 is an independent course, and no
          aria-controls="3995" 
          aria-expanded="false">
 
-<h2> Resarch: PHYS 3995 </h2>
+<h2> Research: PHYS 3995 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -428,7 +459,7 @@ Prerequisite: PHYS 2640 or PHYS 2419. PHYS 3170 is an independent course, and no
          data-parent="#wrapper-3995">
 
 <p>
-All physics students seeking the bachlors of sciecne must take PHYS 3995 under the guidence of a proffessor. This usually includes doing a small project over the course of the semester and then writing a small summary at the end that will be turned into the deparment. For more information check out the research page <a href= "/research"> here</a>
+All physics students seeking the bachelors of science must take PHYS 3995 under the guidance of a professor. This usually includes doing a small project over the course of the semester and then writing a small summary at the end that will be turned into the department. For more information check out the research page <a href= "/resources/research"> here</a>
 
 </p>
 </div>
@@ -442,7 +473,7 @@ All physics students seeking the bachlors of sciecne must take PHYS 3995 under t
          aria-controls="3110" 
          aria-expanded="false">
 
-<h2> Widely Applied Physics : PHYS 3995 </h2>
+<h2> Widely Applied Physics: PHYS 3995 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -458,7 +489,7 @@ Applications of physical principles to a diverse set of phenomena: order of magn
 No standard text
 <br>
 <br>
-Prerequisite: PHYS 2620
+Prerequisite: Modern Physics (PHYS 2620)
 
 </p>
 </div>
@@ -472,7 +503,7 @@ Prerequisite: PHYS 2620
          aria-controls="3150" 
          aria-expanded="false">
 
-<h2> Electronics lab : PHYS 3150 </h2>
+<h2> Electronics Lab: PHYS 3150 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -485,7 +516,7 @@ Prerequisite: PHYS 2620
 The course begins by covering the fundamentals of analog and digital electronics, including the use of transistors, FET's, operational amplifiers, TTL, and CMOS integrated circuits. Following this students conduct projects with modern microcontroller boards (Arduino and Raspberry Pi) using the concepts and the experience gained from the prior fundamentals. Six laboratory hours
 <br>
 <br>
-Prerequisite: PHYS 2640 or 2040 or PHYS 2419
+Prerequisite: Elementary Lab 2 (PHYS 2640) or Basic Physics Labratory 2 (PHYS 2040) or General Physics II Workshop (PHYS 2419)
 </p>
 </div>
 </div>
@@ -498,7 +529,7 @@ Prerequisite: PHYS 2640 or 2040 or PHYS 2419
          aria-controls="5310" 
          aria-expanded="false">
 
-<h2> Optics : PHYS 5310 </h2>
+<h2> Optics: PHYS 5310 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -511,10 +542,10 @@ Prerequisite: PHYS 2640 or 2040 or PHYS 2419
 This course introduces topics such as reflection and refraction at interfaces, geometrical optics, interference phenomena, diffraction, Gaussian optics, and polarization. For students who do not want to take E&M 2 they can take this course instead and still be awarded the Bachelors of Science. 
 <br>
 <br>
-standard text is <a href="https://www.amazon.com/Optics-Miles-V-Klein/dp/0471872970">Optics by Klien & Furtak</a>
+Standard text is <a href="https://www.amazon.com/Optics-Miles-V-Klein/dp/0471872970">Optics by Klien & Furtak</a>
 <br>
 <br>
-Prerequisite: PHYS 2320, 2415, 2610, or an equivalent college-level electromagnetism course; knowledge of vector calculus and previous exposure to Maxwell's equations.
+Prerequisite: General Physics 2 (PHYS 2415) or an equivalent college-level electromagnetism course; knowledge of vector calculus and previous exposure to Maxwell's equations.
 </p>
 </div>
 </div>
@@ -541,10 +572,10 @@ Prerequisite: PHYS 2320, 2415, 2610, or an equivalent college-level electromagne
 In this course you will study various phenomena in condensed matter physics, including crystallography, basic group theory, x-ray and neutron diffraction, lattice vibrations, electrons in a metal, electronic band theory, electrons under an external magnetic field, semiconductors, magnetism and superconductivity. Not only the topics but also the theoretical and experimental techniques that are covered in this course are essential for PhD students as well as advanced Undergraduate students in Physics, Chemistry, Chemical Engineering, and Materials Science and Engineering to excel in their research career. 
 <br>
 <br>
-Standard text is 
+Standard text is TBD
 <br>
 <br>
-Prerequisite: PHYS 3650 (Quantum Mechanics I) or an equivalent course
+Prerequisite: Quantum Mechanics I (PHYS 3650) or an equivalent course
 
 </p>
 </div>
@@ -558,7 +589,7 @@ Prerequisite: PHYS 3650 (Quantum Mechanics I) or an equivalent course
          aria-controls="5630" 
          aria-expanded="false">
 
-<h2> Computational physics 1: PHYS 5630 </h2>
+<h2> Computational Physics 1: PHYS 5630 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -571,7 +602,7 @@ Prerequisite: PHYS 3650 (Quantum Mechanics I) or an equivalent course
  Review of computational methods for differentiation, integration, interpolation, finding zeroes, extrema, etc. proceeding to a concentration on numerical solutions of differential equations, basic spectral analysis, numerical methods for matrices and Monte Carlo simulation applied to problems in classical and modern physics.
  <br>
  <br>
-Prerequisite: PHYS 2660; pre- or corequisite: PHYS 3210 and PHYS 3650
+Prerequisite: PHYS 2660; pre or corequisite: Clssical Mechanics (PHYS 3210) and Quantum Mechanics (PHYS 3650)
 <br>
 <br>
 </p>
@@ -619,7 +650,7 @@ You can expect to cover chapters 1-4, 6, and 7
          aria-controls="3040" 
          aria-expanded="false">
 
-<h2> Physics of the human body: PHYS 3040 </h2>
+<h2> Physics of the Human Body: PHYS 3040 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -632,12 +663,12 @@ You can expect to cover chapters 1-4, 6, and 7
 Application of basic physics principles to functions of the human body: biomechanics, metabolism, cardiovascular, cognitive & respiratory systems, and the senses. Medical diagnosis and therapy technologies (e.g., PET, MRI, CT) are discussed. 
 <br>
 <br>
-No textbook for this class so its important that you come to class and take good notes. 
+No textbook for this class so its important that you go to class and take good notes. 
 <br>
 <br>
-Prerequisite: a semester of calculus and PHYS 2010 or PHYS 1425 or PHYS 1710.
+Prerequisite: a semester of calculus and Principles of Physics 1 (PHYS 2010) or General Physics 1 (PHYS 1425) or Intro Physics 1 (PHYS 1710).
 <br> 
-Corequisite: PHYS 2020 or PHYS 2415 or PHYS 1720
+Corequisite: Principles of Physics 2 (PHYS 2020) or General Physics 2 (PHYS 2415) or Intro Physics 2 (PHYS 1720)
 </p>
 </div>
 </div>
@@ -666,7 +697,7 @@ Basic physics principles involved in energy production, distribution and storage
 No textbook for this class so make sure you take good notes. 
 <br>
 <br>
-Prequiste: PHYS 2620. PHYS 3110 is not a prerequsite.
+Prequiste: Modern Physics (PHYS 2620). PHYS 3110 is not a prerequsite.
 </p>
 </div>
 </div>
@@ -695,7 +726,7 @@ Applications of nuclear physics and nuclear energy: Introduction to nuclear phys
 The standard text is <a href="https://books.google.com/books/about/Nuclear_Physics.html?id=agRC1r0qzFAC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Nuclear Physics, Principles and Applications by Jhon Lilley. </a>
 <br>
 <br>
-Prerequisite: PHYS 2620
+Prerequisite: Modern Physics (PHYS 2620)
 </p>
 </div>
 </div>
@@ -708,7 +739,7 @@ Prerequisite: PHYS 2620
          aria-controls="5160" 
          aria-expanded="false">
 
-<h2> Intro to string theory: PHYS 5160 </h2>
+<h2> Intro to String Theory: PHYS 5160 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -724,10 +755,10 @@ This course introduces a modern topic in theoretical high energy physics to an a
 The standard text is <a href="https://books.google.com/books/about/A_First_Course_in_String_Theory.html?id=ih9kI9MEzh0C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> A First Course in String Theory by Barton Zwiebach </a>
 <br>
 <br>
-You can expect to cover chapters 
+You can expect to cover chapters 1-14
 <br>
 <br>
-Prerequisite: Physics 3210 (Classical Mechanics), 3430 (Electricity & Magnetism II) and 3660 (Quantum Mechanics II)
+Prerequisite: Classical Mechanics (Physics 3210), Electricity & Magnetism II (PHYS 3430) and Quantum Mechanics II (PHYS 3660)
 </p>
 </div>
 </div>
@@ -759,7 +790,7 @@ The standard text is <a href="http://202.38.64.11/~jmy/documents/ebooks/Schutz%2
 You can expect to cover the entire book. 
 <br>
 <br>
-I personally wasnt too much of a fan of schutz and I think <a href="https://books.google.com/books/about/Spacetime_and_Geometry.html?id=1SKFQgAACAAJ&source=kp_book_description"> Spacetime and Geometry by Sean Carrol</a> is a much better book, and i reccommend buying this book for your personal bookshelf
+I personally wasnt too much of a fan of schutz and I think <a href="https://books.google.com/books/about/Spacetime_and_Geometry.html?id=1SKFQgAACAAJ&source=kp_book_description"> Spacetime and Geometry by Sean Carrol</a> is a much better book, and I reccommend buying this book for your personal bookshelf
 <br>
 <br>
  Prerequisite: Advanced calculus through partial differentiation and multiple integration; vector analysis in three dimensions.
@@ -786,11 +817,10 @@ I personally wasnt too much of a fan of schutz and I think <a href="https://book
          data-parent="#wrapper-5640">
 
 <p>
-  
- Countuning from the frist semester of Computational Physics you will study advanced topics in computational physics including numerical methods for partial differential equations, Monte Carlo modeling, advanced methods for linear systems, and special topics in computational physics
+Continuing from the first semester of Computational Physics you will study advanced topics in computational physics including numerical methods for partial differential equations, Monte Carlo modeling, advanced methods for linear systems, and special topics in computational physics
 <br>
 <br>
-Prerequisite: PHYS 5630
+Prerequisite: Computational Physics 1 (PHYS 5630)
 </p>
 </div>
 </div>
@@ -816,7 +846,7 @@ Prerequisite: PHYS 5630
 An introduction to quantum computation, a modern discipline looking for ways to harness the power of quantum mechanics to gain exponential speedup of computations and simulations. We will go through the basic algorithms, discuss error correction and various physical platforms suggested for a possible implementation of such a computer. 
 <br>
 <br>
-Students in the PHYS UGRD career must take PHYS 3650 before they can enroll in PHYS 5880. This does NOT apply to students in ALL other careers
+Students in the PHYS UGRD career must take Quantum Mechanics 1 (PHYS 3650) before they can enroll in PHYS 5880. This does NOT apply to students in ALL other careers
 <br>
 <br>
 The course assumes a knowledge of linear algebra, basic probability and familiarity with quantum mechanics
@@ -851,12 +881,10 @@ A second calculus course for natural-science majors, students planning additiona
 Standard text is <a href="https://books.google.com/books/about/Calculus_Early_Transcendentals.html?id=QyOYWR9RLI8C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Stewart, Early Transcedenals 7th Edtion </a>
 <br>
 <br>
-Prerequisite: MATH 1310 or equivalent; at most one of MATH 1220 and MATH 1320 may be taken for credit.
+Prerequisite: Calculus 1 (MATH 1310) or equivalent; at most one of Survey of Calculus 1 (MATH 1220) and Calculus 2 (MATH 1320) may be taken for credit.
 </p>
 </div>
 </div>
-
-
 
 
 <div class="collapse-list-wrapper4math2310" 
@@ -884,7 +912,7 @@ A continuation of Calc I and II, this course is about functions of several varia
 The standard text is <a href="https://books.google.com/books/about/Multivariable_Calculus.html?id=K1LyXtlFDbkC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false">Stewart Multivariable Calclus, 8th edtion </a>
 <br>
 <br>
-Prerequisite: MATH 1320 or the equivalent.
+Prerequisite: Calculus 2 (MATH 1320) or the equivalent.
 </p>
 </div>
 </div>
@@ -897,7 +925,7 @@ Prerequisite: MATH 1320 or the equivalent.
          aria-controls="3250" 
          aria-expanded="false">
 
-<h2> Ordinary Differntial Equations </h2>
+<h2> Ordinary Differential Equations: MATH 3250 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -915,7 +943,7 @@ The standard text is <a href="https://www.wiley.com/en-us/Elementary+Differentia
 Do not buy this book from their website, it is way too expensive and not worth the price. 
 <br>
 <br>
-Prerequisite: MATH 1320 or its equivalent.
+Prerequisite: Calculus 2 (MATH 1320) or its equivalent.
 </p>
 </div>
 </div>
@@ -948,7 +976,7 @@ The standard text book is <a href="https://books.google.com/books/about/Advanced
 You can expect to cover chapters 6-12 and 19-22
 <br>
 <br>
-Prerequisite: MATH 2310 or MATH 2315 or APMA 2120
+Prerequisite: Calculus 3 (MATH 2310) or Advanced Calculus and Linear Algebra I (MATH 2315) or APMA 2120
 </p>
 </div>
 </div>
@@ -961,7 +989,7 @@ Prerequisite: MATH 2310 or MATH 2315 or APMA 2120
          aria-controls="4220" 
          aria-expanded="false">
 
-<h2> Partial Differntial Equations:MATH 4220 </h2>
+<h2> Partial Differntial Equations: MATH 4220 </h2>
 <i class="arrow h2arrow down"></i>
     </div>
 
@@ -980,7 +1008,7 @@ The standar text is <a href="https://books.google.com/books/about/Advanced_Engin
 You will cover chapters 13-18
 <br>
 <br>
-Prerequisites: MATH 3250 and either MATH 3351 or MATH 4210
+Prerequisites: Differential Equations (MATH 3250) and either Elementary Linear Algebra (MATH 3351) or Mathematics for Physics (MATH 4210)
 </p>
 </div>
 </div>
