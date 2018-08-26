@@ -8,13 +8,13 @@ See documentation for Boostrap collapse elements [here](http://getbootstrap.com/
 # Simple example
 
 ```html
-<!-- This is the wrapper for the whole collapsible list. Give it a class name so you can style it and give it a unique id to reference later -->
+<!-- This is the wrapper for the whole collapsible list. Give it a class name so you can style it and give it a unique ID to reference later -->
 <div class="collapse-list-wrapper" 
      id="wrapper-id">
     <!-- This is the thing that you click on -->
     <!-- The attributes 'data-toggle', 'data-target', 'aria-controls' and 'aria-expanded' are required by Bootstrap to make the collapse work -->
     <!-- 'aria-expanded' when set to true means that the collapsible content pointed to by 'target-id' will be expanded upon loading -->
-    <!-- 'target-id' should be the unique id of the element that will be collapsed upon clicking the heading -->
+    <!-- 'target-id' should be the unique ID of the element that will be collapsed upon clicking the heading -->
     <div class="collapse-list-heading" 
          data-toggle="collapse" 
          data-target="#target-id" 
@@ -28,8 +28,8 @@ See documentation for Boostrap collapse elements [here](http://getbootstrap.com/
         <h1> Heading Name </h1>
     </div>
     <!-- This is what gets collapsed -->
-    <!-- Give this a unique id 'target-id' so that Bootstrap knows what gets collapsed when you click on the corresponding heading -->
-    <!-- include the attribute 'data-parent' and give it the id of the list wrapper if you only want one item in the collapse list to be open at once. If 'data-parent' is not included in each target element, then all collapsible elements can be open at once -->
+    <!-- Give this a unique ID 'target-id' so that Bootstrap knows what gets collapsed when you click on the corresponding heading -->
+    <!-- include the attribute 'data-parent' and give it the ID of the list wrapper if you only want one item in the collapse list to be open at once. If 'data-parent' is not included in each target element, then all collapsible elements can be open at once -->
     <div class="collapse-list-target collapse show" 
          id="target-id" 
          aria-labelledby="target-id" 
@@ -44,13 +44,13 @@ See documentation for Boostrap collapse elements [here](http://getbootstrap.com/
 This renders to:
 
 <div class="tutorial-wrapper">
-<!-- This is the wrapper for the whole collapsible list. Give it a class name so you can style it and give it a unique id to reference later -->
+<!-- This is the wrapper for the whole collapsible list. Give it a class name so you can style it and give it a unique ID to reference later -->
 <div class="collapse-list-wrapper" 
      id="wrapper-id">
     <!-- This is the thing that you click on -->
     <!-- The attributes 'data-toggle', 'data-target', 'aria-controls' and 'aria-expanded' are required by Bootstrap to make the collapse work -->
     <!-- 'aria-expanded' when set to true means that the collapsible content pointed to by 'target-id' will be expanded upon loading -->
-    <!-- 'target-id' should be the unique id of the element that will be collapsed upon clicking the heading -->
+    <!-- 'target-id' should be the unique ID of the element that will be collapsed upon clicking the heading -->
     <div class="collapse-list-heading" 
          data-toggle="collapse" 
          data-target="#target-id" 
@@ -64,8 +64,8 @@ This renders to:
         <h1> Heading Name </h1>
     </div>
     <!-- This is what gets collapsed -->
-    <!-- Give this a unique id 'target-id' so that Bootstrap knows what gets collapsed when you click on the corresponding heading -->
-    <!-- include the attribute 'data-parent' and give it the id of the list wrapper if you only want one item in the collapse list to be open at once. If 'data-parent' is not included in each target element, then all collapsible elements can be open at once -->
+    <!-- Give this a unique ID 'target-id' so that Bootstrap knows what gets collapsed when you click on the corresponding heading -->
+    <!-- include the attribute 'data-parent' and give it the ID of the list wrapper if you only want one item in the collapse list to be open at once. If 'data-parent' is not included in each target element, then all collapsible elements can be open at once -->
     <div class="collapse-list-target collapse show" 
          id="target-id" 
          aria-labelledby="target-id" 
@@ -99,7 +99,7 @@ With the following HTML + Liquid code
      id="complex-wrapper-id">
     <!-- We loop over each item in the list specified with site.data.docs.test-collapse.data -->
     {% for item in site.data.docs.test-collapse.data %}
-    <!-- We're going to make a unique HTML5-friendly (no spaces) target id to use from the data -->
+    <!-- We're going to make a unique HTML5-friendly (no spaces) target ID to use from the data -->
     <!-- Here, we just use the heading name to uniquely identify each item in the collapse list -->
     <!-- The capture tag takes whatever is rendered inside it and puts it in a string contained in the variable 'target-id' to use later -->
     {%- capture target-id -%}
@@ -205,7 +205,7 @@ We can make a collapse list that renders to:
 
 # Templated heading and content
 
-It can get complicated making the collapse list heading, and this code is frequently repeated so there is a template that takes care making that part for you. It is found in `_includes/collapse-list-heading.html` and is used as follows:
+It can get complicated making the collapse list heading and content and making sure it all works together. To prevent having to repeat complicated code, there is a template that takes care making these for you. You can make a heading with the template found found in `_includes/collapse-list-heading.html` which is used as follows:
 
 ```liquid
 {% raw %}{% include collapse-list-heading.html
@@ -217,7 +217,7 @@ It can get complicated making the collapse list heading, and this code is freque
    expanded=true
    <!-- Optional. Default = h1 -->
    heading-type='h3'
-   <!-- Optional. Include all of the CSS classes you want here -->
+   <!-- Optional. Include all of the CSS classes you want here as a space separated string -->
    classes="class-one class-two"
 %}{% endraw %}
 ```
@@ -225,17 +225,18 @@ It can get complicated making the collapse list heading, and this code is freque
 This heading can be paired with an accompanying target include found in `_includes/collapse-list-target.html` and is used as follows:
 
 ```liquid
+<!-- We have to capture all of the HTML we want inside of the collapse target div before we actually include it. We capture it all using the capture liquid tag, which stores everything between the tag into the variable 'content'. 'content' is then passed onto the target template HTML and included inside the div. -->
 {% raw %}{%- capture content -%}
  <p> I am inside this div. </p>
 {%- endcapture -%}
 {% include collapse-list-target.html
-   <!-- Required. Pass the id of the target element here. -->
+   <!-- Required. Pass the ID of the target element here. -->
    id="my-target-id"
    <!-- Required. Either true or false. -->
    expanded=true
    <!-- Required. A string containing all of the content to put inside the target. -->
    content=content
-   <!-- Optional. Used for when there are multiple items to control. Pass the id of the div that wraps all the collapse-lists. -->
+   <!-- Optional. Used for when there are multiple items to control. Pass the ID of the div that wraps all the collapse-lists. -->
    parent-id=""
    <!-- Optional. Pass all of the CSS classes that you want in one string separated by spaces. -->
    classes=""
@@ -302,4 +303,126 @@ which finally renders to:
     %}
 </div>
 
-Of course this gets a bit cumbersome, especially with using `collapse-list-target.html` which requires capturing **all** of the content we wish to be inside the dropdown *before* we actually make the div. The `collapse-list-heading.html` template is more self-contained and can be used independently as long as you remember to properly id your collapse targets and pass them to `collapse-list-heading.html`.
+Of course this gets a bit cumbersome, especially with using `collapse-list-target.html` which requires capturing **all** of the content we wish to be inside the dropdown *before* we actually make the div. The `collapse-list-heading.html` template is more self-contained and can be used independently as long as you remember to properly ID your collapse targets and pass them to `collapse-list-heading.html`.
+
+# Templated headings, content, and external data
+
+We're going to combine each of the tutorials above to show how to completely automate and modularize this process. We will be using the same data stored in `_data/docs/test-collapse.yml`:
+
+```yaml
+data:
+  - heading-name: One
+    content: "This is the content of heading one"
+  - heading-name: Two
+    content: "The is the content of heading two"
+  - heading-name: Three
+    content: "This is the content of heading three. It has an image as well"
+    image: https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+```
+
+We first wrap the whole thing in a parent div, with ID "full-parent", then loop through each item in the above list, making a friendly ID for the target content (we append "-full-example" to not conflict with the elements above on this same page), generate the header div with the template, capture all of the content in a variable, and then pass the content to the target template to generate the target div.
+
+```liquid
+{% raw %}<div id="full-parent">
+    {% for item in site.data.docs.test-collapse.data %}
+        <!-- Make unique target ID -->
+        {%- capture target-id -%}
+            {{ item.heading-name | remove: " " | append: "-full-example" }}
+        {%- endcapture -%}
+        <!-- Check if expanded -->
+        {% if forloop.index == 1 %}
+            {% assign expanded = true %}
+        {% else %}
+            {% assign expanded = false %}
+        {% endif %}
+        <!-- Heading -->
+        {% include collapse-list-heading.html 
+            heading=item.heading-name
+            target-id=target-id
+            expanded=expanded
+            heading-type='h1'
+        %}
+        <!-- Target content -->
+        {%- capture content -%}
+            {{ item.content }}
+            {% if item.image %}
+                <img src="{{ item.image }}"/>
+            {% endif %}
+        {%- endcapture -%}
+        <!-- The target div template -->
+        {% include collapse-list-target.html
+            id=target-id
+            expanded=expanded
+            content=content
+            parent-id="full-parent"
+        %}
+    {% endfor %}
+</div>{% endraw %}
+```
+
+This generates the following HTML:
+
+```html
+<div id="full-parent">
+    {% for item in site.data.docs.test-collapse.data %}
+        {%- capture target-id -%}
+            {{ item.heading-name | remove: " " | append: "-full-example" }}
+        {%- endcapture -%}
+        {% if forloop.index == 1 %}
+            {% assign expanded = true %}
+        {% else %}
+            {% assign expanded = false %}
+        {% endif %}{% include collapse-list-heading.html 
+            heading=item.heading-name
+            target-id=target-id
+            expanded=expanded
+            heading-type='h1'
+        %}{%- capture content -%}
+            {{ item.content }}
+            {% if item.image %}
+                <img src="{{ item.image }}"/>
+            {% endif %}
+        {%- endcapture -%}{% include collapse-list-target.html
+            id=target-id
+            expanded=expanded
+            content=content
+            parent-id="full-parent"
+        %}
+    {% endfor %}
+</div>
+```
+
+You can see that using the templated HTML makes some poorly formatted code (new lines and spaces everywhere). This doesn't really matter though, since the syntax is valid and it renders perfectly to:
+
+<div class="tutorial-wrapper">
+    <div id="full-parent">
+        {% for item in site.data.docs.test-collapse.data %}
+            {%- capture target-id -%}
+                {{ item.heading-name | remove: " " | append: "-full-example" }}
+            {%- endcapture -%}
+            {% if forloop.index == 1 %}
+                {% assign expanded = true %}
+            {% else %}
+                {% assign expanded = false %}
+            {% endif %}
+            {% include collapse-list-heading.html 
+                heading=item.heading-name
+                target-id=target-id
+                expanded=expanded
+                heading-type='h1'
+            %}
+            {%- capture content -%}
+                {{ item.content }}
+                {% if item.image %}
+                    <img src="{{ item.image }}"/>
+                {% endif %}
+            {%- endcapture -%}
+            {% include collapse-list-target.html
+                id=target-id
+                expanded=expanded
+                content=content
+                parent-id="full-parent"
+            %}
+        {% endfor %}
+    </div>
+</div>
