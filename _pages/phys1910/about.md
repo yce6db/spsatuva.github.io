@@ -30,9 +30,9 @@ Below you can find the current and previous syllabi and course schedules for PHY
         {{ year.year | remove: " " }}
     {%- endcapture -%}
     {% if site.data.phys1910.current-year == year.year %}
-    {% assign expanded = 'true' %}
+        {% assign expanded = true %}
     {% else %}
-    {% assign expanded = 'false' %}
+        {% assign expanded = false %}
     {% endif %}
     {% include collapse-list-heading.html 
        heading=year.year

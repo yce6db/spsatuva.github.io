@@ -11,9 +11,9 @@ Here you can find an archive of lecture recordings for the PHYS 1910 course, whi
         {{ year.year | remove: " " }}
     {%- endcapture -%}
     {% if year.year == site.data.phys1910.current-year %}
-        {% assign expanded = 'true' %}
+        {% assign expanded = true %}
     {% else %} 
-        {% assign expanded = 'false' %}
+        {% assign expanded = false %}
     {% endif %}
     {% include collapse-list-heading.html
        heading=year.year
@@ -24,11 +24,13 @@ Here you can find an archive of lecture recordings for the PHYS 1910 course, whi
     <div class="recordings collapse {% if year.year == site.data.phys1910.current-year %} show {% endif %}" id="{{ year_no_spaces }}" aria-labelledby="{{ year_no_spaces }}" data-parent="#lectures-years">
         {% if year.recordings %}
         {% for recording in year.recordings %}
-            <h3>
-                <a class="recording-info" data-toggle="collapse" data-target="#{{ recording.id }}" aria-expanded="false" aria-controls="{{ recording.id }}"> 
-                    {{ recording.speaker }} - {{ recording.title }} 
-                </a>
-            </h3>
+            <div class="collapse-list-heading collapsed" data-toggle="collapse" data-target="#{{ recording.id }}" aria-expanded="false" aria-controls="{{ recording.id }}">
+                <h3>
+                    <a class="recording-info"> 
+                        {{ recording.speaker }} - {{ recording.title }} 
+                    </a>
+                </h3>
+            </div>
             <div class="recording-container collapse" id="{{ recording.id }}" aria-labelledby="{{ recording.id }}">
                 {% if recording.slides %}
                 <h4>

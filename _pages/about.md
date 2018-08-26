@@ -16,9 +16,11 @@ ___
     {%- capture year_no_space -%}
         {{ year.year | remove: " " }}
     {%- endcapture -%}
-    {%- capture expanded -%}
-        {% if year.year == site.data.exec-board.current-year %}true{% else %}false{% endif %}
-    {%- endcapture -%}
+    {% if year.year == site.data.exec-board.current-year %}
+        {% assign expanded = true %}
+    {% else %}
+        {% assign expanded = false %}
+    {% endif %}
     {% include collapse-list-heading.html 
        heading=year.year
        target-id=year_no_space
