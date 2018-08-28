@@ -37,6 +37,7 @@ years:
 # set to be viewable by anyone
 syllabus:
   - year: "Fall 2018"
+    pdf: https://drive.google.com/file/d/1aonk9OTJEtySZgqga7pfT8zwHKVmDWha/view?usp=sharing
   - year: "Fall 2017"
     pdf: https://drive.google.com/open?id=0B7GA5ytgKNtGQnJtSDVldElVWnc
 
