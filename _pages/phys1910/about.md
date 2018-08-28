@@ -5,7 +5,7 @@ title: PHYS 1910
 
 # PHYS 1910 - Introduction to Physics Research
 
-PHYS 1910 is a student-run course meant to introduce physics majors to the variety of research opportunties available to them within physics. The course is a run as a speaker series, featuring a talk from a professor in the UVA Physics Department about the research they perform and the research opportunities they have for students enrolled in this course. Speakers in the series are drawn from both experimental and theoretical diciplines of the main areas of physics research currently being pursued at UVA:
+PHYS 1910 is a student-run course meant to introduce physics majors to the variety of research opportunities available to them within physics. The course is a run as a speaker series, featuring a talk from a professor in the UVA Physics Department about the research they perform and the research opportunities they have for students enrolled in this course. Speakers in the series are drawn from both experimental and theoretical diciplines of the main areas of physics research currently being pursued at UVA:
 - Atomic, Molecular, and Optical (AMO) Physics
 - Condensed Matter Physics
 - High Energy Physics

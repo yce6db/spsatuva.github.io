@@ -12,7 +12,7 @@ Our SPS chapter participates in a number of outreach programs, and all SPS membe
    base-path='pages/outreach'
    image-class="clark-header-image"
 %}
-Since Spring 2018, we have been working with Clark Elementary School's CLASS afterschool program to bring physics to local Charlottesville children! We volunteered with them once a week, performing hands on demos with them that were meant to introduce them to physics concepts such as bouyancy, properties of light, forces, and the universe. We also collaborated with UVA's Dark Skys Bright Kids organization to bring a planetarium to the school.
+Since Spring 2018, we have been working with Clark Elementary School's CLASS afterschool program to bring physics to local Charlottesville children! We volunteered with them once a week, performing hands on demos with them that were meant to introduce them to physics concepts such as buoyancy, properties of light, forces, and the universe. We also collaborated with UVA's Dark Skys Bright Kids organization to bring a planetarium to the school.
 
 ### Want us to work with you?
 

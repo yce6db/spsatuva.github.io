@@ -9,7 +9,7 @@ In the words of the great Chaucer, “all good things must come to an end.” An
 
 I really enjoyed my time on SPS exec, and when I took on the role of webmaster I underestimated how much time I would be investing not only into the website, but also into SPS and our department. This website somewhat represents my dedication not only to SPS, but to physics and science as a whole. I hope that future students find it beneficial in their time here at UVA, and I invite them to please offer your feedback and suggestions to the webmaster who is currently serving on the exec board. This website has a vast array of resources and I encourage students to take advantage of it.
 
-Singing off for the last time,
+Signing off for the last time,
 
 -Matt W. Class of 2018
 

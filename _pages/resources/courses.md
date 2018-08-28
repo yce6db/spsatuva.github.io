@@ -4,23 +4,23 @@ title: Courses
 ---
 
 
-The physics department at UVA offers three different degrees. The Bachelors of Arts in physics (B.A), The Bachelors of Science in physics (B.S), and the Bachelors of Science in Astrophysics jointly with the Astrononmy department (B.S). Depending on what kind of degree you are seeking will determine what courses you should think about taking. Of course you should consult your undergrad advisor for their advice on picking courses. 
+The physics department at UVA offers three different degrees. The Bachelors of Arts in Physics (B.A), The Bachelors of Science in Physics (B.S), and the Bachelors of Science in Astrophysics jointly with the Astronomy department (B.S). Depending on what kind of degree you are seeking will determine what courses you should think about taking. Of course you should consult your undergrad advisor for their advice on picking courses. 
 
 Here is the link to the pdf the department has that more information about the physics program and an example of a typical course schedule for each degree. [Major Brochure 2018-2019](http://www.phys.virginia.edu/Education/Programs/MajorBrochure/default.pdf)
 
 Here are some summaries/descriptions of courses that are required/typically offered:
-<div class="collapse-list-wrapper4phys1710" 
+<div class="collapse-list-wrapper4phys1710"
      id="wrapper-1710">
-    <div class="collapse-list-heading collapsed" 
+    <div class="collapse-list-heading collapsed"
         data-toggle="collapse" 
         data-target="#1710" 
         aria-controls="1710" 
         aria-expanded="false">
         <i class="arrow h2arrow down"></i>
-        <h2> Intro Physcis 1: PHYS 1710 </h2>
+        <h2> Intro Physics 1: PHYS 1710 </h2>
         
   </div>
-    <div class="collapse-list-target collapse" 
+    <div class="collapse-list-target collapse"
         id="1710" 
         aria-labelledby="1710" 
         data-parent="#wrapper-1710">
@@ -28,13 +28,13 @@ Here are some summaries/descriptions of courses that are required/typically offe
         This is often the first physics class someone will take when they begin the physics major at UVA. It is a calculus based introduction that covers the following topics: kinematics, mechanics, fluid dynamics, thermodynamics, and simple harmonic motion. This class is 5 credit course (4 credit lecture) and includes a 1 credit discussion session. 
         <br>
         <br>
-        the standard text is <a href="https://www.amazon.com/MasteringPhysics-Student-Physics-Scientists-Engineers/dp/0131992260"> Physics for Scientists and Engineers, Giancoli, 4th edtion</a>
+        The standard text is <a href="https://www.amazon.com/MasteringPhysics-Student-Physics-Scientists-Engineers/dp/0131992260"> Physics for Scientists and Engineers, Giancoli, 4th edtion</a>
         <br>
         <br>
         You can expect to cover chapters 1-21 
         <br>
         <br>
-        Prerequisite: Calculus 1(MATH 1310)        
+        Prerequisite: Calculus 1 (MATH 1310) 
         </p>
   </div>
 </div>
@@ -59,16 +59,16 @@ Here are some summaries/descriptions of courses that are required/typically offe
          data-parent="#wrapper-1720">
 
 <p>
-This is the second semester of introductory topics in physics and covers the following topics; gravitation, electricity & magnetism, and optics. Like PHYS 1710 this course is 5 credits with a discussion section. 
+This is the second semester of introductory topics in physics and covers the following topics: gravitation, electricity & magnetism, and optics. Like PHYS 1710 this course is 5 credits with a discussion section. 
 <br>
 <br>
 The text is the same as PHYS 1710 and you can expect to cover chapters 21-35. 
 <br>
 <br>
-Here is a copy of the syllabus from when prof. basseler taught the course <a href="https://collab.its.virginia.edu/syllabi/public/dae98f12-1310-4f62-aed9-f1ab0625c5db">syllabus</a> 
+Here is a copy of the syllabus from when Prof. Basseler taught the course <a href="https://collab.its.virginia.edu/syllabi/public/dae98f12-1310-4f62-aed9-f1ab0625c5db">syllabus</a> 
 <br>
 <br>
-Prerequisites: Calculus 1(MATH 1310) and 2(MATH 1320), Introductory Physics I(PHYS 1710)  or General Physics I(PHYS 1425), and Calculus 3(MATH 2310) is a corequisite. 
+Prerequisites: Calculus 1 (MATH 1310) and 2 (MATH 1320), Introductory Physics I (PHYS 1710)  or General Physics I (PHYS 1425), and Calculus 3 (MATH 2310) is a corequisite. 
 </p>
 </div>
 </div>
@@ -122,14 +122,14 @@ Check it out <a href= "/phys1910/about/"> here</a>
          data-parent="#wrapper-2660">
 
 <p>
-This class is an introduction into the C programming language and its purpose is to familiarize students to solving basic physics problems using programming. In this class you will learn use of external libraries, implementation of basic algorithms with focus on numerical methods, and error analysis & data fitting. Lecture meets once a week and there is a lab session every week. 
+This class is an introduction into the C programming language and its purpose is to familiarize students to solving basic physics problems using programming. In this class you will learn the use of external libraries, implementation of basic algorithms with focus on numerical methods, and error analysis & data fitting. Lecture meets once a week and there is a lab session every week. 
 <br>
 <br>
-A fair warning about this course, the material starts off really easy but it progressively gets more difficult, especially the final project. You can ask anyone who took this course and they will all tell you the same thing... START THE FINAL EARLY! 
+A fair warning about this course: the material starts off really easy but it progressively gets more difficult, especially the final project. You can ask anyone who took this course and they will all tell you the same thing... START THE FINAL EARLY! 
 <br>
 <br>
 
-The texts for this course are <a href="https://www.amazon.com/C-Programming-Scientists-Engineers-Applications/dp/0763739529">C Programming for Scientists and Engineers with Applications by Carol Ziegler and Rama Reddy</a> and <a href="https://www.amazon.com/Statistics-Nuclear-Particle-Physicists-Louis/dp/0521379342/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=1AVEDEG1NHK67HT2YVXE">Statistics for Nuclear and Particle Physicists by louis Lyons</a>
+The texts for this course are <a href="https://www.amazon.com/C-Programming-Scientists-Engineers-Applications/dp/0763739529">C Programming for Scientists and Engineers with Applications by Carol Ziegler and Rama Reddy</a> and <a href="https://www.amazon.com/Statistics-Nuclear-Particle-Physicists-Louis/dp/0521379342/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=1AVEDEG1NHK67HT2YVXE">Statistics for Nuclear and Particle Physicists by Louis Lyons</a>
 <br>
 <br>
 Prerequisite: One semester of calculus (MATH 1310) and one semester of introductory physics (PHYS 1710, 1425, or 2010).
@@ -161,10 +161,10 @@ Prerequisite: One semester of calculus (MATH 1310) and one semester of introduct
 This class in an introduction into the more modern fields of 20th century physics. The course covers topics such as special relativity, quantum mechanics, nuclear & atomic physics, and particle physics & cosmology. 
 <br>
 <br>
-The standard text is <a href="https://books.google.com/books/about/Modern_Physics.html?id=3tobAAAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Modern physics, Krane </a>
+The standard text is <a href="https://books.google.com/books/about/Modern_Physics.html?id=3tobAAAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Modern Physics, Krane </a>
 <br>
 <br>
-Prerequisites: PHYS 2320, General Physics 2 (PHYS 2415), Intro Phys 2 (PHYS 1720), or PHYS 2610, and Calculus 3 (MATH 2310)
+Prerequisites: PHYS 2320, General Physics 2 (PHYS 2415) or Intro Phys 2 (PHYS 1720), or PHYS 2610, and Calculus 3 (MATH 2310)
 </p>
 </div>
 </div>
@@ -189,7 +189,7 @@ Prerequisites: PHYS 2320, General Physics 2 (PHYS 2415), Intro Phys 2 (PHYS 1720
          data-parent="#wrapper-2630">
 
 <p>
-This is an introductory lab course where students first become familiar with running experiments related to the topics covered in physics:1710 & 1720. The course focus on quantification, computation, and data analysis with selected experiments in mechanics, heat, electricity & magnetism, and optics. 
+This is an introductory lab course where students first become familiar with running experiments related to the topics covered in PHYS 1710 & 1720. The course focuses on quantification, computation, and data analysis with selected experiments in mechanics, heat, electricity & magnetism, and optics. 
 <br>
 <br>
  One lecture hour and four laboratory hours per week. 
@@ -249,7 +249,7 @@ Prerequisite: Intro Physics 1 & 2 (PHYS 1710 & 1720) and Elementary Lab 1 (PHYS 
          aria-labelledby="3210" 
          data-parent="#wrapper-3210">
 <p>
-This is usually the first of the core classes that physics majors take and entails a more in-depth and advanced investigation of classical physics. The course begins with an overview of topics covered in PHYS 1710(kinematics, momentum, and energy) but now with the knowledge of multivariable calculus, differential equations, and linear algebra. Then students are introduced into lagrangian formalism and the calculus of variations, followed by orbits, rotational motion of rigid bodies, and coupled spring problems. 
+This is usually the first of the core classes that physics majors take and entails a more in-depth and advanced investigation of classical physics. The course begins with an overview of topics covered in PHYS 1710 (kinematics, momentum, and energy) but now with the knowledge of multivariable calculus, differential equations, and linear algebra. Then students are introduced into Lagrangian formalism and the calculus of variations, followed by orbits, rotational motion of rigid bodies, and coupled spring problems. 
 <br> 
 <br>
 The standard text is <a href ="https://www.amazon.com/Classical-Mechanics-John-R-Taylor/dp/189138922X"> Taylor Classical Mechanics</a>
@@ -285,7 +285,7 @@ Prerequisite: Differential Equations (MATH 3250), and Intro Phys 2 (PHYS 1720)
 This course entails a more thorough and extensive investigation into electrostatics, magnetostatics, and electrodynamics. You will cover a treatment of electromagnetic phenomena with the use of vector calculus, including Maxwell's equations. 
 <br>
 <br>
-The standard text is <a href="https://books.google.com/books/about/Introduction_to_Electrodynamics.html?id=ndAoDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths Introduction to electrodynamics </a>
+The standard text is <a href="https://books.google.com/books/about/Introduction_to_Electrodynamics.html?id=ndAoDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Introduction to Electrodynamics, by Griffiths </a>
 <br>
 <br>
 You can expect to cover chapters 1-7
@@ -313,7 +313,7 @@ Prerequisite: Mathematics for Physics (MATH 4210), and Intro Physics 2 (PHYS 172
          aria-labelledby="3430" 
          data-parent="#wrapper-3430">
 <p>
-Continuing where you left off in E&M 1, you will cover topics such as; electomagnetic waves, gauge theory, electromagnetic radation, and realatavistic electrodynamics. The intergals in this course are a lot of "fun." 
+Continuing where you left off in E&M 1, you will cover topics such as; electomagnetic waves, gauge theory, electromagnetic radation, and relativistic electrodynamics. The integrals in this course are a lot of "fun." 
 <br>
 <br>
 The text is the same as E&M 1 and you will cover chapters 8-12
@@ -343,7 +343,7 @@ The text is the same as E&M 1 and you will cover chapters 8-12
          aria-labelledby="3310" 
          data-parent="#wrapper-3310">
 <p>
-This course is an introduction in statisical mechanics that begins with an overview of the laws of thermodynamics and treatment of kinetic theory. Then introduces the theory and applications of Boltzmann, Bose-Einstein, and Fermi-Dirac statistics. 
+This course is an introduction in statisical mechanics that begins with an overview of the laws of thermodynamics and treatment of kinetic theory, then introduces the theory and applications of Boltzmann, Bose-Einstein, and Fermi-Dirac statistics. 
 <br>
 <br>
 The standard text is <a href="https://books.google.com/books/about/An_Introduction_to_Thermal_Physics.html?id=1gosQgAACAAJ">Introduction to Thermal Physics, Schroder</a>
@@ -379,7 +379,7 @@ Prerequisite: Differential Equations (MATH 3250) and Modern Physics (PHYS 2620).
 This course is an introduction to the laws of Quantum Mechanics and focuses on introducing students to wave mechanics, Dirac notion, and solving the schrodinger equation for various potentials. 
 <br>
 <br>
-The standard text is <a href="https://books.google.com/books/about/Introduction_to_Quantum_Mechanics.html?id=82FjDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Griffiths Introduction to Quantum Mechanics </a> 
+The standard text is <a href="https://books.google.com/books/about/Introduction_to_Quantum_Mechanics.html?id=82FjDwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Introduction to Quantum Mechanics, by Griffiths </a> 
 <br>
 <br>
 You can expect to cover chapters 1-4
@@ -412,7 +412,7 @@ Prerequisite: Differential Equations (MATH 3250), Modern Physics (PHYS 2620): Co
 The second half of Quantum Mechanics focuses less on the formalism, and more on the applications of quantum mechanics to modern problems. Depending on the instructor you might use a different textbook and learn different material, but you should certainly learn perturbation theory. 
 <br>
 <br>
-There isn't a standard text but I would expect them to use Griffiths, but it depends on who your instructor is. I personally don't care for the second half of Griffiths, and I used <a href="https://books.google.com/books/about/Quantum_Mechanics.html?id=SvdoN3k8EysC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Landau-Lifshitz </a>. 
+There isn't a standard text but I would expect them to use Griffiths, but it depends on who your instructor is. 
 <br>
 <br>
 Prerequisite: Quantum Mechanics 1 (PHYS 3650).
@@ -774,7 +774,7 @@ The standard text is <a href="https://books.google.com/books/about/A_First_Cours
 You can expect to cover chapters 1-14
 <br>
 <br>
-Prerequisite: Classical Mechanics (Physics 3210), Electricity & Magnetism II (PHYS 3430) and Quantum Mechanics II (PHYS 3660)
+Prerequisite: Classical Mechanics (PHYS 3210), Electricity & Magnetism II (PHYS 3430) and Quantum Mechanics II (PHYS 3660)
 </p>
 </div>
 </div>
@@ -788,7 +788,7 @@ Prerequisite: Classical Mechanics (Physics 3210), Electricity & Magnetism II (PH
          aria-expanded="false">
 
 <i class="arrow h2arrow"></i>
-<h2> Intro to General Realativity: PHYS 5240 </h2>
+<h2> Intro to General Relativity: PHYS 5240 </h2>
     </div>
 
 <div class="collapse-list-target collapse" 
@@ -797,7 +797,7 @@ Prerequisite: Classical Mechanics (Physics 3210), Electricity & Magnetism II (PH
          data-parent="#wrapper-5240">
 
 <p>
-Reviews special relativity and coordinate transformations. Includes the principle of equivalence; effects of gravitation on other systems and fields; general tensor analysis in curved spaces and gravitational field equations; Mach's principle, tests of gravitational theories; perihelion precession, red shift, bending of light, gyroscopic precession, radar echo delay; gravitational radiation; relativisitic stellar structure and cosmography; and cosmology.
+Reviews special relativity and coordinate transformations. Includes the principle of equivalence, effects of gravitation on other systems and fields, general tensor analysis in curved spaces and gravitational field equations, Mach's principle, tests of gravitational theories, perihelion precession, red shift, bending of light, gyroscopic precession, radar echo delay, gravitational radiation, relativisitic stellar structure and cosmography, and cosmology.
 <br>
 <br>
 The standard text is <a href="http://202.38.64.11/~jmy/documents/ebooks/Schutz%20A%20First%20Course%20in%20General%20Relativity(Second%20Edition).pdf"> A First course in Genreal Relativity by Bernard Schutz </a>
@@ -806,7 +806,7 @@ The standard text is <a href="http://202.38.64.11/~jmy/documents/ebooks/Schutz%2
 You can expect to cover the entire book. 
 <br>
 <br>
-I personally wasnt too much of a fan of schutz and I think <a href="https://books.google.com/books/about/Spacetime_and_Geometry.html?id=1SKFQgAACAAJ&source=kp_book_description"> Spacetime and Geometry by Sean Carrol</a> is a much better book, and I reccommend buying this book for your personal bookshelf
+I (Matt Walker) personally wasn't too much of a fan of Schutz and I think <a href="https://books.google.com/books/about/Spacetime_and_Geometry.html?id=1SKFQgAACAAJ&source=kp_book_description"> Spacetime and Geometry by Sean Carrol</a> is a much better book, and I recommend buying this book for your personal bookshelf.
 <br>
 <br>
  Prerequisite: Advanced calculus through partial differentiation and multiple integration; vector analysis in three dimensions.
@@ -1007,7 +1007,7 @@ Prerequisite: Calculus 3 (MATH 2310) or Advanced Calculus and Linear Algebra I (
          aria-expanded="false">
 
 <i class="arrow h2arrow down"></i>
-<h2> Partial Differntial Equations: MATH 4220 </h2>
+<h2> Partial Differential Equations: MATH 4220 </h2>
 
 </div>
 
@@ -1020,7 +1020,7 @@ Prerequisite: Calculus 3 (MATH 2310) or Advanced Calculus and Linear Algebra I (
 This course is a beginning course in partial differential equations/Fourier analysis/special functions (such as spherical harmonics and Bessel functions). The discussion of partial differential equations will include the Laplace and Poisson equations and the heat and wave equations
 <br>
 <br>
-The standar text is <a href="https://books.google.com/books/about/Advanced_Engineering_Mathematics.html?id=Zc8f5hvm4G8C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Advanced Engineering Mathematics, Peter O'neil</a>
+The standard text is <a href="https://books.google.com/books/about/Advanced_Engineering_Mathematics.html?id=Zc8f5hvm4G8C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false"> Advanced Engineering Mathematics, Peter O'neil</a>
 <br>
 <br>
 You will cover chapters 13-18
