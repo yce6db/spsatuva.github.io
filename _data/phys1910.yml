@@ -55,6 +55,10 @@ syllabus:
 # a relative URL pointing to a local resource on the website
 lectures:
   - year: "Fall 2018"
+    recordings:
+      - speaker: Ryan Taylor and Jasmin Washington
+        title: Introduction to Physics Research
+        id: c879c613-74f4-4c2f-9ae2-a94a0172dbe4
   - year: "Fall 2017"
     recordings:
       - speaker: Bridget Andersen and Steven Stetzler
