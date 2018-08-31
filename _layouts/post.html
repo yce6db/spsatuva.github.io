@@ -2,7 +2,18 @@
 layout: default
 ---
 {% if page.featured-img %}
-<div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
+{% assign image_name_split = page.featured-img | split: "." %}
+{% if image_name_split.size == 1 %}
+    {% assign image = page.featured-img %}
+    {% assign ext = 'jpg' %}
+{% else %}
+    {% assign image = image_name_split[0] %}
+    {% assign ext = image_name_split[1] %}
+{% endif %}
+{%- capture image_name -%}
+  {{ image }}.{{ ext }}
+{%- endcapture -%}
+<div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ image_name }}">
 {% else %}
 <div class="hero dark-bg">
 {% endif %}

@@ -9,15 +9,23 @@
     </span>
   {% endif %}
   <a href="{{ post.url | relative_url }}">
-    {% if post.featured-img %}
+    {% if post.featured-img %}    
+    {% assign image_name_split = post.featured-img | split: "." %}
+    {% if image_name_split.size == 1 %}
+        {% assign image = post.featured-img %}
+        {% assign ext = 'jpg' %}
+    {% else %}
+        {% assign image = image_name_split[0] %}
+        {% assign ext = image_name_split[1] %}
+    {% endif %}
       <figure class="post-card__thumb">
         <img
-          src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_placehold.jpg"
-          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb@2x.jpg 2x"
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ image }}_placehold.{{ ext }}"
+          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ image }}_thumb.{{ ext }}, {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ image }}_thumb@2x.{{ ext }} 2x"
           class="lazyload blur"
           alt="{{post.title}}"
         />
-        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{post.featured-img}}_thumb.jpg" alt="{{ post.title }}"></noscript>
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ image }}_thumb.{{ ext }}" alt="{{ post.title }}"></noscript>
       </figure>
     {% else %}
       <figure class="post-card__thumb">

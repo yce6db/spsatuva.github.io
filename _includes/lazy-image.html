@@ -80,6 +80,7 @@
 <!-- If no extension included, assume jpg -->
 {% endcomment %}
 {% if image_name_split.size == 1 %}
+    {% assign image = include.image %}
     {% assign ext = 'jpg' %}
 {% else %}
     {% assign image = image_name_split[0] %}
@@ -120,9 +121,6 @@
   {% if include.title %}
     <h3 {% if title-class %}class="{{ title-class }}"{% endif %}>{{ include.title}}</h3>
   {% endif %}
-  {% if include.caption %} 
-    <p {% if caption-class %}class="{{ caption-class }}"{% endif %}> {{ include.caption}} </p>
-  {% endif %}
   <img 
     data-sizes="auto" 
     class="lazyload blur {{ image-class }}" 
@@ -132,5 +130,8 @@
     alt="{{ include.alt }}" 
     {% endif %}
   />
+  {% if include.caption %} 
+    <p {% if caption-class %}class="{{ caption-class }}"{% endif %}> {{ include.caption}} </p>
+  {% endif %}
   <noscript><img class="{{ image-class }}" src="{{ img_path }}"/></noscript>
 </div>
