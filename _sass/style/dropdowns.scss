@@ -13,6 +13,15 @@
   }
 }
 
+@media (max-width: $lg) {
+  .header__item {
+    .header__link {
+      padding-left: 9px;
+      padding-right: 9px;
+    }
+  }
+}
+
 /* Desktop */
 @media (min-width: $md) {  
   .header__link {
