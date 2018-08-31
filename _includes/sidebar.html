@@ -1,4 +1,4 @@
-<div class="sidenav{% if include.in-line %}-in-line{% endif %}" id="sidenav">
+<div class="sidenav{% if include.in-line %} in-line{% endif %}" id="sidenav">
 {% if include.nav %}
     {% for nav-item in include.nav %}
         <strong class="nav-heading">{{ nav-item.title | upcase }}</strong>

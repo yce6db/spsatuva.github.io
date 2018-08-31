@@ -1,36 +1,26 @@
 /* The sidebar menu */
 .sidenav {
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
+    z-index: 1; /* Hide behind footer */
     float: left;
     width: 20%;
     overflow-x: hidden; /* Disable horizontal scroll */
     margin-top: 3.75em;
     margin-left: -2em;  
     height: calc(100vh - 3.75em - 75px - 2.8125em - 2.8125em);
-    border: 2px solid #f7f7ff;
+    border: 2px solid #f0f0f0;
     border-radius: 10px 0px 0px 10px;
     padding: 10px;
 }
 
-.sidenav-in-line {
+.sidenav.in-line {
     position: relative;
     margin: 0;
-    width: 20%;
-    border: 2px solid #f7f7ff;
-    border-radius: 10px 0px 0px 10px;
-    padding: 10px;
+    width: 30%;
 }
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 3px 8px 3px 10px;
-    text-decoration: none;
-    display: block;
-    border-bottom: 0px;
-}
-
-.sidenav-in-line a {
     padding: 3px 8px 3px 10px;
     text-decoration: none;
     display: block;
@@ -96,16 +86,34 @@
         position: relative;
         float: none;
         height: calc(100vh - 3.75em - 20em);
+        min-height: 40vh;
+    }
+
+    .sidenav.in-line {
+        width: 100%;
     }
 
     .doc-content {
         margin-left: 0;
         margin-top: 0;
+        padding-left: 0;
         width: 100%;
         display: inline-block;
     }
 
     .doc-container {
         display: block;
+    }
+}
+
+/* When screen gets small, fix sidenav height and hide behind footer */
+@media ( max-height: 375px ) {
+    footer {
+        z-index: 2;
+        background-color: $bg-color;
+    }
+
+    .sidenav {
+        min-height: 150px;
     }
 }
