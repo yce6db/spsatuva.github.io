@@ -35,6 +35,14 @@ to the file. This should add your CSS to the stylesheet!
 
 Unfortunately, there's no way to check if the classes and IDs you've used conflict with anything else we've written or already exists in the Boostrap or Sleek CSS. This means that you should be careful to make your class names unique and hard to replicate elsewhere on the site.
 
+# Writing responsive CSS
+
+The CSS written for this site is *responsive*, meaning we use `@media` queries in the CSS to change how the site looks depending on what device is being used to look at it. In particular, we try to make the site look nice on mobile.
+
+In order to make writing responsive CSS easier, when creating your own CSS you should copy the file `_sass/style/template.scss` before writing your own CSS. This template has predefined media queries that make it easy to make your new CSS responsive.
+
+To see what the definitions of the breakpoints (`$sm`, `$md`, `$lg`, and `$xl`) used in this site, see `_sass/abstracts/_variables.scss`.
+
 # Where the CSS is located in HTML
 
 The CSS is loaded in the `head` of each page. Examine `_includes/head.html` to see how the CSS is loaded in.
