@@ -1,0 +1,21 @@
+/* Normal - no media overwrite */
+
+/* Larger than normal desktop */
+@media (min-width: $lg) {
+
+}
+
+/* Normal desktop */
+@media (max-width: $lg) {
+
+}
+
+/* Squished desktop or tablet */
+@media (max-width: $md) {
+
+}
+
+/* Mobile or tablet */
+@media (max-width: $sm) {
+
+}
