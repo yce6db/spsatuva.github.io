@@ -1,0 +1,20 @@
+blockquote:before {
+    color: black;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 10px;
+    vertical-align: -0.4em;
+}
+
+blockquote {
+    background: $bg-color;
+    border-left: 2px solid black;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "“" "”";
+}
+
+blockquote p {
+    display: inline;
+}
