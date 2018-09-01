@@ -2,8 +2,14 @@
 layout: page
 title: Research
 featured-img: bubble_chamber.jpg
+quick-links:
+    - title: Research Opportunities
+      url: https://drive.google.com/open?id=0B7GA5ytgKNtGZ0JMaF9acldDeE0
+    - title: REU Summaries
+      url: https://drive.google.com/drive/folders/1-C-ut42b2sE7wO99X8f3rranG5H-nr6b
+    - title: PHYS 1910
+      url: /phys1910/about/
 ---
-
 Performing original independent research in physics is an integral part of being a physicist, and it's often an enjoyable, enlightening experience. Plus, you can likely get paid to do physics research! Performing research is often a soft requirement when applying to a graduate program in physics. You will likely find yourself woefully behind your peers if applying to graduate school with little to no research experience. And if you're not in physics for the long haul (graduate school), performing original research can still be beneficial to you, as it acts as meaningful job experience in an *independent* and highly technical environment. AKA it makes you look smart and helps your resume stand out.
 
 ___
