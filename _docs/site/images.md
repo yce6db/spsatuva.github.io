@@ -72,6 +72,8 @@ If we embed some CSS styling into this page, we can change the styling of the im
 {% raw %}{% include lazy-image.html image="Margaret_Doyle.jpg" base-path="exec" image-class="doc-image-test" %}{% endraw %}
 ```
 
+which renders out to:
+
 {% include lazy-image.html image="Margaret_Doyle.jpg" base-path="exec" image-class="doc-image-test" %}
 
 You can pass any number of classes to `image-class` to style the image. 
@@ -137,6 +139,8 @@ You can see this style if we load in a real post image:
     caption-class="post-image-caption"
 %}{% endraw %}
 ```
+
+which renders out to:
 
 {% include lazy-image.html
     image="Eclipse_1.jpg"
