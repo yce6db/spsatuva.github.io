@@ -124,12 +124,10 @@ You can find examples of posters from past SPS members below to act as a guide w
 #### Posters 
 - [Poster presented at AAS]({{ path | append: "Poster_1.pdf" }})
 - [Poster presented at APS]({{ path | append: "Poster_2.pdf" }})
-- [Poster 3]({{ path | append: "Poster_3.pdf" }})
+- [Poster presented at APS]({{ path | append: "Poster_3.pdf" }})
 
 #### Talks
 - [A collection of informal research talks given at SPS by students]({{ path | append: "SPS_Research_Talks.pdf" }})
-- [Talk 2]({{ path | append: "talk_2.pdf" }})
-- [Talk 3]({{ path | append: "talk_3.pdf" }})
 
 ### Meetings you should attend
 
