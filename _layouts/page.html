@@ -11,7 +11,11 @@ layout: default
   {% if page.container == true or page.container == nil %}
   <div class="container">
     <div class="page-content">
-
+      {% if page.quick-links %}
+      <div class="quick-links">
+        <strong class="quick-links-title">Quick Links</strong>: {% for link in page.quick-links %}<a class="quick-links-link" href="{{ link.url }}">{{ link.title }}</a>{% unless forloop.index == page.quick-links.size %}, {% endunless %}{% endfor %}
+      </div>
+      {% endif %}
       {{ content }}
 
     </div>
