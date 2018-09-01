@@ -125,7 +125,7 @@ actually behaves as if you used the following:
 %}{% endraw %}
 ```
 
-You can see this style if we load in a real post image:
+See `_sass/style/post.image.scss/` to see how each item is indivudally styled. You can see this style if we load in a real post image:
 
 ```liquid
 {% raw %}{% include lazy-image.html
