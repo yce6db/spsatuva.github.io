@@ -182,7 +182,7 @@ def main():
         make_dir(save_dir)
 
         update("\nProcessing {}".format(name))
-        if img.format not in ['JPEG', 'PNG']:
+        if img.format not in ['JPEG', 'PNG', 'MPO']:
             warn("Image is required to be either JPEG or PNG format.\nImage is detected to be of format: {}\nSkipping...".format(img.format))
             continue
 
@@ -200,7 +200,7 @@ def main():
 
             if convert is None:
                 ext = ext[1:]
-            elif img.format == 'JPEG' or convert == 'JPEG':
+            elif img.format == 'JPEG' or convert == 'JPEG' or img.format == 'MPO':
                 ext = 'jpg'
             elif img.format == 'PNG' or convert == 'PNG':
                 ext = 'png'
