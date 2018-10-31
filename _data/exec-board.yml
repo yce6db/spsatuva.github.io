@@ -1,5 +1,12 @@
 current-year: 2018 - 2019
 
+advisor:
+  - name: Professor Craig Group
+    email: rcg6p@virginia.edu
+    img: Craig_Group
+    description:
+      - Professor Group is the current faculty advisor for our SPS chapter. 
+
 members:
   - name: Pedrom Zadeh
     email: pz8bx@virginia.edu
@@ -197,7 +204,7 @@ members:
     description:
       - Robin Leichtnam, a current 4th year astrophysics major, is the Vice President of our Sigma Pi Sigma chapter. He
         is responsible for organizing the Sigma Pi Sigma annual Research Symposium and Induction.
-      - Outside of school, Robin enjoys collecting Yu-Gi-Oh cards, smoking cigarettes, and sleeping in the 
+      - Outside of school, Robin enjoys collecting Yu-Gi-Oh cards, and sleeping in the 
         astronomy building.
 
 exec-boards:

@@ -9,6 +9,33 @@ The Society of Physics Students at UVa is a group dedicated to the academic and 
 
 ___
 
+# Faculty Advisor
+
+<div class="fac_advisor" id="fac_advisor">
+    <div class="exec_board_info_container">
+        <div class="exec_board_info">
+            <h2>
+                Professor Craig Group
+            </h2>
+        </div>
+        {% include lazy-image.html
+           image='Craig_Group.png'
+           base-path='exec'
+           container-class="exec_board_image"
+           image-class="exec_board_image"
+        %}
+        <p>
+            <strong>Email</strong>: <a href="mailto:rcg6p@virginia.edu">rcg6p@virginia.edu</a>
+        </p>
+    </div>
+    <div class="exec_board_description">
+        Professor Group is the current faculty advisor for our chapter, and is a constant source of sage wisdom. He currently works on developing and fabricating the Cosmic Ray Veto system for the upcoming Mu2e experiment at Fermilab, and takes multiple <a href="{{ site.basurl }}/research">undergraduate research assistants</a> every summer. 
+    </div>
+    <div class="exec_board_hr_container">
+        <hr>
+    </div>
+</div>
+
 # Executive Board
 
 <div class="exec_board" id="exec_board">
