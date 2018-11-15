@@ -31,9 +31,6 @@ ___
     <div class="exec_board_description">
         Professor Group is the current faculty advisor for our chapter, and is a constant source of sage wisdom. He currently works on developing and fabricating the Cosmic Ray Veto system for the upcoming Mu2e experiment at Fermilab, and takes multiple <a href="{{ site.basurl }}/research">undergraduate research assistants</a> every summer. 
     </div>
-    <div class="exec_board_hr_container">
-        <hr>
-    </div>
 </div>
 
 # Executive Board
