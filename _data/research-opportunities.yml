@@ -1,4 +1,8 @@
 project-list:
+  - name: Stefan Baessler
+    short-name: Bae-various
+    title: Various project at UVa and sometimes ORNL, ILL, and Fermilab
+    url: https://docs.google.com/document/d/e/2PACX-1vSy69b6dWd4TSwarlJ8HJ0qS4V8EvrvoV28EzsEJAfT6_JoW272CO09AlDiBdDFI8leK1CRK-8vvFmy/pub
   - name: Brad Cox
     short-name: CMS-cal
     title: CMS Electromagnetic calorimeter upgrade
