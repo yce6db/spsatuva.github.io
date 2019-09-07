@@ -1,4 +1,8 @@
 project-list:
+  - name: Stefan Baessler
+    short-name: Bae-various
+    title: Various project at UVa and sometimes ORNL, ILL, and Fermilab
+    url: https://docs.google.com/document/d/e/2PACX-1vSy69b6dWd4TSwarlJ8HJ0qS4V8EvrvoV28EzsEJAfT6_JoW272CO09AlDiBdDFI8leK1CRK-8vvFmy/pub
   - name: Brad Cox
     short-name: CMS-cal
     title: CMS Electromagnetic calorimeter upgrade
@@ -22,7 +26,7 @@ project-list:
   - name: Cass Sackett
     short-name: sackett-lab
     title: Various ongoing projects
-    url: https://docs.google.com/document/d/e/2PACX-1vT8XbojsvkISsM_SjZD1xoXSsCpt1COKjmvDhU29bbqZheQxnVuqnfEeQrSEFsfLCjArVYnIaScJZEJ/pub
+    url: https://docs.google.com/document/d/e/2PACX-1vTyJG6SywDCEhC7WLzxupiRWx-Kzsa7SBkW13rzFpI_zTxHrAYIgodL34Rpc9NmMc77LOL3WeNB207Z/pub
   - name: Jeffry Teo
     short-name: topological-phases
     title: Topological phases in electronic matter
@@ -35,3 +39,20 @@ project-list:
     short-name: schauss-lab
     title: Variety of experimental and simulation projects
     url: https://docs.google.com/document/d/e/2PACX-1vTWKnv-pVW1z0K5GJ9AtNIn-7hZDv2GT9epxluSnVtFfuYT7jHDFkrTtCtiAyDeX9SNm4kucCFcYOqy/pub
+  - name: Blaine Norum
+    short-name: norum-lab
+    title: Study of two-nucleon systems
+    url: https://docs.google.com/document/d/e/2PACX-1vSpgyguaYkgBln185R4lw4ceo-iRo_ktT-mEslSXmTZIwkkN8If7ljtXFEw45z-2klPqLUmUIZWeO0G/pub
+  - name: Dima Pesin
+    short-name: crystaldyn
+    title: Chiral hydrodynamics in crystals
+    url: https://docs.google.com/document/d/e/2PACX-1vRzaKYctqFUSZadbQ6M7D4JO3yh9N-mNUSmBCP-p8tLJekJmNBt8Lqc6n4cR1SMkLMjibz4_MNvpakM/pub
+  - name: Krishni Wijesooriya
+    short-name: lung-predict
+    title: To predict cardiac toxicity due to lung radiation treatments
+    url: https://docs.google.com/document/d/e/2PACX-1vTsseGpo8BAIYPlS3_aDnzWMHhbNaMiu5vnElRv8GAKQBkMyAxZ1pUkPAJCiOunOhemsR9TQVPNiRG6/pub
+  - name: Bob Hirosky
+    short-name: hirosky-lab
+    title: Particle detectors, real-time data processing, physics studies
+    url: https://docs.google.com/document/d/e/2PACX-1vQ8R1NKpuR6PaOgpTmRcyN5ArlnbWeGVji2VNTlWMWbhy0Cg_n3LWwAIoHLMyZ83qixigYs6ixNnh8c/pub
+    

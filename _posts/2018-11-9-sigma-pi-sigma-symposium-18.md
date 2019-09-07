@@ -9,7 +9,7 @@ The Eighth Annual Undergraduate Physics Research Symposium was held on November 
 
 # Posters
 - **Margaret Doyle**: An Investigation into 400 nm Driven High-Order Harmonics
-- **Cole Miles**: Reactive Moleuclar Dynamics Simulations of Structural Transitions in Transition Metal Dichalcogenides
+- **Cole Miles**: Reactive Molecular Dynamics Simulations of Structural Transitions in Transition Metal Dichalcogenides
 - **Nicholas Anderson**: Pulsar-Timing for Undergraduates: Research Meets Outreach
 - **Andrew Jiao**: Magnetohydrodynamic Approximations of the m=0 Rayleigh-Taylor Instability in a Z-Pinch
 
