@@ -286,7 +286,7 @@ members:
         astronomy building.
 
 exec-boards:
-  - year: 2019-2020
+  - year: 2019 - 2020
     board:
     - name: Morgan Waddy
       role: President
