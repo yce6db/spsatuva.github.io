@@ -1,0 +1,398 @@
+current-year: 2019 - 2020
+
+advisor:
+  - name: Professor Craig Group
+    email: rcg6p@virginia.edu
+    img: Craig_Group
+    description:
+      - Professor Group is the current faculty advisor for our SPS chapter. 
+
+members:
+  - name: Morgan Waddy
+    email: mdw4ux@virginia.edu
+    img: Morgan_Waddy2
+    description:
+      - Morgan Waddy, a third year Atronomy-Physics major, is our current SPS President.
+      - Outside of SPS she enjoys crocheting, cooking and rollet derby.
+  - name: William Musk
+    email: wmm4xf@virginia.edu
+    img: William_Musk
+    description:
+      - William Musk, a second year Physics and Math major is our current SPS President.
+      - Outside of SPS, William plays the violin and enjoys playing baseball.
+  - name: Liam Walters
+    email: lcw4fx@virginia.edu
+    img: Liam_Walters
+    description:
+      - Liam Walters, a third year Astronomy-Physics major is our curent SPS Treasurer.
+      - Outside of SPS, he enjoys food/cooking, traveling, backpacking, hiking, video-gaming,
+        rock climbing and lacrosse.
+  - name: Ethan Blaser
+    email: ehb2bf@virginia.edu
+    img: Ethan_Blaser
+    description:
+      - Ethan Blaser, a third year Physics major is one of the current Outreach Coordinators.
+      - Outside of SPS, Ethan is a jazz bassis, a member of the UVA Jazz Ensemble and a member
+        of PI Lambda Phi Fraterinity.
+  - name: Grace Buehlmann
+    email: gmb8nj@virginia.edu
+    img: Grace_Buehlmann
+    description:
+      - Grace Buehlmann, a second year Physics major, is one of the current Outreach Coordinators.
+      - Outside of the classroom Grace likes to knit and is part of the marching band.
+  - name: Levi Schult
+    email: lss8ak@virginia.edu
+    img: Levi_Schult2
+    description:
+      - Levi Schult, a third year Astronomy-Physics major is our current Social Media chair.
+      - Outside of SPS, Levi is obsessed with anything space related, loves music, science fiction
+       and politics. His favorite TV shows and moves include, West Wing, Battlestar Galactica, Star Wars
+       Marvel comics/movies, Her, Annihilation and Ex Machina.
+  - name: Micheal Stepniczk
+    email: ms7wk@virginia.edu
+    img: Micheal_Stepniczk
+    description:
+      - Micheal Stepniczk, a second year Physics and Math major is our current Secretary.
+      - Outside of SPS, Michael enjoys speaking German, hiking, traveling as cheap as possible
+        and board games.
+  - name: Efrain Perez
+    email: ecp5kf@virginia.edu
+    img: Efrain_Perez
+    description:
+      - Efrain Perez, a third year Astronomy-Physics major is our current Webmaster.
+      - Outside of SPS, Efrain enjoys watching movies, lifting, music, and comics.
+  - name: Emma Yeats
+    email: ery5ua@virginia.edu
+    img: Emma_Yeats
+    description:
+      - Emma, a 3rd year physics major, current diversity chair person.
+      - Interested in physics (!), drawing, painting, reading, traveling, memes and cat videos :)
+  - name: Jillian Ticatch
+    email: jtt5ya@virginia.edu
+    img: Jillian_Ticatch2
+    description:
+      - Hi! My name is Jillian and I am the current Sigma Pi Sigma President.
+        I’m from Houston, I love to sail, and my favorite song is Africa by Toto.
+      - Jillian Ticatch, a 3rd year physics major, is this chapter's Sigma pi Sigma President. In the past, she has pioneered
+        a student-run outreach program with [Clark Elementary School's CLASS Program](http://charlottesvilleschools.org/CLASS)
+        in Charlottesville, VA. Jillian has created [guides for outreach activities](/outreach/guides) that anyone can follow to ease the
+        creation of outreach programs elsewhere. Jillian works with 3 other Outreach Volunteers to staff outreach events
+        held by SPS and the UVA physics department.
+      - Outside of school, Jillian enjoys sailing, reading plays, and drinking tea out of large, blue containers.
+  - name: Joey Clement
+    email: jnc8mc@virginia.edu
+    img: Joey_Clement
+    description:
+      - Joey Clement, a third year Physics major is this years Sigma Pi Sigma Vice-President.
+      - Outside of SPS, Joey works on computer hardware.
+  - name: Pedrom Zadeh
+    email: pz8bx@virginia.edu
+    img: Pedrom_Zadeh
+    description:
+      - Pedrom, a 4th year physics major, is the current president of our Society of Physics chapter. 
+        He served as the Outreach Manager during the 2016 - 2017 academic year, during which
+        he helped to pioneer an outreach program with the [Clark Elementary School CLASS 
+        Program](http://charlottesvilleschools.org/CLASS) in Charlottesville, Virginia.
+      - Outside of his classes, Pedrom enjoys playing both real and virtual soccer (FIFA).
+  - name: Kristen Schumacher
+    email: kes3fp@virginia.edu
+    img: Kristen_Schumacher
+    description:
+      - Kristen, a 4th year physics major, is the current vice president of the Society of Physics Students.
+      - Outside of school, Kristen enjoys singing.
+  - name: Margaret Doyle
+    email: mdd2sy@virginia.edu
+    img: Margaret_Doyle
+    description:
+      - Margaret, a 4th year physics major, is the current treasurer of the Society of Physics Students.
+      - Outside of SPS, Margaret enjoys getting in tune with her spirit, [Entomology](https://en.wikipedia.org/wiki/Entomology),
+        and running.
+  - name: Morgan Waddy
+    email: mdw4ux@virginia.edu
+    img: Morgan_Waddy
+    description:
+      - Morgan Waddy, a 2nd year physics major, is the current Secretary for the Society of Physics Students. She
+        writes dope emails to keep up the spirits of our downtrodden collective.
+      - Outside of SPS, Morgan enjoys making and selling [homemade slime](http://instagram.com/slimelordmorgue), 
+        volunteering at the [McCormick Observatory](http://astronomy.as.virginia.edu/public-outreach/observatory-public-night-program),
+        and generally being awesome.
+  - name: Cole Miles
+    email: cm3uc@virginia.edu
+    img: Cole_Miles
+    description:
+      - Cole Miles, a 4th year physics major, is this chapter's Web Master. He helped in the creation of this site and
+        currently works to maintain it.
+      - Outside of SPS, Cole enjoys playing video games, going to the gym, and learning about machine learning.
+  - name: Jillian Ticatch
+    email: jtt5ya@virginia.edu
+    img: Jillian_Ticatch
+    description:
+      - Hi! My name is Jillian and I am on the Outreach Committee. 
+        I’m from Houston, I love to sail, and my favorite song is Africa by Toto.
+      - Jillian Ticatch, a 2nd year physics major, is this chapter's Outreach Manager. In the past, she has pioneered
+        a student-run outreach program with [Clark Elementary School's CLASS Program](http://charlottesvilleschools.org/CLASS) 
+        in Charlottesville, VA. Jillian has created [guides for outreach activities](/outreach/guides) that anyone can follow to ease the
+        creation of outreach programs elsewhere. Jillian works with 3 other Outreach Volunteers to staff outreach events
+        held by SPS and the UVA physics department.
+      - Outside of school, Jillian enjoys sailing, reading plays, and drinking tea out of large, blue containers.
+  - name: Shelby Laychak
+    email: ssl6np@virginia.edu
+    img: Shelby_Laychak
+    description:
+      - Shelby Laychak, a 3rd year statistics and astronomy major, joins SPS's Outreach Commitee as a Volunteer. She assists
+        Jillian in organizing outreach events for SPS and volunteers to staff them.
+      - Outside of SPS, Shelby enjoys looking at memes and listening to girly music.
+  - name: Raymundo Mora
+    email: rm3xw@virginia.edu
+    description:
+      - Ray Mora, a 2nd year physics major, is a part of the SPS Outreach Commitee, taking the role of Volunteer. He assists
+        Jillian in organizing outreach events for SPS and volunteers to staff them.
+      - Outside of SPS, Ray enjoys doing homework and eating food.
+  - name: Levi Schult
+    email: lss8ak@virginia.edu
+    img: Levi_Schult
+    description:
+      - Levi Schult, a 2nd year astrophysics major, joins SPS's Outreach Commitee for his 2nd year. Levi assists
+        Jillian in organizing outreach events for SPS and volunteers to staff them.
+      - Outside of SPS, Levi enjoys watching movies and TV shows (including all Star Wars and Marvel movies), harvesting
+        the highest quality memes from the internet, and saying "MY MAN!!!!" to as many professional astronomers as he
+        can get his hands on.
+  - name: Steven Stetzler
+    email: steven.stetzler@gmail.com
+    homepage: http://stevenstetzler.com
+    img: Steven_Stetzler
+    description:
+      - Steven Stetzler, a graduated physics and computer science major, was the president of our
+        chapter during the 2017 - 2018 academic year and the treasurer during the 2016 - 2017 
+        academic year. As president, he worked with Gage DeZoort to create PHYS 1910, a student-run course designed
+        to help 1st year students find research opportunities.
+      - Steven is currently attending the University of Washington to pursue an Astronomy PhD. You can
+        keep up to date with him by visiting his [personal website](http://stevenstetzler.com).
+      - Outside of school, Steven enjoys listening to music, watching movies with friends, playing tennis,
+        and tackling new technical challenges (like building websites).
+  - name: Andrew Coffee
+    email: ac7gd@virginia.edu
+    img: Andrew_Coffee
+    description:
+      - Andrew Coffee (AKA SPS's resident Mad Man), a graduated physics and electrical engineering major, was 
+        the vice president of our chapter during the 2017 - 2018 academic year and the secretary during the 2016 - 2017
+        academic year. He left a legacy of sending the most bizaare yet enjoyable emails to ever grace the `phys-students`
+        listserv. He will be dearly missed by all.
+      - Outside of SPS, Andrew enjoys headbutting others, pinching people with tongs, and growing facial hair.
+  - name: Victoria Kovalchuk
+    email: vvk3da@virginia.edu
+    img: Victoria_Kovalchuk
+    description:
+      - Victoria Kovalchuk, a graduated physics and math major, was the treasurer for SPS during the 2017 - 2018
+        academic year. She worked to fund our [2018 trip](/2018/04/18/aps-april/) to the American Physical Society April Meeting,
+        and kept pizza free for another year.
+      - Currently, Victoria is pursuing a physics PhD at Boston University, where she will study condensed matter physics.
+      - Outside of school, Victoria enjoys reading fantasy books, petting any dogs or cats she can find, and
+        advocating for polical change and environmental protection.
+  - name: Matthew Walker
+    email: mrw3te@virginia.edu
+    homepage: http://mathwalker.com
+    img: Matt_Walker_2
+    description:
+      - I graduated from UVA and was a part of SPS during the 2017 - 2018 academic year. I designed and 
+        managed the website for SPS, and I occasionally wrote emails. 
+      - My research interests are in condensed matter theory, and I really enjoy studying 
+        group theory and topology in my free time. 
+      - Outside of academia I enjoy cycling, 
+        running, and swimming. I also sometimes like to play drums in my basement.
+  - name: Brian Seymour
+    email: bcs8dn@virginia.edu
+    homepage: http:/briancseymour.com
+    img: Brian_Seymour
+    description:
+      - I swim with trunks and no googles. Total BK randy
+      - Brian Seymour, a current 4th year physics major, was an Outreach Subchair for the Society of Physics
+        Students during the 2017 - 2018 academic year. He worked with Pedrom Zadeh to organize outreach events and volunteered with our Clark
+        Elementary outreach program.
+      - Outside of school, Brian enjoys swimming and running, playing FIFA, and playing Avalon.
+  - name: Jesse Han
+    email: jh4vn@virginia.edu
+    img: Jesse_Han
+    description:
+      - Jesse Han, a current 3rd year physics and math major, is the President of our Sigma Pi Sigma chapter. He
+        was previously an Outreach Subchair during the 2017 - 2018 academic year. While occupying this position
+        he helped Pedrom Zadeh coordinate outreach events. As President of Sigma Pi Sigma, he works to ensure
+        the continued success of our yearly Sigma Pi Sigma Research Symposium and Sigma Pi Sigma induction ceremony.
+        Jesse intends to convert Sigma Pi Sigma into a more socially oriented organization during the 2018 - 2019 
+        academic year.
+      - Outside of school, Jesse enjoys working out religiously, rock climbing, swing dancing, and drinking lots 
+        of coffee. He can be seen on his moped driving to lunch at the local Thai restuarant and giving late-night
+        rides to Cookout from the astronomy building.
+  - name: Michael Worcester
+    email: mw9va@virginia.edu
+    img: Michael_Worcester
+    description:
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Nah nah nah nah nah nah, nah nah nah, hey Jude
+      - Michael Worcestor, a graduated physics major, was a Class Representative for the Society of Physics Students
+        during the 2017 - 2018 year. In this role, he worked to support our physics majors by organizing
+        social events for them.
+      - Outside of class, Michael enjoys making music, making food, and both watching and playing basketball.
+  - name: Gage DeZoort
+    email: jgd5ur@virginia.edu
+    description:
+      - Gage DeZoort, a graduated physics and engineering science major, was the President of Sigma Pi Sigma during 
+        the 2017 - 2018 year, the President of the Society of Physics Students during the 2016 - 2017 year, and the 
+        Secretary of the Society of Physics Students during the 2015 - 2016 year. He is known for Making SPS Great
+        Again (MSGA - sold on hats by order only). During the 2017 - 2018 year, he worked with Steven Stetzler
+        to create and run PHYS 1910, a student-run course meant to introduce first year students to physics
+        research.
+      - Gage is currently pursuing a physics PhD at Princeton University, where he is studying High Energy Physics.
+      - Outside of school, Gage enjoys being playing guitar, listening to metal music, and reading books in coffee
+        shops.
+    img: Gage_DeZoort
+  - name: Tanner Rase
+    email: tnr3ym@virginia.edu
+    description: 
+      - Tanner Rase, a graduated physics and math major, was the Vice President of the Society of Physics 
+        Students during the 2016 - 2017 academic year.
+  - name: Andrew Hrusth
+    img: Andrew_Hrusth
+    email: ajh9vw@virginia.edu
+    description:
+      - Send nudes
+      - Andrew Hrusth was the treasurer of the Society of Physics Students during the 2015 - 2016 academic year. 
+        He is known for having kept SPS from bankruptcy during those times.
+      - Outside of school, Andrew enjoys eating bagels and playing video games.
+  - name: Bridget Andersen
+    img: Bridget_Andersen
+    email: bridget.andersen@mail.mcgill.ca
+    homepage: http://bridgetandersen.com/
+    description:
+      - Bridget Andersen, a graduated astrophysics and computer science major, was the Vice President of our Sigma 
+        Pi Sigma chapter during the 2017 - 2018 academic year. She helped organize the Sigma Pi Sigma annual Research 
+        Symposium and annual Induction.
+      - Bridget is currently pursuing a physics PhD at McGill university, where she will work to detect a large number
+        of Fast Radio Bursts with the currently under construction radio telescope [CHIME](https://en.wikipedia.org/wiki/Canadian_Hydrogen_Intensity_Mapping_Experiment).
+      - Outside of school, Bridget enjoys volunteering at astronomy related events, reading books, playing guitar, and
+        traveling.
+  - name: Robin Leichtnam
+    img: Robin_Leichtnam
+    email: rl4aw@virginia.edu 
+    description:
+      - Robin Leichtnam, a current 4th year astrophysics major, is the Vice President of our Sigma Pi Sigma chapter. He
+        is responsible for organizing the Sigma Pi Sigma annual Research Symposium and Induction.
+      - Outside of school, Robin enjoys collecting Yu-Gi-Oh cards, and sleeping in the 
+        astronomy building.
+
+exec-boards:
+  - year: 2019-2020
+    board:
+    - name: Morgan_Waddy
+      role: President
+    - name: William Musk
+      role: Vice President
+    - name: Liam Walters  
+      role: Treasurer
+    - name: Michael Stepniczk 
+      role: Secretary
+    - name: Efrain Perez
+      role: Web Master" 
+    - name: Ethan Blaser
+      role: Outreach Coordinators
+    - name: Grace Buehlman
+      role: Outreach Coordinators
+    - name: Levi_Schult
+      role: Social Media Chair
+    - name: Emma Yeats
+      role: Diversity Chair
+    - name: Jillian Ticatch
+      role: Sigma Pi Sigma President
+    - name: Joey Clement
+      role: Sigma Pi Sigma Vice President
+  - year: 2018 - 2019
+    board: 
+    - name: Pedrom Zadeh
+      role: President
+    - name: Kristen Schumacher
+      role: Vice President
+    - name: Margaret Doyle
+      role: Treasurer
+    - name: Morgan Waddy
+      role: Secretary
+    - name: Cole Miles
+      role: Web Master
+    - name: Jillian Ticatch
+      role: Outreach Manager
+    - name: Shelby Laychak
+      role: Outreach Volunteer
+    - name: Raymundo Mora
+      role: Outreach Volunteer
+    - name: Levi Schult
+      role: Outreach Volunteer
+    - name: Jesse Han
+      role: Sigma Pi Sigma President
+    - name: Robin Leichtnam
+      role: Sigma Pi Sigma Vice President
+  - year: 2017 - 2018
+    board:
+    - name: Steven Stetzler
+      role: President
+    - name: Andrew Coffee
+      role: Vice President
+    - name: Victoria Kovalchuk
+      role: Treasurer
+    - name: Matthew Walker
+      role: Secretary / Webmaster
+    - name: Pedrom Zadeh
+      role: Outreach Chair
+    - name: Brian Seymour
+      role: Outreach Subchair
+    - name: Jesse Han
+      role: Outreach Subchair
+    - name: Jillian Ticatch
+      role: Outreach Subchair
+    - name: Michael Worcester
+      role: 4th Year Class Rep
+    - name: Gage DeZoort
+      role: Sigma Pi Sigma President
+    - name: Bridget Andersen
+      role: Sigma Pi Sigma Vice President
+  - year: 2016 - 2017
+    board:
+      - name: Gage DeZoort
+        role: President
+        img: Gage_DeZoort
+      - name: Tanner Rase
+        role: Vice President
+      - name: Steven Stetzler
+        role: Treasurer
+        img: Steven_Stetzler
+      - name: Andrew Coffee
+        role: Secretary
+  - year: 2015 - 2016
+    board:
+      - name: Emily Cubbage
+        role: President
+      - name: Yash Shevde
+        role: Vice President
+      - name: Andrew Hrusth
+        role: Treasurer
+      - name: Gage DeZoort
+        role: Secretary
+  - year: 2014 - 2015
+    board:
+      - name: Mita Tembe
+        role: President
+      - name: Janet Rafner
+        role: Treasurer / Secretary
+  - year: 2013 - 2014
+    board:
+      - name: Helen Rodgers
+        role: President
+      - name: Michael Viray
+        role: Vice President
+      - name: Alyssa Henderson
+        role: Treasurer
+      - name: Mita Tembe
+        role: Secretary
