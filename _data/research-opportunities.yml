@@ -1,5 +1,17 @@
 project-list:
-  - name: Stefan Baessler
+
+  - name: Jeffry Teo
+    short-name: topological-phases
+    title: Topological phases in electronic matter
+    url: https://docs.google.com/document/d/1Am8kWLAmES_sfcrxHQHHdb30DIEQWr1HfJmXHzH_beE/edit
+  - name: Despina Louca
+    short-name: Louca's Research
+    title: Louca's Research
+    url: https://docs.google.com/document/d/1I_Jw5A4lhmqnbTJESjmdxB5qw3HNv66tLsFYCrbPLIM/edit
+  - name: Cass Sackett
+    short-name: sackett-lab
+    title: Various ongoing projects
+    url: https://docs.google.com/document/d/1qPnhF17mRlfW2ivrsfG04tis04erpDDELhHoyGst2Oc/edit- name: Stefan Baessler
     short-name: Bae-various
     title: Various project at UVa and sometimes ORNL, ILL, and Fermilab
     url: https://docs.google.com/document/d/e/2PACX-1vSy69b6dWd4TSwarlJ8HJ0qS4V8EvrvoV28EzsEJAfT6_JoW272CO09AlDiBdDFI8leK1CRK-8vvFmy/pub
@@ -23,14 +35,6 @@ project-list:
     short-name: thermo-spin
     title: Thermoelectrics and Spintronics
     url: https://docs.google.com/document/d/e/2PACX-1vRLj04jJ04BU-z98SpB3aG7eAFmIpuNkR5qcPstIkKgSIh5RHgsUyHEkqa4VVl85iDDXy7ldK9-j-sL/pub
-  - name: Cass Sackett
-    short-name: sackett-lab
-    title: Various ongoing projects
-    url: https://docs.google.com/document/d/e/2PACX-1vTyJG6SywDCEhC7WLzxupiRWx-Kzsa7SBkW13rzFpI_zTxHrAYIgodL34Rpc9NmMc77LOL3WeNB207Z/pub
-  - name: Jeffry Teo
-    short-name: topological-phases
-    title: Topological phases in electronic matter
-    url: https://docs.google.com/document/d/e/2PACX-1vRx-yOMZANG3VjRW9UP4qh7HH-fqNfjcwo9XeHUDKd2XBFEzU_njYSl152EULnWVYBFZTraKfN7lZbe/pub
   - name: Marija Vucelja
     short-name: escape-really-fast
     title: Escape faster than the Kramer's escape problem
@@ -55,4 +59,3 @@ project-list:
     short-name: hirosky-lab
     title: Evaluation of high performance photon detectors, Studies of new physics w/ diboson final states
     url: https://docs.google.com/document/d/e/2PACX-1vT1PHokqmPHQM5Iy6SPRi0ha8G3S2VyIeoYzddkgAadiHzVol-IHhbLFxZvhIrXlnIsQLM7T1nFP-3K/pub
-    
