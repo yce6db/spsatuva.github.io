@@ -1,9 +1,9 @@
 images:
-  - file: AAS
-  - file: Clark_2
-  - file: Speakers
-  - file: Demo_Day
-  - file: Eclipse_Montage
-  - file: APS
-  - file: Hike_Good_3
-  - file: Ladies_in_the_Lab
+- file: AAS.jpg
+- file: Clark_2.jpg
+- file: Speakers.jpg
+- file: Demo_Day.jpg
+- file: Eclipse_Montage.jpg
+- file: APS.jpg
+- file: Hike_Good_3.jpg
+- file: Ladies_in_the_Lab.jpg

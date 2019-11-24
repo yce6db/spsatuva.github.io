@@ -12,6 +12,11 @@ layout: default
                     <h1>{{ page.title }}</h1>
                 </div>
                 {% endif %}
+                {% if page.source-files %}
+                <div class="doc-source-files">
+                    <strong>Source Files: </strong>{% for file in page.source-files %}<a class="doc-source-file-link" href="{{ site.source-url | append: '/' | append: file }}">{{ file }}</a>{% unless forloop.index == page.source-files.size %}, {% endunless %}{% endfor %}
+                </div>
+                {% endif %}
                 {{ content }}
             </div>
         </div>
