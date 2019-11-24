@@ -1,0 +1,45 @@
+# file: docs-nav.yaml
+# access this data with site.data.docs.docs-nav
+# categories is a list of categories each of which has a 'header' key and 'nav-items' key which is another list of navigable menu items
+categories:
+- header: "Documentation"
+  nav-items:
+  - title: "Home"
+    url: "/home/"
+  - title: "Contributing"
+    url: "/contributing/"
+
+- header: "Site Overview"
+  nav-items:
+  - title: "GitHub Pages"
+    url: "/overview/github-pages/"
+  - title: "Jekyll"
+    url: "/overview/jekyll"
+
+- header: "Site Management"
+  nav-items:
+  - title: "Navigation"
+    url: "/site/navigation"
+  - title: "Adding Images"
+    url: "/site/images/"
+  - title: "New Page"
+    url: "/site/new-page/"
+  - title: "New Post"
+    url: "/site/new-post/" 
+  - title: "Edit CSS"
+    url: "/site/css/"
+  - title: "Edit JavaScript"
+    url: "/site/js/"
+  
+- header: "Pages"
+  nav-items:
+  - title: "Exec Page"
+    url: "/pages/exec/"
+  - title: "Research"
+    url: "/pages/research/"
+
+- header: "Tutorials"
+  nav-items:
+  - title: "Making Collapsible Elements"
+    url: "/tutorials/collapsible-elements/"
+

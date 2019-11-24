@@ -1,0 +1,38 @@
+<div class="sidenav" id="sidenav">
+    {% for section in site.data.docs.docs-nav.categories %}
+    {% assign header = section.header %}
+    {% assign nav-items = section.nav-items %}
+
+    <strong class="nav-heading">{{ header | upcase }}</strong>
+    <hr>
+    <ul class="nav-list">
+        {% for doc in nav-items %}
+        <li class="nav-item" id="{{ doc.title | remove: " " }}">
+            {% assign doc-url = doc.url %}
+            {% assign doc-url-size = doc-url | size %}
+            {% assign first-char = doc-url | slice: 0 %}
+            {% assign last-char-index = doc-url-size | minus: 1 %}
+            {% assign last-char = doc-url | slice: last-char-index %}
+            {% if first-char != "/" %}
+                {% assign doc-url = doc-url | prepend: "/" %}
+            {% endif %}
+            {% if last-char != "/" %}
+                {% assign doc-url = doc-url | append: "/" %}
+            {% endif %}
+            {% if doc-url-size == 0 %}
+                {% assign doc-url = "" %}
+            {% endif %}
+            {% assign doc-url = '/docs' | append: doc-url | relative_url %}
+            {% if doc-url == page.url %}
+            <strong>
+            {% endif %}
+            <a href="{{ doc-url }}">{{ doc.title }}</a>
+            {% if doc-url == page.url %}
+            </strong>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+    
