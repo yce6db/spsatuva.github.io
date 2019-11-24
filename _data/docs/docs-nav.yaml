@@ -5,7 +5,7 @@ categories:
 - header: "Documentation"
   nav-items:
   - title: "Home"
-    url: "/home/"
+    url: ""
   - title: "Contributing"
     url: "/contributing/"
 
@@ -33,10 +33,28 @@ categories:
   
 - header: "Pages"
   nav-items:
-  - title: "Exec Page"
-    url: "/pages/exec/"
+  - title: "Home Page"
+    url: "/pages/home/"
+  - title: "Events"
+    url: "/pages/events/"
   - title: "Research"
     url: "/pages/research/"
+  - title: "Courses"
+    url: "/pages/courses/"
+  - title: "Grad School"
+    url: "/pages/grad-school/"
+  - title: "PHYS 1910 - About"
+    url: "/pages/phys1910/about/"
+  - title: "PHYS 1910 - Lectures"
+    url: "/pages/phys1910/lectures/"
+  - title: "Outreach - About"
+    url: "/pages/outreach/about/"
+  - title: "Outreach - Guides"
+    url: "/pages/outreach/guides/"
+  - title: "Exec Page"
+    url: "/pages/exec/"
+  - title: "Contact"
+    url: "/pages/contact/"
 
 - header: "Tutorials"
   nav-items:

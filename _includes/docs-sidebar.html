@@ -20,7 +20,7 @@
                 {% assign doc-url = doc-url | append: "/" %}
             {% endif %}
             {% if doc-url-size == 0 %}
-                {% assign doc-url = "" %}
+                {% assign doc-url = "/index" %}
             {% endif %}
             {% assign doc-url = '/docs' | append: doc-url | relative_url %}
             {% if doc-url == page.url %}
