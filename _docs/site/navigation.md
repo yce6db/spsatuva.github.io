@@ -9,16 +9,16 @@ Navigation of the main site is handled by the file `_data/navigation.yml`, which
 
 ```yaml
 header:
-    - name: Item 1
-      link: /path/to/item1
-    - name: Item 2
-      link: /path/to/item2
-    - name: Dropdown 1
-      sublinks:
-        - name: Dropdown Item 1
-          link: /path/to/dropdownitem1
-        - name: Dropdown Item 2
-          link: /path/to/dropdownitem2
+- name: Item 1
+  link: /path/to/item1
+- name: Item 2
+  link: /path/to/item2
+- name: Dropdown 1
+  sublinks:
+  - name: Dropdown Item 1
+    link: /path/to/dropdownitem1
+  - name: Dropdown Item 2
+    link: /path/to/dropdownitem2
 ```
 
 The main navigation structure can be accessed with the liquid variable `site.data.navigation.header`, which is a list containing each of the links to be displayed in the header of each page of this site. This data is used in the file `_includes/header.html`, where a list like the one shown above is iterated over to generate the header on the top of the site. If you take a look at this file you will see something like:
