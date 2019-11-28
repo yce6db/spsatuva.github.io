@@ -1,4 +1,9 @@
 <div class="sidenav" id="sidenav">
+    {% comment %}
+        Build the navigation bar from the file _data/docs/docs-nav.yaml, indexing on the key 'categories'
+        and looping over the obtained items.
+        Each item in the for-loop can be considered a 'category' that has a header name and a set of items
+    {% endcomment %}
     {% for section in site.data.docs.docs-nav.categories %}
     {% assign header = section.header %}
     {% assign nav-items = section.nav-items %}
@@ -7,9 +12,12 @@
     <hr>
     <ul class="nav-list">
         {% for doc in nav-items %}
-        <li class="nav-item" id="{{ doc.title | remove: " " }}">
+        <li class="nav-item" id="{{ doc.title | remove: ' ' }}">
             {% assign doc-url = doc.url %}
             {% assign doc-url-size = doc-url | size %}
+            {% comment %}
+                Put a "/" in front of or at the end of the url provided in the case that it's missing
+            {% endcomment %}
             {% assign first-char = doc-url | slice: 0 %}
             {% assign last-char-index = doc-url-size | minus: 1 %}
             {% assign last-char = doc-url | slice: last-char-index %}
@@ -22,7 +30,12 @@
             {% if doc-url-size == 0 %}
                 {% assign doc-url = "/index" %}
             {% endif %}
-            {% assign doc-url = '/docs' | append: doc-url | relative_url %}
+            {% assign doc-url = doc-url | relative_url %}
+            {% comment %}
+                If the current item in the navigation bar is the same as the one currently being rendered
+                make this page's name bolded in the navigation bar. This means that on each page of the
+                documentation, the current page will appear bolded in the navigation bar.
+            {% endcomment %}
             {% if doc-url == page.url %}
             <strong>
             {% endif %}
