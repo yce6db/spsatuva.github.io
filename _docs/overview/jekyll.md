@@ -49,7 +49,7 @@ title: Home Page
 tagline: Jekyll builds nice websites
 ---
 <!-- Everything that comes after the YAML front matter is called the page content -->
-# This is the syntax for a Markdown heading which will render out to have <h1> tags
+# This is the syntax for a Markdown heading which will render out to have h1 tags
 
 <p> Raw html can also be included in Markdown </p>
 
@@ -147,7 +147,7 @@ layout: default
 title: Home Page
 tagline: Jekyll builds nice websites
 ---
-# This is the syntax for a Markdown heading which will render out to have <h1> tags
+# This is the syntax for a Markdown heading which will render out to have h1 tags
 
 <p> Raw html can also be included in Markdown </p>
 
@@ -177,7 +177,7 @@ tagline: Jekyll builds nice websites
 ---
 
 <h1>
-  This is the syntax for a Markdown heading which will render out to have <h1> tags
+  This is the syntax for a Markdown heading which will render out to have h1 tags
 </h1>
 
 <p> Raw html can also be included in Markdown </p>
@@ -260,7 +260,7 @@ which gives us a complete HTML page that can be rendered in a browser:
     Jekyll builds nice websites
   </h2>
   <h1>
-    This is the syntax for a Markdown heading which will render out to have <h1> tags
+    This is the syntax for a Markdown heading which will render out to have h1 tags
   </h1>
 
   <p> Raw html can also be included in Markdown </p>
@@ -282,5 +282,34 @@ which gives us a complete HTML page that can be rendered in a browser:
   </ul>
 </body>
 ```
+which looks like:
+<h1>
+  My Website
+</h1>
+<h2>
+  Home Page
+</h2>
+<h2>
+  Jekyll builds nice websites
+</h2>
+<h1>
+  This is the syntax for a Markdown heading which will render out to have h1 tags
+</h1>
 
-Jekyll repeats the process for every page on the site and puts the resulting HTML in a folder in your project directory called `_site`.
+<p> Raw html can also be included in Markdown </p>
+
+<p>
+  I'm going to include a dynamically generated list here from <code>_includes/list.html</code>:
+</p>
+
+<h3>
+  Assorted foods and things
+</h3>
+<ul>
+  <li>
+    banana
+  </li>
+  <li>
+    orange
+  </li>
+</ul>
