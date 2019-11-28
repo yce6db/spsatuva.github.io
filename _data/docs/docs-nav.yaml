@@ -61,5 +61,5 @@ categories:
 - header: "Tutorials"
   nav-items:
   - title: "Making Collapsible Elements"
-    url: "/tutorials/collapsible-elements/"
+    url: "/docs/tutorials/collapsible-elements/"
 
