@@ -18,6 +18,9 @@ quick-links:
   url: /my/url/1
 - title: My Title 2
   url: /my/url/2
+# Optional: Replaces the blue banner behind the page title on the rendered page with the provided image
+# assumed location is /assets/img/featured-images/my-image.jpg
+featured-img: ny-image.jpg
 ```
 
 All pages are pushed through the page template, which can be found in `_layouts/page.html`. You can modify the page layout to modify how all pages appear on this site. You can add new YAML Front Matter variables to pages and access them in the page layout using `page.variable-name` (as is done using the `container` variable).
