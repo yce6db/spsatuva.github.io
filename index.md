@@ -9,7 +9,7 @@ layout: home
     <div class="carousel-inner">
         {% for image in site.data.front-page-slider.images %}
         <div class="carousel-item {% if forloop.index == 1 %} active {% endif %}">
-            <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/slider/{{ image.file }}.jpg" {% if image.align %}style="background-position: {{ image.align }};"{% endif %}> 
+            <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/slider/{{ image.file }}" {% if image.align %}style="background-position: {{ image.align }};"{% endif %}> 
             </div>
         </div>
         {% endfor %}

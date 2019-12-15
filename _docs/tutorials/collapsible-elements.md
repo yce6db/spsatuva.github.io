@@ -83,13 +83,13 @@ We can make this more complex by generating the list with liquid tags. Examine t
 
 ```yml
 data:
-  - heading-name: One
-    content: "This is the content of heading one"
-  - heading-name: Two
-    content: "The is the content of heading two"
-  - heading-name: Three
-    content: "This is the content of heading three. It has an image as well"
-    image: https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+- heading-name: One
+  content: "This is the content of heading one"
+- heading-name: Two
+  content: "The is the content of heading two"
+- heading-name: Three
+  content: "This is the content of heading three. It has an image as well"
+  image: https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 ```
 
 With the following HTML + Liquid code
