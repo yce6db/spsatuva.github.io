@@ -7,39 +7,39 @@ current-year: "Fall 2018"
 #   MUST include - name, image, title
 #   Optional - email
 years:
-  - year: "Fall 2018"
-    people:
-      - name: Cass Sackett
-        image: Cass_Sackett
-        title: Faculty Advisor
-        email: sackett@virginia.edu
-      - name: Jasmin Washington
-        image: Jasmin_Washington
-        title: Course Leader
-        email: jw7ka@virginia.edu
-      - name: Ryan Taylor
-        image: Ryan_Taylor
-        title: Course Leader
-        email: rmt2dt@virginia.edu
-  - year: "Fall 2017"
-    people:
-      - name: Cass Sackett
-        image: Cass_Sackett
-        title: Faculty Advisor
-      - name: Gage DeZoort
-        image: Gage_DeZoort
-        title: Course Leader / Founder
-      - name: Steven Stetzler
-        image: Steven_Stetzler
-        title: Course Leader / Founder
+- year: "Fall 2018"
+  people:
+  - name: Cass Sackett
+    image: Cass_Sackett.jpg
+    title: Faculty Advisor
+    email: sackett@virginia.edu
+  - name: Jasmin Washington
+    image: Jasmin_Washington.jpg
+    title: Course Leader
+    email: jw7ka@virginia.edu
+  - name: Ryan Taylor
+    image: Ryan_Taylor.jpg
+    title: Course Leader
+    email: rmt2dt@virginia.edu
+- year: "Fall 2017"
+  people:
+  - name: Cass Sackett
+    image: Cass_Sackett.jpg
+    title: Faculty Advisor
+  - name: Gage DeZoort
+    image: Gage_DeZoort.jpg
+    title: Course Leader / Founder
+  - name: Steven Stetzler
+    image: Steven_Stetzler.jpg
+    title: Course Leader / Founder
 
 # Enter here a link to the syllabus for each current year. Ensure that any google drive links are
 # set to be viewable by anyone
 syllabus:
-  - year: "Fall 2018"
-    pdf: https://drive.google.com/file/d/1aonk9OTJEtySZgqga7pfT8zwHKVmDWha/view?usp=sharing
-  - year: "Fall 2017"
-    pdf: https://drive.google.com/open?id=0B7GA5ytgKNtGQnJtSDVldElVWnc
+- year: "Fall 2018"
+  pdf: https://drive.google.com/file/d/1aonk9OTJEtySZgqga7pfT8zwHKVmDWha/view?usp=sharing
+- year: "Fall 2017"
+  pdf: https://drive.google.com/open?id=0B7GA5ytgKNtGQnJtSDVldElVWnc
 
 # Include here links to all of the recordings from a given semester
 # Tag each list of recordings with a year that they were taken
@@ -54,25 +54,25 @@ syllabus:
 # Slides can either be a URL pointing to an external PDF or slide deck or
 # a relative URL pointing to a local resource on the website
 lectures:
-  - year: "Fall 2018"
-    recordings:
-      - speaker: Ryan Taylor and Jasmin Washington
-        title: Introduction to Physics Research
-        id: c879c613-74f4-4c2f-9ae2-a94a0172dbe4
-  - year: "Fall 2017"
-    recordings:
-      - speaker: Bridget Andersen and Steven Stetzler
-        title: Landing an REU
-        id: 56b00aca-62f6-49e7-9f25-a457ab330228
-        slides: https://drive.google.com/open?id=1khYG5kqP6VPNbsqXe6ngeKcOYzZ6o1dyBr_XzOIrOlM
-      - speaker: Kent Paschke
-        title: Parity-violating Electron Scattering
-        id: ec693cf7-a438-424c-87b7-163ba54b7a6f
-        slides: /assets/pdf/phys1910/Fall_2017_Kent_Paschke.pdf
-      - speaker: Stefan Baeßler
-        title: Fundamental physics with neutrons
-        id: a68a0898-0cc9-429b-92a0-10c18d2f165d
-        slides: /assets/pdf/phys1910/Fall_2017_Stefan_Baeßler.pdf
-      - speaker: Cass Sackett
-        title: Interferometry with Atoms
-        id: bd22c0dc-f757-4d92-a2f2-8ecb2b81ca99
+- year: "Fall 2018"
+  recordings:
+  - speaker: Ryan Taylor and Jasmin Washington
+    title: Introduction to Physics Research
+    id: c879c613-74f4-4c2f-9ae2-a94a0172dbe4
+- year: "Fall 2017"
+  recordings:
+  - speaker: Bridget Andersen and Steven Stetzler
+    title: Landing an REU
+    id: 56b00aca-62f6-49e7-9f25-a457ab330228
+    slides: https://drive.google.com/open?id=1khYG5kqP6VPNbsqXe6ngeKcOYzZ6o1dyBr_XzOIrOlM
+  - speaker: Kent Paschke
+    title: Parity-violating Electron Scattering
+    id: ec693cf7-a438-424c-87b7-163ba54b7a6f
+    slides: /assets/pdf/phys1910/Fall_2017_Kent_Paschke.pdf
+  - speaker: Stefan Baeßler
+    title: Fundamental physics with neutrons
+    id: a68a0898-0cc9-429b-92a0-10c18d2f165d
+    slides: /assets/pdf/phys1910/Fall_2017_Stefan_Baeßler.pdf
+  - speaker: Cass Sackett
+    title: Interferometry with Atoms
+    id: bd22c0dc-f757-4d92-a2f2-8ecb2b81ca99

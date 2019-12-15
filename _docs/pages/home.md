@@ -12,11 +12,11 @@ The home page is located in the file `index.md` and consists of two elements: 1)
 
 # Image Slider Overlay
 
-The overlay text shows the site title and the site description, stored in `_config.yml` under the keys `title` and `description`. To change the overlay, change the content of these fields in `_config.yml`.
+The overlay text shows the site title and the site description, stored in `_config.yml` under the keys `title` and `tagline`. To change the overlay, change the content of these fields in `_config.yml`.
 
 # Image Slider
 
-The image slider is controlled by the following HTML and Liquid:
+The image slider is controlled by the following HTML and Liquid. You can see that the variables `site.title` and `site.tagline` (set from `_config.yml`) are referenced in this snippet.
 ```html
 {% raw %}
 <div id="hero-carousel" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="7000">

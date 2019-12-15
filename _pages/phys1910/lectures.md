@@ -24,21 +24,30 @@ Here you can find an archive of lecture recordings for the PHYS 1910 course, whi
     <div class="recordings collapse {% if year.year == site.data.phys1910.current-year %} show {% endif %}" id="{{ year_no_spaces }}" aria-labelledby="{{ year_no_spaces }}" data-parent="#lectures-years">
         {% if year.recordings %}
         {% for recording in year.recordings %}
-            <div class="collapse-list-heading collapsed" data-toggle="collapse" data-target="#{{ recording.id }}" aria-expanded="false" aria-controls="{{ recording.id }}">
+            {% if recording.id and recording.id != "NA" %}
+                {% assign div_id = recording.id %}
+            {% else %}
+                {% comment %} This will generate a pseudo-random number based on the time of generation to use as an id for the collapsible div element {% endcomment %}
+                {% capture time_seed %}{{ 'now' | date: "%s" }}{% endcapture %}
+                {% assign div_id = time_seed | times: 1103515245 | plus: 12345 | divided_by: 65536 | modulo: 32768 %}
+            {% endif %}
+            <div class="collapse-list-heading collapsed" data-toggle="collapse" data-target="#{{ div_id }}" aria-expanded="false" aria-controls="{{ div_id }}">
                 <h3>
                     <a class="recording-info"> 
                         {{ recording.speaker }} - {{ recording.title }} 
                     </a>
                 </h3>
             </div>
-            <div class="recording-container collapse" id="{{ recording.id }}" aria-labelledby="{{ recording.id }}">
+            <div class="recording-container collapse" id="{{ div_id }}" aria-labelledby="{{ div_id }}">
                 {% if recording.slides %}
                 <h4>
                     Slides can be found <a href="{{ recording.slides }}">here</a>.
                 </h4>
                 {% endif %}
-                <iframe class="recording-video" src="https://uva.hosted.panopto.com/Panopto/Pages/Embed.aspx?id={{ recording.id }}&v=1" frameborder="0" allowfullscreen allow="autoplay">
+                {% if recording.id and recording.id != "NA" %}
+                <iframe class="recording-video" src="https://uva.hosted.panopto.com/Panopto/Pages/Embed.aspx?id={{ div_id }}&v=1" frameborder="0" allowfullscreen allow="autoplay">
                 </iframe>
+                {% endif %}
             </div>
         {% endfor %}
         {% else %}
