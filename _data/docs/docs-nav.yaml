@@ -1,0 +1,65 @@
+# file: docs-nav.yaml
+# access this data with site.data.docs.docs-nav
+# categories is a list of categories each of which has a 'header' key and 'nav-items' key which is another list of navigable menu items
+categories:
+- header: "Documentation"
+  nav-items:
+  - title: "Home"
+    url: "/docs/"
+  - title: "Contributing"
+    url: "/docs/contributing/"
+  - title: "How Docs are Built"
+    url: "/docs/how-docs-are-built/"
+
+- header: "Site Overview"
+  nav-items:
+  - title: "GitHub Pages"
+    url: "/docs/overview/github-pages/"
+  - title: "Jekyll"
+    url: "/docs/overview/jekyll"
+  - title: "Getting Started"
+    url: "/docs/overview/getting-started/"
+
+- header: "Site Management"
+  nav-items:
+  - title: "Navigation"
+    url: "/docs/site/navigation"
+  - title: "Adding Images"
+    url: "/docs/site/images/"
+  - title: "New Page"
+    url: "/docs/site/new-page/"
+  - title: "New Event"
+    url: "/docs/site/new-event/" 
+  - title: "Removing Pages"
+    url: "/docs/site/removing-pages/"
+  - title: "Edit CSS"
+    url: "/docs/site/css/"
+  - title: "Edit JavaScript"
+    url: "/docs/site/js/"
+  
+- header: "Pages"
+  nav-items:
+  - title: "Home Page"
+    url: "/docs/pages/home/"
+  - title: "Events"
+    url: "/docs/pages/events/"
+  - title: "Research"
+    url: "/docs/pages/resources/research/"
+  - title: "Courses"
+    url: "/docs/pages/resources/courses/"
+  - title: "Grad School"
+    url: "/docs/pages/resources/grad-school/"
+  - title: "PHYS 1910"
+    url: "/docs/pages/phys1910/"
+  - title: "Outreach"
+    url: "/docs/pages/outreach/"
+  - title: "Exec Page"
+    url: "/docs/pages/exec/"
+  - title: "Contact"
+    url: "/docs/pages/contact/"
+
+- header: "Tutorials"
+  nav-items:
+  - title: "Making Collapsible Elements"
+    url: "/docs/tutorials/collapsible-elements/"
+

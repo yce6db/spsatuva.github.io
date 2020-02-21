@@ -10,7 +10,6 @@ container: false
     {% for post in site.posts %}
         {% include card.html %}
     {% endfor %}
-    <!-- {% include pagination.html %} -->
     </div>
 </div>
 </section>

@@ -5,11 +5,16 @@ layout: default
 <main class="site__content">
     <div class="container">
         <div class="doc-container">
-            {% include sidebar.html docs=true %}
+            {% include docs-sidebar.html %}
             <div class="doc-content">
                 {% if page.title %}
                 <div class="doc-content-heading">
                     <h1>{{ page.title }}</h1>
+                </div>
+                {% endif %}
+                {% if page.source-files %}
+                <div class="doc-source-files">
+                    <strong>Source Files: </strong>{% for file in page.source-files %}<a class="doc-source-file-link" href="{{ site.source-url | append: '/' | append: file }}">{{ file }}</a>{% unless forloop.index == page.source-files.size %}, {% endunless %}{% endfor %}
                 </div>
                 {% endif %}
                 {{ content }}
