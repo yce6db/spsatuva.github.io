@@ -10,14 +10,14 @@ We had a great day of board games, donuts, and coffee! We played "The Resistance
 In the meantime, enjoy some photos!
 
 
-{% include lazy-image.html 
-   image="bgames1.jpg" 
-   title="Games!" 
+{% include lazy-image.html
+   image="bgames1.jpg"
+   title="Games!"
    caption="A heated and deceptive game of Resistance."
 %}
 
-{% include lazy-image.html 
-   image="bgames3.jpg" 
-   title="Donuts!" 
+{% include lazy-image.html
+   image="bgames3.jpg"
+   title="Donuts!"
    caption="Munchies and coffee go well together with subterfuge."
 %}
