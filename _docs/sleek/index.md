@@ -4,7 +4,10 @@ title: Sleek
 doc-title: Sleek Documentation
 permalink: /docs/sleek/
 ---
-
+</div>
+<div class="2020-2021 AGREEMENT FOR A CONTRACTED INDEPENDENT ORGANIZATION">
+    The CIO's Dealings with Third Parties The CIO shall not hold itself out as being part of, controlled by, or acting on behalf of the University. The CIO shall take affirmative steps in all of its recruitment, business, and other dealings with third parties (including, for example, prospective members and businesses) to properly explain its relationship with the University as described above in section 2 of this Agreement. The CIO shall, without exception, include the following statement in the CIO's correspondence, messages, contracts, publications and other written or internet communications: Although this organization has members who are University of Virginia students and may have University employees associated or engaged in its activities and affairs, the organization is not a part of or an agency of the University. It is a separate and independent organization which is responsible for and manages its own activities and affairs. The University does not direct, supervise or control the organization and is not responsible for the organization’s contracts, acts or omissions. Additionally, the CIO shall prominently display the preceding statement on the home page of any CIO website and any other web pages (including social media) that describe the structure of the CIO or its relationship to the University.  
+</div>
 # Sleek
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-sleek.svg)](https://badge.fury.io/rb/jekyll-sleek) [![Build Status](https://travis-ci.org/janczizikow/sleek.svg?branch=master)](https://travis-ci.org/janczizikow/sleek) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/janczizikow/sleek)
