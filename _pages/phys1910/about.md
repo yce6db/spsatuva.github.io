@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PHYS 1910
+title: PHYS 1930
 ---
 
 # PHYS 1930 - Physics in the 21st Century
