@@ -11,12 +11,12 @@ header: # Navigation links
         link: '/resources/courses'
       - name: 'Grad School'
         link: '/resources/grad-school'
-  - name: 'PHYS 1930'
+  - name: 'PHYS 1910'
     sublinks:
       - name: 'About'
-        link: '/phys1930/about'
+        link: '/phys1910/about'
       - name: 'Lectures'
-        link: '/phys1930/lectures'
+        link: '/phys1910/lectures'
   - name: 'Outreach'
     sublinks:
       - name: 'About'
