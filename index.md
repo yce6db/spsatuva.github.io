@@ -29,5 +29,5 @@ layout: home
 </main>
 
 <div class="div-calendar" align="center">
-    <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=virginia.edu_2n5ng0l77qnkib1b4o731sb6ag%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> 
+    <iframe src="https://calendar.google.com/calendar/embed?src=d55hnepu6qjp8q3krgeh1kvlb0%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> 
 </div>
