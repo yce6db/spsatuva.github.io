@@ -7,8 +7,8 @@ quick-links:
       url: https://drive.google.com/open?id=0B7GA5ytgKNtGZ0JMaF9acldDeE0
     - title: REU Summaries
       url: https://drive.google.com/drive/folders/1-C-ut42b2sE7wO99X8f3rranG5H-nr6b
-    - title: PHYS 1910
-      url: /phys1910/about/
+    - title: PHYS 1930
+      url: /phys1930/about/
 ---
 Performing original independent research in physics is an integral part of being a physicist, and it's often an enjoyable, enlightening experience. Plus, you can likely get paid to do physics research! Performing research is often a soft requirement when applying to a graduate program in physics. You will likely find yourself woefully behind your peers if applying to graduate school with little to no research experience. And if you're not in physics for the long haul (graduate school), performing original research can still be beneficial to you, as it acts as meaningful job experience in an *independent* and highly technical environment. AKA it makes you look smart and helps your resume stand out.
 
@@ -24,10 +24,9 @@ ___
 
 Getting your first research experience can be difficult, especially as a first year student. However, SPS has set up several resources to help you land your first research gig.
 
-### PHYS 1910
+### PHYS 1930
 
-PHYS 1910 is a student run, 1 credit seminar course held during the Fall which is intended to help students get a grasp on what research is currently being performed in the physics department. The course is essentially a series of speakers, usually a professor in the physics department, who will speak to you about their research and the opportunities they have for **you** to join them. Enrolling in PHYS 1910 will help you meet all of the undergraduate employing physics professors in the department and will help break the ice in introducing yourself.
-
+PHYS 1930 is a 2-credit seminar course held during the Fall which is intended to help students get a grasp on what a physics major is about, along with what research is being performed in the physics department. The course features guest lectures by various professors in the department, who will discuss research opportunities in their field. Enrolling in PHYS 1930 will help you meet many of the professors in the department and will help break the ice in introducing yourself.
 ### ASTR 1610
 
 ASTR 1610 is a mirror course for PHYS 1910 in the astronomy department. It is taught every Spring, whereas PHYS 1910 is taught in the Fall. So take both if you are interested in both physics and astronomy research, or are interested in where they overlap at all!
