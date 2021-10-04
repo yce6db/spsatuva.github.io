@@ -1,5 +1,21 @@
 project-list:
 
+  - name: Xiaochao Zheng
+    short-name: xiaochao-research
+    title: Electroweak and Hadronic Physics at Jefferson Lab and EIC
+    url: https://docs.google.com/document/d/e/2PACX-1vS5nQUsLVwY3X83BR5QYQUckd_dY32AIi8YsBTqkIHIkR2DNWXAu1h6o-GIsWGRnL6Srj5q97plU9mw/pub
+  - name: David Nichols
+    short-name: nichols-research
+    title: Visualizing curved spacetime around colliding black holes
+    url: https://docs.google.com/document/d/e/2PACX-1vQHOFXnlT--Vj4ZRKBCGwRAWIHRACskTsMzstEn12IugEVnyo2XLWr3Lk5rxk5ecYkcNXII9-cHBXrs/pub
+  - name: Chris Neu
+    short-name: neu-research
+    title: Identifying exotic forms of matter through machine learning 
+    url: https://docs.google.com/document/d/e/2PACX-1vTZsuFC8AVo2c50rStfu82SpPX7AvNaifRo01-Y-KvnVMJiDQpvgG3KQdJRKPLnMx3D_O_jbKelDWGn/pub
+  - name: Craig Group
+    short-name: group-research
+    title: Experimental Particle Physics
+    url: 1vRdvfdkZH8NUd8_4HbTWYhsMpNut9UJXTUEudPxCbCPOeyohRU5hkIjT9ScPv3HM_8zqhe_I0DZMQHo
   - name: Jeffrey Teo
     short-name: topological-phases
     title: Topological phases in electronic matter
@@ -28,10 +44,6 @@ project-list:
     short-name: Mu2e-CRV
     title: Fabrication of a High Efficiency Cosmic Ray Veto for the Mu2e Experiment
     url: https://docs.google.com/document/d/e/2PACX-1vTBeX4ZDjJ5Ce_EZAFcgrZOj5G6qlfJk5ldginjG3-AtaKInZkoHJjiZiVXFWgVMwjK28EPD2pSmZ4n/pub
-  - name: Craig Group
-    short-name: Mu2e-CRV-2
-    title: Fabrication of the Cosmic Ray Veto Detector
-    url: https://docs.google.com/document/d/e/2PACX-1vTxOBwq_m-W-x-ZqsaSCfELtimQzydxcdmjvY81UhybN-juzL8na5MQILrfpnMfBlCmSvzoaCjssyW-/pub
   - name: Joe Poon
     short-name: thermo-spin
     title: Thermoelectrics and Spintronics
