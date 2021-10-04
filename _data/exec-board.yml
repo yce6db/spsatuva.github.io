@@ -6,13 +6,7 @@ advisor:
     img: Craig_Group
     description:
       - Professor Group is the current faculty advisor for our SPS chapter.
-  - name: Professor Stefan Baeßler
-    email: 
-    img: 
-    description:
-      - Stefan Baeßler joined the University of Virginia in 2007, for a Joint Faculty Appointment with Oak Ridge National Lab. He has been teaching courses in Introductory Physics, and Nuclear and Particle Physics in recent years. Stefan Baeßler does research in fundamental symmetries, that is, he performs precision tests of the Standard Model of Elementary Particles. His main activities are devoted to physics with cold and ultracold neutrons at the Spallation Neutron Source in Oak Ridge/Tennessee, and the Institut Laue-Langevin in Grenoble.
-
-
+  
 members:
   - name: William Musk
     email: a
