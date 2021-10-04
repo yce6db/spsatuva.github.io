@@ -3,7 +3,7 @@ current-year: 2021 - 2022
 advisor:
   - name: Professor Stefan Baeßler
     email: sfb5d@virginia.edu
-    img: Stefan
+    img: Stefan.png
     description:
       - Stefan Baeßler joined the University of Virginia in 2007, for a Joint Faculty Appointment with Oak Ridge National Lab. He has been teaching courses in Introductory Physics, and Nuclear and Particle Physics in recent years. Stefan Baeßler does research in fundamental symmetries, that is, he performs precision tests of the Standard Model of Elementary Particles. His main activities are devoted to physics with cold and ultracold neutrons at the Spallation Neutron Source in Oak Ridge/Tennessee, and the Institut Laue-Langevin in Grenoble.
   
@@ -23,7 +23,7 @@ members:
     img: a
     description:
       - Emi, a fourth year engineering science and physics double major is Sigma Pi Sigma President. When she is not doing physics you can usually find her playing rugby, cooking, or working on astronomy research. As well as Sigma Pi Sigma President, she serves as Research Cochair for the Rodman Scholars Council and Fitness Cochair for the VA Women’s Rugby team.
-  - name: Micheal Stepniczka
+  - name: Michael Stepniczka
     email: ms7wk@virginia.edu
     img: Micheal_Stepniczk
     description:
@@ -35,12 +35,12 @@ members:
       - Peter, a 2nd year physics and economics major, is the current Webmaster for SPS. Outside of physics, Peter enjoys cooking, hiking, going on long bike rides, and watching movies. He also manually typed the text you are currently reading into a github repository. So much for terminals.
   - name: Darren Upton
     email: dwu5cp@virginia.edu
-    img: Darren_Upton
+    img: Darren_Upton.jpeg
     description:
       - Darren Upton is a third year and current Co-Chair of SPS Outreach. While interested in experimental nuclear and high-energy physics, he also enjoys reading, baking, and listening to Taylor Swift.
   - name: Maya Parker
     email: mp4sm@virginia.edu
-    img: Maya_Parker
+    img: Maya_Parker1
     description:
       - Maya is a fourth year Chemistry and Physics major and one of our Outreach Chairs. Outside of SPS, she likes listening to and playing metal, biking, and learning languages.
   - name: Bramwell Shafer
@@ -55,12 +55,12 @@ members:
       - TBD
   - name: Emi Gardiner
     email: ecg6wm@virginia.edu
-    img: Emi_Gardiner
+    img: Emi_Gardiner.jpeg
     description:
       - TBD
   - name: Gracemarie Buehlmann
     email: gmb8nj@virginia.edu
-    img: Gracemarie_Buehlmann
+    img: Gracemarie_Buehlmann.png
     description:
       - Gracemarie is a fourth year physics major at UVA and Sigma Pi Sigma Vice President. Outside of class and SPS, GM does high energy physics research with Professor Neu, plays percussion in the marching band, and enjoys knitting.
   - name: Abby Hellman
