@@ -1,11 +1,11 @@
-current-year: 2020 - 2021
+current-year: 2021 - 2022
 
 advisor:
-  - name: Professor Craig Group
-    email: rcg6p@virginia.edu
-    img: Craig_Group
+  - name: Professor Stefan Baeßler
+    email: 
+    img: 
     description:
-      - Professor Group is the current faculty advisor for our SPS chapter.
+      - 
   
 members:
   - name: William Musk
@@ -37,7 +37,7 @@ members:
     email: a
     img: a
     description:
-      - a
+      - Darren Upton is a third year and current Co-Chair of SPS Outreach. While interested in experimental nuclear and high-energy physics, he also enjoys reading, baking, and listening to Taylor Swift.
   - name: Maya Parker
     email: a
     img: a
@@ -68,6 +68,11 @@ members:
     img: a
     description:
       - a
+  - name: Professor Craig Group
+    email: rcg6p@virginia.edu
+    img: Craig_Group
+    description:
+      - Professor Group is the former faculty advisor for our SPS chapter.
   - name: Morgan Waddy
     email: mdw4ux@virginia.edu
     img: Morgan_Waddy2
@@ -345,7 +350,7 @@ members:
         astronomy building.
 
 exec-boards:
-  - year: 2020 - 2021
+  - year: 2021 - 2022
     board:
     - name: William Musk
       role: President
@@ -373,6 +378,8 @@ exec-boards:
       role: Sigma Pi Sigma Social Chair
   - year: 2019 - 2020
     board:
+    - name: Craig Group
+      role: Advisor
     - name: Morgan Waddy
       role: President
     - name: William Musk
