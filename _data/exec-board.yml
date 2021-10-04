@@ -1,4 +1,4 @@
-current-year: 2019 - 2020
+current-year: 2020 - 2021
 
 advisor:
   - name: Professor Craig Group
@@ -49,12 +49,12 @@ members:
     img: a
     description:
       - Maya is a fourth year Chemistry and Physics major and one of our Outreach Chairs. Outside of SPS, she likes listening to and playing metal, biking, and learning languages.
-   - name: Ketan Guthula
+   - name: Bramwell Shafer
     email: a
     img: a
     description:
       - a
-   - name: Bramwell Shafer
+   - name: Ketan Guthula
     email: a
     img: a
     description:
@@ -75,10 +75,6 @@ members:
     img: a
     description:
       - a
-  
-  
-  
-  
   - name: Morgan Waddy
     email: mdw4ux@virginia.edu
     img: Morgan_Waddy2
@@ -356,6 +352,32 @@ members:
         astronomy building.
 
 exec-boards:
+  - year: 2020 - 2021
+    board:
+    - name: William Musk
+      role: President
+    - name: Philip Velie
+      role: Vice President
+    - name: Madeline Gyllenhoff
+      role: Treasurer
+    - name: Micheal Stepniczka
+      role: Secretary
+    - name: Peter Manto
+      role: Web Master
+    - name: Darren Upton
+      role: Outreach Coordinators
+    - name: Maya Parker
+      role: Outreach Coordinators
+    - name: Bramwell Shafer
+      role: Social Media Chair
+    - name: Ketan Guthula
+      role: Diversity Chair
+    - name: Emi Gardiner
+      role: Sigma Pi Sigma President
+    - name: Gracemarie Buehlmann
+      role: Sigma Pi Sigma Vice President
+    - name: Abby Hellman
+      role: Sigma Pi Sigma Social Chair
   - year: 2019 - 2020
     board:
     - name: Morgan Waddy
