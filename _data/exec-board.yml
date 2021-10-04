@@ -6,8 +6,79 @@ advisor:
     img: Craig_Group
     description:
       - Professor Group is the current faculty advisor for our SPS chapter.
+  - name: Professor Stefan Baeßler
+    email: 
+    img: 
+    description:
+      - Stefan Baeßler joined the University of Virginia in 2007, for a Joint Faculty Appointment with Oak Ridge National Lab. He has been teaching courses in Introductory Physics, and Nuclear and Particle Physics in recent years. Stefan Baeßler does research in fundamental symmetries, that is, he performs precision tests of the Standard Model of Elementary Particles. His main activities are devoted to physics with cold and ultracold neutrons at the Spallation Neutron Source in Oak Ridge/Tennessee, and the Institut Laue-Langevin in Grenoble.
+
 
 members:
+  - name: William Musk
+    email: a
+    img: a
+    description:
+      - William Musk, a fourth year Physics and Math major, is our current SPS President. His current research is in experimental Nuclear Physics studying the parameters that govern neutron decay which can also be used to constrain extensions of the Standard Model. Outside of physics, William plays violin in Cavalier Symphony Orchestra and Kinetic Sound. He also enjoys watching baseball and ranting endlessly about Star Trek.
+   - name: Philip Velie
+    email: a
+    img: a
+    description:
+      - Philip is a third year and the current Vice President of SPS. He is interested in theoretical Nuclear and Particle physics research. He has been conducting research with Professor Liuti on the distribution of partons inside nucleon for the past three years. Outside of physics, he enjoys studying Russian and playing guitar.
+   - name: Madeline Gyllenhoff 
+    email: a
+    img: a
+    description:
+      - Emi, a fourth year engineering science and physics double major is Sigma Pi Sigma President. When she is not doing physics you can usually find her playing rugby, cooking, or working on astronomy research. As well as Sigma Pi Sigma President, she serves as Research Cochair for the Rodman Scholars Council and Fitness Cochair for the VA Women’s Rugby team.
+   - name: Micheal Stepniczka
+    email: a
+    img: a
+    description:
+      - a
+   - name: Peter Manto
+    email: a
+    img: a
+    description:
+      - Peter, a 2nd year physics and economics major, is the current Webmaster for SPS. Outside of physics, Peter enjoys cooking, hiking, going on long bike rides, and watching movies. He also manually typed the text you are currently reading into a github repository. So much for terminals.
+   - name: Darren Upton
+    email: a
+    img: a
+    description:
+      - a
+   - name: Maya Parker
+    email: a
+    img: a
+    description:
+      - Maya is a fourth year Chemistry and Physics major and one of our Outreach Chairs. Outside of SPS, she likes listening to and playing metal, biking, and learning languages.
+   - name: Ketan Guthula
+    email: a
+    img: a
+    description:
+      - a
+   - name: Bramwell Shafer
+    email: a
+    img: a
+    description:
+      - a
+   - name: Emi Gardiner
+    email: a
+    img: a
+    description:
+      - a
+   - name: Gracemarie Buehlmann
+    email: a
+    img: a
+    description:
+      - Gracemarie is a fourth year physics major at UVA and Sigma Pi Sigma Vice President. Outside of class and SPS, GM does high energy physics research with Professor Neu, plays percussion in the marching band, and enjoys knitting.
+
+   - name: Abby Hellman
+    email: a
+    img: a
+    description:
+      - a
+  
+  
+  
+  
   - name: Morgan Waddy
     email: mdw4ux@virginia.edu
     img: Morgan_Waddy2
