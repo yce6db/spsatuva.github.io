@@ -63,7 +63,7 @@ members:
       - TBD
   - name: Professor Craig Group
     email: rcg6p@virginia.edu
-    img: Craig_Group
+    img: Craig_Group.png
     description:
       - Professor Group is the former faculty advisor for our SPS chapter and remains a constant source of sage wisdom to SPS. He currently works on developing and fabricating the Cosmic Ray Veto system for the upcoming Mu2e experiment at Fermilab, and takes multiple undergraduate research assistants every summer.
   - name: Morgan Waddy
@@ -372,7 +372,7 @@ exec-boards:
   - year: 2019 - 2020
     board:
     - name: Craig Group
-      role: Advisor
+      role: Former Faculty Advisor
     - name: Morgan Waddy
       role: President
     - name: Will Musk
