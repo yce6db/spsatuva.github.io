@@ -79,7 +79,7 @@ members:
     description:
       - Morgan Waddy, a third year Atronomy-Physics major, is our current SPS President.
       - Outside of SPS she enjoys crocheting, cooking and rollet derby.
-  - name: William Musk
+  - name: Will Musk
     email: wmm4xf@virginia.edu
     img: William_Musk1
     description:
@@ -380,7 +380,7 @@ exec-boards:
     board:
     - name: Morgan Waddy
       role: President
-    - name: William Musk
+    - name: Will Musk
       role: Vice President
     - name: Liam Walters
       role: Treasurer
