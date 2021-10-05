@@ -17,11 +17,11 @@ ___
     <div class="exec_board_info_container">
         <div class="exec_board_info">
             <h2>
-                Professor Craig Group
+                Professor Stefan Baeßler
             </h2>
         </div>
         {% include lazy-image.html
-           image='Craig_Group.png'
+           image='Stefan.png'
            base-path='exec'
            container-class="exec_board_image"
            image-class="exec_board_image"
@@ -31,7 +31,7 @@ ___
         </p>
     </div>
     <div class="exec_board_description">
-        Professor Group is the current faculty advisor for our chapter, and is a constant source of sage wisdom. He currently works on developing and fabricating the Cosmic Ray Veto system for the upcoming Mu2e experiment at Fermilab, and takes multiple <a href="{{ site.basurl }}/research">undergraduate research assistants</a> every summer. 
+        Stefan Baeßler joined the University of Virginia in 2007, for a Joint Faculty Appointment with Oak Ridge National Lab. He has been teaching courses in Introductory Physics, and Nuclear and Particle Physics in recent years. Stefan Baeßler does research in fundamental symmetries, that is, he performs precision tests of the Standard Model of Elementary Particles. His main activities are devoted to physics with cold and ultracold neutrons at the Spallation Neutron Source in Oak Ridge, Tennessee, and the Institut Laue-Langevin in Grenoble. 
     </div>
 </div>
 
