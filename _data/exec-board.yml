@@ -1,12 +1,5 @@
 current-year: 2021 - 2022
 
-advisor:
-  - name: Professor Stefan Baeßler
-    email: sfb5d@virginia.edu
-    img: Stefan.png
-    description:
-      - Stefan Baeßler joined the University of Virginia in 2007, for a Joint Faculty Appointment with Oak Ridge National Lab. He has been teaching courses in Introductory Physics, and Nuclear and Particle Physics in recent years. Stefan Baeßler does research in fundamental symmetries, that is, he performs precision tests of the Standard Model of Elementary Particles. His main activities are devoted to physics with cold and ultracold neutrons at the Spallation Neutron Source in Oak Ridge/Tennessee, and the Institut Laue-Langevin in Grenoble.
-  
 members:
   - name: William Musk
     email: wmm4xf@virginia.edu
@@ -72,7 +65,7 @@ members:
     email: rcg6p@virginia.edu
     img: Craig_Group
     description:
-      - Professor Group is the former faculty advisor for our SPS chapter.
+      - Professor Group is the former faculty advisor for our SPS chapter and remains a constant source of sage wisdom to SPS. He currently works on developing and fabricating the Cosmic Ray Veto system for the upcoming Mu2e experiment at Fermilab, and takes multiple undergraduate research assistants every summer.
   - name: Morgan Waddy
     email: mdw4ux@virginia.edu
     img: Morgan_Waddy2
