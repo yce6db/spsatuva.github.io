@@ -378,6 +378,8 @@ exec-boards:
       role: Sigma Pi Sigma Social Chair
   - year: 2019 - 2020
     board:
+    - name: Craig Group
+      role: Advisor
     - name: Morgan Waddy
       role: President
     - name: Will Musk
