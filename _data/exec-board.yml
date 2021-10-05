@@ -20,7 +20,7 @@ members:
       - Philip is a third year and the current Vice President of SPS. He is interested in theoretical Nuclear and Particle physics research. He has been conducting research with Professor Liuti on the distribution of partons inside nucleon for the past three years. Outside of physics, he enjoys studying Russian and playing guitar.
   - name: Madeline Gyllenhoff 
     email: mag4ka@virginia.edu
-    img: a
+    img: Madeline_Gyllenhoff
     description:
       - Emi, a fourth year engineering science and physics double major is Sigma Pi Sigma President. When she is not doing physics you can usually find her playing rugby, cooking, or working on astronomy research. As well as Sigma Pi Sigma President, she serves as Research Cochair for the Rodman Scholars Council and Fitness Cochair for the VA Women’s Rugby team.
   - name: Michael Stepniczka
@@ -35,7 +35,7 @@ members:
       - Peter, a 2nd year physics and economics major, is the current Webmaster for SPS. Outside of physics, Peter enjoys cooking, hiking, going on long bike rides, and watching movies. He also manually typed the text you are currently reading into a github repository. So much for terminals.
   - name: Darren Upton
     email: dwu5cp@virginia.edu
-    img: Darren_Upton.jpeg
+    img: Darren_Upton
     description:
       - Darren Upton is a third year and current Co-Chair of SPS Outreach. While interested in experimental nuclear and high-energy physics, he also enjoys reading, baking, and listening to Taylor Swift.
   - name: Maya Parker
@@ -45,27 +45,27 @@ members:
       - Maya is a fourth year Chemistry and Physics major and one of our Outreach Chairs. Outside of SPS, she likes listening to and playing metal, biking, and learning languages.
   - name: Bramwell Shafer
     email: bs2mz@virginia.edu
-    img: a
+    img: 
     description:
       - TBD
   - name: Ketan Guthula
     email: kkg6wda@virginia.edu
-    img: a
+    img: 
     description:
       - TBD
   - name: Emi Gardiner
     email: ecg6wm@virginia.edu
-    img: Emi_Gardiner.jpeg
+    img: Emi_Gardiner
     description:
       - TBD
   - name: Gracemarie Buehlmann
     email: gmb8nj@virginia.edu
-    img: Gracemarie_Buehlmann.png
+    img: Gracemarie_Buehlmann
     description:
       - Gracemarie is a fourth year physics major at UVA and Sigma Pi Sigma Vice President. Outside of class and SPS, GM does high energy physics research with Professor Neu, plays percussion in the marching band, and enjoys knitting.
   - name: Abby Hellman
     email: afh5rb@virginia.edu
-    img: a
+    img: Abby_Hellman
     description:
       - TBD
   - name: Professor Craig Group
@@ -360,7 +360,7 @@ exec-boards:
       role: Vice President
     - name: Madeline Gyllenhoff
       role: Treasurer
-    - name: Micheal Stepniczka
+    - name: Michael Stepniczka
       role: Secretary
     - name: Peter Manto
       role: Web Master
@@ -388,7 +388,7 @@ exec-boards:
       role: Vice President
     - name: Liam Walters
       role: Treasurer
-    - name: Micheal Stepniczk
+    - name: Michael Stepniczka
       role: Secretary
     - name: Efrain Perez
       role: Web Master
