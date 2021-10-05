@@ -15,7 +15,7 @@ members:
       - William Musk, a fourth year Physics and Math major, is our current SPS President. His current research is in experimental Nuclear Physics studying the parameters that govern neutron decay which can also be used to constrain extensions of the Standard Model. Outside of physics, William plays violin in Cavalier Symphony Orchestra and Kinetic Sound. He also enjoys watching baseball and ranting endlessly about Star Trek.
   - name: Philip Velie
     email: pmv8ev@virginia.edu
-    img: Philip_Velie1
+    img: Philip_Velie_Up
     description:
       - Philip is a third year and the current Vice President of SPS. He is interested in theoretical Nuclear and Particle physics research. He has been conducting research with Professor Liuti on the distribution of partons inside nucleon for the past three years. Outside of physics, he enjoys studying Russian and playing guitar.
   - name: Madeline Gyllenhoff 
@@ -352,8 +352,6 @@ members:
 exec-boards:
   - year: 2021 - 2022
     board:
-    - name: Professor Stefan Baeßler
-      role: Advisor
     - name: William Musk
       role: President
     - name: Philip Velie
@@ -380,8 +378,6 @@ exec-boards:
       role: Sigma Pi Sigma Social Chair
   - year: 2019 - 2020
     board:
-    - name: Craig Group
-      role: Advisor
     - name: Morgan Waddy
       role: President
     - name: William Musk
