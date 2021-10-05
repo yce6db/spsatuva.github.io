@@ -27,7 +27,7 @@ ___
            image-class="exec_board_image"
         %}
         <p>
-            <strong>Email</strong>: <a href="mailto:rcg6p@virginia.edu">rcg6p@virginia.edu</a>
+            <strong>Email</strong>: <a href="mailto:sfb5d@virginia.edu">sfb5d@virginia.edu</a>
         </p>
     </div>
     <div class="exec_board_description">
