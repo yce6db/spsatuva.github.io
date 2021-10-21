@@ -29,7 +29,7 @@ Getting your first research experience can be difficult, especially as a first y
 PHYS 1930 is a 2-credit seminar course held during the Fall which is intended to help students get a grasp on what a physics major is about, along with what research is being performed in the physics department. The course features guest lectures by various professors in the department, who will discuss research opportunities in their field. Enrolling in PHYS 1930 will help you meet many of the professors in the department and will help break the ice in introducing yourself.
 ### ASTR 1610
 
-ASTR 1610 is a mirror course for PHYS 1910 in the astronomy department. It is taught every Spring, whereas PHYS 1910 is taught in the Fall. So take both if you are interested in both physics and astronomy research, or are interested in where they overlap at all!
+ASTR 1610 is a mirror course for PHYS 1930 in the astronomy department. It is taught every Spring, whereas PHYS 1930 is taught in the Fall. So take both if you are interested in both physics and astronomy research, or are interested in where they overlap at all!
 
 ### PHYS 3993 / PHYS 3995 / ASTR 4993 / ASTR 4998
 
