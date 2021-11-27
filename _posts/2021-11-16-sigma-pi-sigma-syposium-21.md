@@ -48,13 +48,13 @@ the Nab Detectors
 Prizes were given to the best three presentations and posters. We would like to congratulate the following students for their outstanding performance:
 
 Talks:
-- 1st place: 
-- 2nd place: 
-- 3rd place: 
+- 1st place: Dawn Ford
+- 2nd place: Zaki Panjsheeri
+- 3rd place: Alex Rosenthal
 
 Posters:
-- 1st place: 
-- 2nd place: 
-- 3rd place: 
+- 1st place: Gracemarie Buehlmann
+- 2nd place: Michael Bowler
+- 3rd place: William Musk
 
 We would like to give special thanks to our judges: Profs. Group, Zheng, Cates, and Murphy. We also would like to thank the Physics and Astronomy Departments for support for prizes.
