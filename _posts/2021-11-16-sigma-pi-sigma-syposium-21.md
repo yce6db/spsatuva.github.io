@@ -57,4 +57,4 @@ Posters:
 - 2nd place: Michael Bowler
 - 3rd place: William Musk
 
-We would like to give special thanks to our judges: Profs. Group, Zheng, Cates, and Murphy. We also would like to thank the Physics and Astronomy Departments for support for prizes.
+We would like to give special thanks to our judges: Profs. Group, Zheng, Cates, and Murphy. We also would like to thank the Physics and Astronomy Departments for support for prizes, and to Sigma Pi Sigma President Emi Gardiner, Vice President Gracemarie Buehlmann, and Social Chair Abby Hellman for their work in organizing this year's highly competitive Symposium. We hope to see all returning students - as well as some new ones - next year! 
