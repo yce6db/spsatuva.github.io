@@ -1,9 +1,7 @@
 images:
-- file: AAS.jpg
-- file: Clark_2.jpg
-- file: Speakers.jpg
-- file: Demo_Day.jpg
-- file: Eclipse_Montage.jpg
-- file: APS.jpg
-- file: Hike_Good_3.jpg
-- file: Ladies_in_the_Lab.jpg
+- file: header_one.jpg
+- file: header_two.jpg
+- file: header_three.jpg
+- file: header_four.jpg
+- file: header_five.jpg
+- file: header_six.jpg
