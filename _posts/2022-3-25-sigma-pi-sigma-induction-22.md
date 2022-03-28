@@ -14,12 +14,11 @@ The Annual Undergraduate Sigma Pi Sigma induction was held on March 25, 2022 in 
 - **Michael Liu**
 - **Sophie Yi**
 - **Cole Faggert**
-- ****
-- ****
-- ****
-- ****
-- ****
-- ****
+- **Alexander Byrd**
+- **Ethan McKeever**
+- **Jason Boynewicz**
+- **Sophia Link**
+- **Jee-Ho Kim**
 - ****
 - ****
 - ****
