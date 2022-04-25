@@ -1,6 +1,71 @@
-current-year: 2021 - 2022
+current-year: 2022 - 2023
 
 members:
+  - name: Philip Velie
+    email: pmv8ev@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Darren Upton
+    email: dwu5cp@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Claire Huchthausen
+    email: acm9zb@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Joshua Cole Faggert
+    email: jcf5rb@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Peter Manto
+    email: phm9x@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Shrinidhi Nadgouda
+    email: dmx7ug@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Bejoy Sen
+    email: bs7fhr@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Dawn Ford
+    email: dcf5kwt@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Kai Vylet
+    email: kv5wr@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Ethan McKeever
+    email: emm7sen@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Sophia Yi
+    email: sjy9qz@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Katya Mikhailova
+    email: cem7bgg@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
+  - name: Jason Boynewicz
+    email: jrb6td@virginia.edu
+    img: IMGNAME
+    description:
+      - DESCRIPTION
   - name: William Musk
     email: wmm4xf@virginia.edu
     img: William_Musk1
@@ -343,6 +408,34 @@ members:
         astronomy building.
 
 exec-boards:
+  - year: 2022 - 2023
+    board:
+    - name: Philip Velie
+      role: President
+    - name: Darren Upton
+      role: Vice President
+    - name: Claire Huchthausen
+      role: Treasurer
+    - name: Joshua Cole Faggert
+      role: Secretary
+    - name: Peter Manto
+      role: Web Master
+    - name: Shrinidhi Nadgouda
+      role: Outreach Coordinators
+    - name: Bejoy Sen
+      role: Outreach Coordinators
+    - name: Dawn Ford
+      role: Social Media Chair
+    - name: Kai Vylet
+      role: Diversity Chair
+    - name: Ethan McKeever
+      role: Sigma Pi Sigma President
+    - name: Sophia Yi
+      role: Sigma Pi Sigma Vice President
+    - name: Katya Mikhailova
+      role: Sigma Pi Sigma Vice President
+    - name: Jason Boynewicz
+      role: Sigma Pi Sigma Social Chair
   - year: 2021 - 2022
     board:
     - name: William Musk
