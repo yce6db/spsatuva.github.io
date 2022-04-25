@@ -3,6 +3,9 @@ layout: page
 title: aNoether
 featured-img: 
 ---
+
+# About
+
 **aNoether Physics Club**, a Women in Physics initiative named after the illustrious Emmy Noether, is dedicated to empowering the next generation of trailblazing women in physics. In addition to assisting women in overcoming obstacles preventing them from equitable, successful, and gratifying careers, we believe it is also of paramount importance to provide support for all underrepresented physicists and their allies. For this reason, we aim to organize events and activities that will foster a thoroughly inclusive sense of community to all physics majors fighting for a sense of belonging. Our work falls mainly under three categories:
 
 ### Career guidance
@@ -23,8 +26,8 @@ Please feel free to reach out with any questions or comments, and we hope to see
 
 - [Instagram](https://www.instagram.com/physwomenatuva/)
 
-### Exec members
+### Executive Board Members
 
-- [Liz Larson](eal2ne@virginia.edu)
-- [Dawn Ford](dcf5kwt@virginia.edu)
-- [Sophia Yi](sjy9qz@virginia.edu) 
+- Liz Larson (eal2ne@virginia.edu)
+- Dawn Ford (dcf5kwt@virginia.edu)
+- Sophia Yi (sjy9qz@virginia.edu) 
