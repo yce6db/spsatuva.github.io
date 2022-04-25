@@ -22,9 +22,9 @@ header: # Navigation links
   - name: 'Partner Organizations'
     sublinks:
       - name: 'Sigma Pi Sigma'
-      link: '/partner-organizations/sigma'
+        link: '/partner-organizations/sigma'
       - name: 'aNoether'
-      link: '/partner-organizations/anoether'
+        link: '/partner-organizations/anoether'
   - name: 'About'
     link: '/about'
   - name: 'Contact'
