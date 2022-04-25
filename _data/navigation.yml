@@ -19,6 +19,12 @@ header: # Navigation links
         link: '/outreach/about'
       - name: 'Guides'
         link: '/outreach/guides'
+  - name: 'Partner Organizations'
+    sublinks:
+      - name: 'Sigma Pi Sigma'
+      link: '/partner-organizations/sigma'
+      - name: 'aNoether'
+      link: '/partner-organizations/anoether'
   - name: 'About'
     link: '/about'
   - name: 'Contact'
