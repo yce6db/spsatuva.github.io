@@ -3,7 +3,7 @@ layout: page
 title: The GRE 
 quick-links:
     - title: GRE Study Resources
-      url: https://drive.google.com/open?id=0B7GA5ytgKNtGamJsYVRVbG5vbFE
+      url: https://drive.google.com/drive/folders/0B7GA5ytgKNtGamJsYVRVbG5vbFE?resourcekey=0-XY-MPMoL3e3Y8Pzs7qgt6A&usp=sharing
     - title: Physics GRE Test Dates
       url: https://www.ets.org/gre/subject/register/centers_dates/
     - title: GRE Cost Information
