@@ -15,12 +15,12 @@ members:
     email: acm9zb@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Claire is a second year Physics and English major and SPS treasurer. Outside of physics, she is a staff writer for the Cavalier Daily’s health and science section, sings for the University Singers, and enjoys running, walking, trees, and poetry. 
   - name: Joshua Cole Faggert
     email: jcf5rb@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      -  Cole Faggert, an Astronomy-Physics and Chemistry major, is SPS Secretary. He has done work in applying Molecular Dynamics simulation techniques to collisions of icy dust grains in space. He is now beginning to do research in experimental nuclear physics. Outside of Physics, Cole enjoys TA'ing for chemistry and astronomy, playing dodgeball, hanging out with friends, and playing smash.
   - name: Peter Manto
     email: phm9x@virginia.edu
     img: 
@@ -30,42 +30,42 @@ members:
     email: dmx7ug@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Shrinidhi, a second year Mechanical Engineering and Physics double major, is one of the SPS outreach coordinators. She is interested in AMO physics, and also enjoys taking math classes “for fun” (and complaining about them). She runs, lifts, plays League of Legends, and is a strong proponent of oat milk. She also enjoys making fun of flat earthers on Twitter. 
   - name: Bejoy Sen
     email: bs7fhr@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Bejoy Sen, a fourth year physics and computer science major, is a current SPS outreach chair. He does research in gravitational wave visualizations and adversarial machine learning. Outside of physics, Bejoy likes to play chess online. His favorite TV show is The Wire. 
   - name: Dawn Ford
     email: dcf5kwt@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Dawn Ford, a third year Physics major and Materials Science and Engineering minor, is our current social chair. Dawn’s current research focuses on identifying catalysts made from earth-abundant materials for water-splitting. Dawn is also on the executive board of aNoether Physics Club and involved with the Organization of African Students’ Africa Day. Outside of school Dawn enjoys reading, listening to music, and hanging out with her friends.
   - name: Kai Vylet
     email: kv5wr@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Kai Vylet is a fourth year Physics and Math major and is the current Diversity Chair and undergraduate representative in the Department's DEI committee. He is interested in gravitational physics and does research on theories of gravity with Prof. Kent Yagi. Besides Physics, Kai also likes to read, garden, and experience nature.
   - name: Ethan McKeever
     email: emm7sen@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Ethan McKeever, a fourth year physics major, is Sigma Pi Sigma president. Ethan's research is  in experimental physics and he enjoys running on the UVA club team in his free time.
   - name: Sophia Yi
     email: sjy9qz@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Sophia Yi, a fourth year physics and linguistics major, is co-vice president of ΣΠΣ with her good friend, Katya. Most of her research has been on determining the measurability of white dwarf masses and temperatures using gravitational wave measurements from LISA. In her free time, Sophia enjoys playing intramural sports, learning movie soundtracks on the violin, and watching decidedly middlebrow movies.
   - name: Katya Mikhailova
     email: cem7bgg@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Katya Mikhailova is a fourth year physics and computer science double major, and she is the current Sigma Pi Sigma co-vice president with her wonderful friend Sophia. She has been doing physics research for the past two years and is particularly interested in AMO (atomic, molecular, and optical) research. Outside of class, she likes reading, creating spotify playlists, and taking pictures of sunsets.
   - name: Jason Boynewicz
     email: jrb6td@virginia.edu
     img: 
     description:
-      - DESCRIPTION
+      - Jason Boynewicz, a fourth year Physics and Math major, is the current Sigma Pi Sigma Outreach/Social Chair.  His current research is in Oceanographic Lidar and its applications in tracking the vertical distribution of phytoplankton.  Outside of physics, Jason enjoys playing lacrosse, hitting the gym, and spearfishing.  
   - name: William Musk
     email: wmm4xf@virginia.edu
     img: William_Musk1
@@ -75,7 +75,7 @@ members:
     email: pmv8ev@virginia.edu
     img: Philip_Velie_Up
     description:
-      - Philip is a third year and the current Vice President of SPS. He is interested in theoretical Nuclear and Particle physics research. He has been conducting research with Professor Liuti on the distribution of partons inside nucleon for the past three years. Outside of physics, he enjoys studying Russian and playing guitar.
+      -  Philip is a fourth-year and the current President of SPS. He is interested in theoretical Nuclear and Particle physics research. He has been conducting research with Professor Liuti and the Center for Nuclear Femtography on nucleon structure for the past four years. Outside of physics, he enjoys studying Russian and playing guitar.
   - name: Madeline Gyllenhoff 
     email: mag4ka@virginia.edu
     img: Madeline_Gyllenhoff
@@ -90,12 +90,12 @@ members:
     email: phm9x@virginia.edu
     img: Peter_Manto
     description:
-      - Peter, a 2nd year physics and economics major, is the current Webmaster for SPS. Outside of physics, Peter enjoys cooking, hiking, going on long bike rides, and watching movies. He also manually typed the text you are currently reading into a github repository. So much for terminals.
+      - Peter, a 3rd year physics and economics major, is the current Webmaster for SPS. Outside of physics, Peter enjoys cooking, hiking, going on long bike rides, and watching movies. He works in Professor Dinko Pocanic's research group  on the MUonE particle experiment at CERN.
   - name: Darren Upton
     email: dwu5cp@virginia.edu
     img: Darren_Upton
     description:
-      - Darren Upton is a third year and current Co-Chair of SPS Outreach. While interested in experimental nuclear and high-energy physics, he also enjoys reading, baking, and listening to Taylor Swift.
+      - Darren Upton is a fourth-year and current SPS Vice-President. He is interested in the intersection between computational and statistical methods in experimental nuclear and high-energy physics. His pastimes include reading, watching Star Trek, and telling anyone within earshot about Taylor Swift.
   - name: Maya Parker
     email: mp4sm@virginia.edu
     img: Maya_Parker1
