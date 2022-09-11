@@ -32,14 +32,6 @@ project-list:
     short-name: Bae-various
     title: Various project at UVa and sometimes ORNL, ILL, and Fermilab
     url: https://docs.google.com/document/d/e/2PACX-1vSy69b6dWd4TSwarlJ8HJ0qS4V8EvrvoV28EzsEJAfT6_JoW272CO09AlDiBdDFI8leK1CRK-8vvFmy/pub
-  - name: Brad Cox
-    short-name: CMS-cal
-    title: CMS Electromagnetic calorimeter upgrade
-    url: https://docs.google.com/document/d/e/2PACX-1vS7nB3TB0U2u-eG3PedsuxNuyjq4bdYvDP_ySYRXHPVOD5Hv1UwwEDSAA5ZPdNWyoUy3pDMJdzwzbb5/pub
-  - name: Donal Day
-    short-name: polarized-targets-lab
-    title: Improve the efficiency and performance of the Solid Polarized target Lab
-    url: https://docs.google.com/document/d/e/2PACX-1vTG-pra8h7wng2fx071oCzjBkHlFK-ZL7VQXXaXRwfaZc3jIMgnKOthY61Q5IDqduqKOjYfO6SEHa5-/pub
   - name: Craig Dukes
     short-name: Mu2e-CRV
     title: Fabrication of a High Efficiency Cosmic Ray Veto for the Mu2e Experiment
