@@ -28,6 +28,21 @@ layout: home
     </section>
 </main>
 
+### New Updates! List of professors looking for students:
+
+Here you will find a list of professors who have specific research projects to advertise to undergraduate students. Simply click on any projects that sound interesting to you to find out more about the project and to find out information on how to contact them.
+
+<div class="project_list" id="project_list">
+    {% for project in site.data.research-opportunities.project-list %}
+    <a href="#" class="project" data-toggle="collapse" data-target="#{{ project.short-name }}" aria-expanded="false" aria-controls="{{ project.short-name }}">
+        {{ project.name }} - {{ project.title }}
+    </a>
+    <div class="project_container collapse" id="{{ project.short-name }}" aria-labelledby="{{ project.short-name }}">
+        <iframe style="width:100%;height:500px" src="{{ project.url }}?embeded=true"></iframe>
+    </div>
+    {% endfor %}
+</div>
+
 <div class="div-calendar" align="center">
     <iframe src="https://calendar.google.com/calendar/embed?src=d55hnepu6qjp8q3krgeh1kvlb0%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> 
 </div>
