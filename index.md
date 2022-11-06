@@ -32,7 +32,7 @@ layout: home
 
 Here you will find a list of professors who have specific research projects to advertise to undergraduate students. Simply click on any projects that sound interesting to you to find out more about the project and to find out information on how to contact them.
 
-<div class="project_list" id="project_list">
+<div class="project_list" id="project_list" align="center">
     {% for project in site.data.research-opportunities.project-list %}
     <a href="#" class="project" data-toggle="collapse" data-target="#{{ project.short-name }}" aria-expanded="false" aria-controls="{{ project.short-name }}">
         {{ project.name }} - {{ project.title }}
