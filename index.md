@@ -30,7 +30,19 @@ layout: home
 
 <div align="center">
 
+
+
+</div>
+
+<div align="center">
+
 New Updates! This is a list of professors looking for students. See the resources page for more information!
+
+</div>
+
+<div align="center">
+
+
 
 </div>
 
