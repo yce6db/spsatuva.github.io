@@ -21,3 +21,4 @@ Sigma Pi Sigma also sponsors a recreational frisbee team! If you're interested i
 - VP: Sophia Yi (sjy9qz@virginia.edu)
 - VP: Katya Mikhailova (cem7bgg@virginia.edu)
 - Social Chair: Jason Boynewicz (jrb6td@virginia.edu)
+- Secretary: Sydney Roberts (srr2yg@virginia.edu)
