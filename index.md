@@ -28,7 +28,11 @@ layout: home
     </section>
 </main>
 
-<div align="center">New Updates! This is a list of professors looking for students. See the resources page for more information!</div>
+<div align="center">
+
+New Updates! This is a list of professors looking for students. See the resources page for more information!
+
+</div>
 
 <div class="project_list" id="project_list" align="center">
     {% for project in site.data.research-opportunities.project-list %}
