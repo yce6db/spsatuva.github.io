@@ -31,7 +31,7 @@ project-list:
   - name: Stefan Baessler
     short-name: Bae-various
     title: Various project at UVa and sometimes ORNL, ILL, and Fermilab
-    url: https://docs.google.com/document/d/e/2PACX-1vSy69b6dWd4TSwarlJ8HJ0qS4V8EvrvoV28EzsEJAfT6_JoW272CO09AlDiBdDFI8leK1CRK-8vvFmy/pub
+    url: https://docs.google.com/document/d/e/2PACX-1vRIDwvb8PosmrRfsXxnSfCCos2o2OHQtoWGp2C82ceHX2d7BETmfpwZs_DilGAf6nvdnhLr1yTxEONr/pub
   - name: Craig Dukes
     short-name: Mu2e-CRV
     title: Fabrication of a High Efficiency Cosmic Ray Veto for the Mu2e Experiment
@@ -68,3 +68,12 @@ project-list:
     short-name: Beaming
     title: Mool Gupta-Beaming Energy on Mars
     url: https://docs.google.com/document/d/e/2PACX-1vSQmjooKNWK9OstMyOuhywDMhA4qlacRwkWlLChoVPfw08Yk3HQanexSYW6AKkIHfKTn8E8Xu2bSqZR/pub
+  - name: Gai-Wei Chern
+    short-name: chern-research
+    title: Machine Learning Models for Physics
+    url: https://docs.google.com/document/d/e/2PACX-1vSQmjooKNWK9OstMyOuhywDMhA4qlacRwkWlLChoVPfw08Yk3HQanexSYW6AKkIHfKTn8E8Xu2bSqZR/pub
+  - name: Dustin Keller
+    short-name: keller-research
+    title: Multiple Projects
+    url: https://docs.google.com/document/d/e/2PACX-1vSQmjooKNWK9OstMyOuhywDMhA4qlacRwkWlLChoVPfw08Yk3HQanexSYW6AKkIHfKTn8E8Xu2bSqZR/pub
+    
