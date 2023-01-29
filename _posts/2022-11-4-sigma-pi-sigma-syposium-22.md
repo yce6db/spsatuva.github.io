@@ -10,7 +10,7 @@ The Eleventh Annual Undergraduate Physics Research Symposium was held on Novembe
 {% include lazy-image.html
    image="symp3.png"
    title=""
-   caption="Sophia Yi and her poster!"
+   caption="Event information!"
 %}
 
 Prizes were given to the best three presentations and posters. We would like to congratulate the following students for their outstanding performance:
