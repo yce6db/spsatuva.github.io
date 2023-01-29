@@ -7,6 +7,12 @@ featured-img: 2018_symposium_feature.png
 
 The Eleventh Annual Undergraduate Physics Research Symposium was held on November 4, 2021 in the Rotunda Lower West Oval Room. Fifteen undergraduates gave oral presentations of their physics and astronomy-related research at the event, and a number of undergraduates presented posters.
 
+{% include lazy-image.html
+   image="symp3.png"
+   title=""
+   caption="Sophia Yi and her poster!"
+%}
+
 Prizes were given to the best three presentations and posters. We would like to congratulate the following students for their outstanding performance:
 
 Talks:
