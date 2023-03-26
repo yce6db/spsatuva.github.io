@@ -28,6 +28,13 @@ Please feel free to reach out with any questions or comments, and we hope to see
 
 ### Executive Board Members
 
-- Liz Larson (eal2ne@virginia.edu)
-- Dawn Ford (dcf5kwt@virginia.edu)
-- Sophia Yi (sjy9qz@virginia.edu) 
+- President: Sophia Yi (sjy9qz@virginia.edu)
+- Vice President: Dawn Ford (dcf5kwt@virginia.edu)
+- Treasurer: Chloe Wang (zw7jyb@virginia.edu)
+- Secretary: Sydney Roberts (srr2yg@virginia.edu)
+
+aNoether would like to thank the American Physical Society for its support through the Women in Physics program!
+
+
+
+{% include lazy-image.html image="aps_logo.png" base-path="pages/anoether" %}
