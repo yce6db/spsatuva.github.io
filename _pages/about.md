@@ -22,7 +22,7 @@ ___
             </h2>
         </div>
         {% include lazy-image.html
-           image='jency.jpg'
+           image='Stefan.png'
            base-path='exec'
            container-class="exec_board_image"
            image-class="exec_board_image"
