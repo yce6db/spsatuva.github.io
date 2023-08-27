@@ -18,7 +18,7 @@ ___
     <div class="exec_board_info_container">
         <div class="exec_board_info">
             <h2>
-                Professor Jency Sundararajan
+                Professor Stefan Baeßler
             </h2>
         </div>
         {% include lazy-image.html
@@ -28,15 +28,13 @@ ___
            image-class="exec_board_image"
         %}
         <p>
-            <strong>Email</strong>: <a href="mailto:zey9gt@virginia.edu">zey9gt@virginia.edu</a>
+            <strong>Email</strong>: <a href="mailto:sfb5d@virginia.edu">sfb5d@virginia.edu</a>
         </p>
     </div>
     <div class="exec_board_description">
-        Jency Sundararajan is an Assistant Professor at the University of Virginia. 
+        Stefan Baeßler joined the University of Virginia in 2007, for a Joint Faculty Appointment with Oak Ridge National Lab. He has been teaching courses in Introductory Physics, and Nuclear and Particle Physics in recent years. Stefan Baeßler does research in fundamental symmetries, that is, he performs precision tests of the Standard Model of Elementary Particles. His main activities are devoted to physics with cold and ultracold neutrons at the Spallation Neutron Source in Oak Ridge, Tennessee, and the Institut Laue-Langevin in Grenoble. 
     </div>
 </div>
-
-# Executive Board
 
 <div class="exec_board" id="exec_board">
     {% for year in site.data.exec-board.exec-boards %}
