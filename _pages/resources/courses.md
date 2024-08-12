@@ -9,21 +9,21 @@ The physics department at UVA offers three different degrees. The Bachelors of A
 Here is the link to the pdf the department has that more information about the physics program and an example of a typical course schedule for each degree. [Major Brochure 2018-2019](http://www.phys.virginia.edu/Education/Programs/MajorBrochure/default.pdf)
 
 Here are some summaries/descriptions of courses that are required/typically offered:
-<div class="collapse-list-wrapper4phys1710"
-     id="wrapper-1710">
+<div class="collapse-list-wrapper4phys14200"
+     id="wrapper-1420">
     <div class="collapse-list-heading collapsed"
         data-toggle="collapse" 
-        data-target="#1710" 
-        aria-controls="1710" 
+        data-target="#1420" 
+        aria-controls="1420" 
         aria-expanded="false">
         <i class="arrow h2arrow"></i>
-        <h2> Intro Physics 1: PHYS 1710 </h2>
+        <h2> Intro Physics 1: PHYS 1420 </h2>
         
   </div>
     <div class="collapse-list-target collapse"
-        id="1710" 
-        aria-labelledby="1710" 
-        data-parent="#wrapper-1710">
+        id="1420" 
+        aria-labelledby="14200" 
+        data-parent="#wrapper-1420">
         <p>     
         This is often the first physics class someone will take when they begin the physics major at UVA. It is a calculus based introduction that covers the following topics: kinematics, mechanics, fluid dynamics, thermodynamics, and simple harmonic motion. This class is 5 credit course (4 credit lecture) and includes a 1 credit discussion session. 
         <br>
