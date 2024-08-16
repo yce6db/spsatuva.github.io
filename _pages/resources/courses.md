@@ -10,7 +10,7 @@ Here is the link to the pdf the department has that more information about the p
 
 Here are some summaries/descriptions of courses that are required/typically offered:
 <div class="collapse-list-wrapper4phys1710"
-     id="wrapper-1710">
+     id="wrapper-1420">
     <div class="collapse-list-heading collapsed"
         data-toggle="collapse" 
         data-target="#1420" 
@@ -34,7 +34,7 @@ Here are some summaries/descriptions of courses that are required/typically offe
         You can expect to cover chapters 1-21 
         <br>
         <br>
-        Prerequisite: Calc 1 (MATH 1310) 
+        Prerequisite: Calculus 1 (MATH 1310) 
         </p>
   </div>
 </div>
